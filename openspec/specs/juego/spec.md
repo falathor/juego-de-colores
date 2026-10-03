@@ -48,7 +48,7 @@ excluir su resultado una sola vez y sustituirla por una pregunta no usada.
 ### Requirement: Catálogo revisado y selección
 La aplicación SHALL validar IDs y enunciados únicos, categorías, dificultades,
 textos, colores y metadatos. Solo SHALL usar preguntas approved con fuentes
-revisadas y fecha ISO. SHALL entregar 98 aprobadas, al menos doce por categoría.
+revisadas y fecha ISO. SHALL entregar 198 aprobadas, al menos veinticuatro por categoría.
 
 #### Scenario: Filtros e historial
 - GIVEN filtros que producen menos preguntas que la duración
@@ -118,5 +118,15 @@ La documentación SHALL indicar la URL comprobada y el flujo de actualización.
 #### Scenario: Juego disponible online
 - GIVEN el proyecto subido y GitHub Pages activado
 - WHEN se abre la URL HTTPS de la aplicación
-- THEN se cargan la interfaz y las 98 preguntas aprobadas y se puede completar
+- THEN se cargan la interfaz y las 198 preguntas aprobadas y se puede completar
   una partida sin errores de recursos.
+
+### Requirement: Catálogo ampliado a 198 preguntas
+El catálogo SHALL añadir exactamente cien preguntas aprobadas a la versión
+1.1.0, con IDs nuevos, fuentes revisadas y fecha ISO, repartidas entre las ocho
+categorías. SHALL conservar sus 99 entradas previas y usar contentVersion 1.2.0.
+
+#### Scenario: Ampliación publicada
+- GIVEN el catálogo anterior con 98 aprobadas y un borrador
+- WHEN se añade y publica la ampliación
+- THEN la web sirve 198 aprobadas y 199 entradas, sin modificar las anteriores.

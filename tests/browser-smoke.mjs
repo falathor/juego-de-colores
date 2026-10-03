@@ -20,6 +20,11 @@ page.on('console', message => { if (message.type() === 'error') errors.push(`${m
 const root = process.argv[3] || 'http://localhost:8000/';
 const origin = new URL(root).origin;
 const saved = () => page.evaluate(() => JSON.parse(localStorage.getItem('de-que-color.partida.v1')));
+async function availableQuestions(categories, difficulty) {
+  const catalog = await (await page.request.get(`${root}data/questions.es.json`)).json();
+  return catalog.questions.filter(q => q.status === 'approved' && categories.includes(q.category)
+    && (difficulty === 'todas' || q.difficulty === difficulty)).length;
+}
 async function fresh() { await page.goto(root); await page.evaluate(() => localStorage.clear()); await page.reload(); await page.getByRole('heading', { name: 'Individual', exact: true }).waitFor(); }
 async function mode(name, count = '10') {
   await page.locator('.mode-card').filter({ has: page.getByRole('heading', { name, exact: true }) }).click();
@@ -37,13 +42,13 @@ await test('Inicio completo y sin conexiones externas de ejecución', async () =
   const external = []; page.on('request', req => { if (new URL(req.url()).origin !== origin) external.push(req.url()); });
   await page.goto(root); await page.locator('.mode-card').first().waitFor();
   assert(await page.locator('.mode-card').count() === 3, 'Faltan modos');
-  assert((await page.locator('.facts').innerText()).includes('98 preguntas'), 'Falta el catálogo');
+  assert((await page.locator('.facts').innerText()).includes('198 preguntas'), 'Falta el catálogo');
   assert(external.length === 0, 'Se descargan recursos externos');
   await page.screenshot({ path: new URL('inicio-escritorio.png', artifacts).pathname.replace(/^\/(\w:)/, '$1'), fullPage: true });
 });
-await test('Navegador: ejecutor de 27 pruebas', async () => {
+await test('Navegador: ejecutor de 28 pruebas', async () => {
   await page.goto(`${root}tests/`); await page.locator('#summary[data-passed=true]').waitFor();
-  assert(await page.locator('#results li').count() === 27, 'Conteo de pruebas inesperado');
+  assert(await page.locator('#results li').count() === 28, 'Conteo de pruebas inesperado');
 });
 await test('Mazo físico sin marcador: respuesta oculta y diez rondas completas', async () => {
   await fresh(); await mode('Jugar con cartas'); await start();
@@ -111,10 +116,12 @@ await test('Pasa el móvil: equipos privados, recarga y empate final', async () 
   assert((await page.locator('.score-number').allTextContents()).every(t => t.includes('10')), 'Puntos incorrectos');
 });
 await test('Marcador físico y anulación: retirar solo puntos actuales, sustitución y agotamiento', async () => {
-  await fresh(); await mode('Jugar con cartas'); await page.locator('#scoreboard').check();
+  await fresh(); await mode('Jugar con cartas', '30'); await page.locator('#scoreboard').check();
   await page.locator('#all-categories').click(); await page.locator('#category-espana').click();
   await page.locator('#difficulty').selectOption('medio');
-  assert((await page.locator('#availability').innerText()).includes('6 rondas'), 'No avisa de pocas preguntas');
+  const available = await availableQuestions(['espana'], 'medio');
+  assert(available > 1 && available < 30, 'El filtro no permite comprobar agotamiento');
+  assert((await page.locator('#availability').innerText()).includes(`${available} rondas`), 'No avisa de pocas preguntas');
   await start(); await page.getByRole('button', { name: 'Ver respuesta', exact: true }).click();
   assert((await page.locator('.game-top').innerText()).includes('Ronda 1'), 'Ronda cero');
   await page.locator('#physical-team-0').click(); await page.locator('#physical-team-1').click();
@@ -124,12 +131,12 @@ await test('Marcador físico y anulación: retirar solo puntos actuales, sustitu
   await page.locator('#dialog').getByRole('button', { name: 'Anular pregunta', exact: true }).click();
   assert((await page.locator('.score-number').allTextContents()).every(t => t.startsWith('0')), 'Anular no revierte');
   await page.getByRole('button', { name: 'Siguiente pregunta →' }).click();
-  for (let i = 1; i < 6; i++) {
+  for (let i = 1; i < available; i++) {
     await page.getByRole('button', { name: 'Ver respuesta', exact: true }).click();
     await page.getByRole('button', { name: 'Confirmar ronda' }).click();
     await page.getByRole('button', { name: 'Siguiente pregunta →' }).click();
   }
-  assert((await page.locator('.final-panel').innerText()).includes('5 rondas válidas'), 'Anulación consume una ronda');
+  assert((await page.locator('.final-panel').innerText()).includes(`${available - 1} rondas válidas`), 'Anulación consume una ronda');
   assert((await page.locator('.final-panel').innerText()).includes('agotado'), 'Falta explicar agotamiento');
 });
 await test('Filtros vacíos, categorías OR y dificultad difícil', async () => {
@@ -137,8 +144,10 @@ await test('Filtros vacíos, categorías OR y dificultad difícil', async () => 
   assert(await page.locator('#start-game').isDisabled(), 'Empieza sin preguntas');
   await page.locator('#category-series').click(); await page.locator('#category-comida').click();
   await page.locator('#difficulty').selectOption('dificil');
-  assert((await page.locator('#availability').innerText()).includes('2 rondas'), 'Filtros incorrectos');
-  await start(); const s = await saved(); assert(s.target === 2, 'Duración filtrada incorrecta');
+  const available = await availableQuestions(['series','comida'], 'dificil');
+  assert(available > 0 && available < 10, 'El filtro no permite comprobar una partida corta');
+  assert((await page.locator('#availability').innerText()).includes(`${available} rondas`), 'Filtros incorrectos');
+  await start(); const s = await saved(); assert(s.target === available, 'Duración filtrada incorrecta');
 });
 await test('Fallos de localStorage: aviso y juego en memoria', async () => {
   const volatileContext = await browser.newContext();

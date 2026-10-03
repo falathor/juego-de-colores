@@ -58,8 +58,8 @@ sin borrar el historial ni los datos de otras aplicaciones.
 
 ## Catálogo y revisión editorial
 
-`data/questions.es.json` contiene **98 aprobadas**: trece en España y series,
-doce en cada una de las otras seis categorías, más un
+`data/questions.es.json` contiene **198 aprobadas**: veinticuatro en cine y
+animación y veinticinco en cada una de las otras seis categorías, más un
 borrador del pistacho excluido por la variación de su color. Todas las aprobadas
 tienen fuente consultada y fecha de revisión del 3 de octubre de 2026. Algunas
 preguntas se han acotado respecto del apéndice para precisar versiones, edad,
@@ -67,6 +67,9 @@ partes del objeto o presentación del símbolo. La sustituta `comida-007` trata
 del candy corn tradicional; no se ha reutilizado el ID de la pregunta descartada.
 
 La versión 1.1.0 añade 50 preguntas y conserva las 49 entradas anteriores.
+La versión 1.2.0 añade otras **100 preguntas**, entre doce y trece por categoría,
+sin alterar las 99 entradas de la versión anterior. Las fuentes y fechas de
+revisión están registradas en cada pregunta.
 Al revelar, cada color aparece en una tarjeta grande centrada, con su nombre
 en negrita en el centro y texto claro u oscuro según el contraste. Si hay varios
 colores, las tarjetas se centran y pasan a nuevas filas cuando hace falta.
@@ -97,7 +100,7 @@ Ejemplo deliberadamente en borrador:
 
 ```json
 {
-  "id": "cine-014",
+  "id": "cine-025",
   "category": "cine",
   "difficulty": "medio",
   "prompt": "En la película de 1939 El mago de Oz, ¿de qué color es el camino de ladrillos?",

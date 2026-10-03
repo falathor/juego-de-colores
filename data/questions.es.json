@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "1.1.0",
+  "contentVersion": "1.2.0",
   "locale": "es-ES",
   "questions": [
     {
@@ -2111,6 +2111,2140 @@
         {
           "title": "Wikipedia · Flag of Greece",
           "url": "https://en.wikipedia.org/wiki/Flag_of_Greece"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "espana-014",
+      "category": "espana",
+      "difficulty": "medio",
+      "prompt": "Sin contar el escudo, ¿qué dos colores tienen las franjas de la bandera de Aragón?",
+      "answerColors": [
+        "rojo",
+        "amarillo"
+      ],
+      "explanation": "Las cuatro barras rojas se alternan con el fondo amarillo. El escudo queda excluido.",
+      "tags": [
+        "espana"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Flag of Aragon",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Aragon"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "espana-015",
+      "category": "espana",
+      "difficulty": "medio",
+      "prompt": "En la bandera de las Illes Balears, ¿de qué color es el fondo del recuadro del castillo, sin contar el castillo?",
+      "answerColors": [
+        "morado"
+      ],
+      "explanation": "El castillo blanco se sitúa sobre un recuadro morado junto al asta. Solo se pide el fondo de ese recuadro.",
+      "tags": [
+        "espana"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Flag of the Balearic Islands",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_Balearic_Islands"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "espana-016",
+      "category": "espana",
+      "difficulty": "medio",
+      "prompt": "Sin contar el escudo, ¿qué dos colores tienen las franjas de la bandera de Cantabria?",
+      "answerColors": [
+        "blanco",
+        "rojo"
+      ],
+      "explanation": "La franja superior es blanca y la inferior roja; ambas tienen la misma anchura.",
+      "tags": [
+        "espana"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Flag of Cantabria",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Cantabria"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "espana-017",
+      "category": "espana",
+      "difficulty": "medio",
+      "prompt": "Sin contar el escudo, ¿qué tres colores tienen las franjas de la bandera de Extremadura?",
+      "answerColors": [
+        "verde",
+        "blanco",
+        "negro"
+      ],
+      "explanation": "De arriba abajo, las franjas son verde, blanca y negra. El escudo no se cuenta.",
+      "tags": [
+        "espana"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Flag of Extremadura",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Extremadura"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "espana-018",
+      "category": "espana",
+      "difficulty": "medio",
+      "prompt": "Sin contar el escudo, ¿qué cuatro colores tienen las franjas de la bandera de La Rioja?",
+      "answerColors": [
+        "rojo",
+        "blanco",
+        "verde",
+        "amarillo"
+      ],
+      "explanation": "Las cuatro franjas horizontales son roja, blanca, verde y amarilla, en ese orden de arriba abajo.",
+      "tags": [
+        "espana"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Flag of La Rioja",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_La_Rioja"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "espana-019",
+      "category": "espana",
+      "difficulty": "medio",
+      "prompt": "¿De qué color es el fondo de la bandera de la Región de Murcia, sin contar castillos ni coronas?",
+      "answerColors": [
+        "rojo"
+      ],
+      "explanation": "El fondo es rojo carmesí. En la paleta del juego, carmesí es un tono de rojo; los símbolos quedan excluidos.",
+      "tags": [
+        "espana"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Flag of the Region of Murcia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_Region_of_Murcia"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "espana-020",
+      "category": "espana",
+      "difficulty": "medio",
+      "prompt": "¿De qué color es el fondo de la bandera de Navarra, sin contar el escudo?",
+      "answerColors": [
+        "rojo"
+      ],
+      "explanation": "El escudo de Navarra se sitúa en el centro de un paño rojo. Se pregunta solo por el fondo.",
+      "tags": [
+        "espana"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Flag of Navarre",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Navarre"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "espana-021",
+      "category": "espana",
+      "difficulty": "medio",
+      "prompt": "Sin contar el escudo, ¿qué dos colores alternan en los triángulos de la bandera de Ceuta?",
+      "answerColors": [
+        "negro",
+        "blanco"
+      ],
+      "explanation": "El fondo de Ceuta está dividido en triángulos negros y blancos. El escudo central queda excluido.",
+      "tags": [
+        "espana"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Flag of Ceuta",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Ceuta"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "espana-022",
+      "category": "espana",
+      "difficulty": "medio",
+      "prompt": "¿De qué color es el fondo de la bandera de Melilla, sin contar el escudo?",
+      "answerColors": [
+        "azul"
+      ],
+      "explanation": "La bandera de Melilla tiene fondo azul claro. El azul claro pertenece al azul de la paleta.",
+      "tags": [
+        "espana"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Flag of Melilla",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Melilla"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "espana-023",
+      "category": "espana",
+      "difficulty": "medio",
+      "prompt": "¿Qué tres colores forman las cruces, las barras y sus fondos en la bandera de la ciudad de Barcelona?",
+      "answerColors": [
+        "rojo",
+        "blanco",
+        "amarillo"
+      ],
+      "explanation": "La bandera combina cruces rojas sobre blanco y barras rojas sobre amarillo. Se cuentan tres colores distintos.",
+      "tags": [
+        "espana"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Flag of Barcelona",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Barcelona"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "espana-024",
+      "category": "espana",
+      "difficulty": "medio",
+      "prompt": "¿Qué dos colores forman el paño y el recuadro de la bandera municipal de Bilbao?",
+      "answerColors": [
+        "blanco",
+        "rojo"
+      ],
+      "explanation": "La bandera municipal es un paño blanco con un recuadro rojo, según el manual de identidad del Ayuntamiento.",
+      "tags": [
+        "espana"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Ayuntamiento de Bilbao · Manual de marca",
+          "url": "https://bilbaozerbitzuak.bilbao.eus/wp-content/uploads/2025/01/BILBAO_MARKA_Eskugida-Manual_2022.pdf"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "espana-025",
+      "category": "espana",
+      "difficulty": "medio",
+      "prompt": "¿Qué dos colores forman el fondo y la cruz diagonal de la bandera de la isla de Tenerife?",
+      "answerColors": [
+        "azul",
+        "blanco"
+      ],
+      "explanation": "La bandera de la isla tiene una cruz diagonal blanca sobre fondo azul. No se pregunta por la bandera municipal de Santa Cruz.",
+      "tags": [
+        "espana"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Flag of Tenerife",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Tenerife"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "series-014",
+      "category": "series",
+      "difficulty": "facil",
+      "prompt": "En Teletubbies, ¿de qué color es el traje de Laa-Laa, sin contar la cara, la pantalla ni la pelota?",
+      "answerColors": [
+        "amarillo"
+      ],
+      "explanation": "Laa-Laa lleva un traje amarillo. La pantalla y su pelota quedan fuera de la respuesta.",
+      "tags": [
+        "series"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Teletubbies",
+          "url": "https://en.wikipedia.org/wiki/Teletubbies"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "series-015",
+      "category": "series",
+      "difficulty": "facil",
+      "prompt": "En Teletubbies, ¿de qué color es el traje de Po, sin contar la cara, la pantalla ni el patinete?",
+      "answerColors": [
+        "rojo"
+      ],
+      "explanation": "El traje de Po es rojo. Los accesorios y la pantalla del vientre no se incluyen.",
+      "tags": [
+        "series"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Teletubbies",
+          "url": "https://en.wikipedia.org/wiki/Teletubbies"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "series-016",
+      "category": "series",
+      "difficulty": "facil",
+      "prompt": "En Sesame Street, ¿de qué color es el pelo de Grover, sin contar la nariz, los ojos ni la boca?",
+      "answerColors": [
+        "azul"
+      ],
+      "explanation": "Grover, también conocido como Coco en España, es un monstruo de pelo azul.",
+      "tags": [
+        "series"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Sesame Workshop · Personajes",
+          "url": "https://sesameworkshop.org/our-work/shows/sesame-street/sesame-street-characters/"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "series-017",
+      "category": "series",
+      "difficulty": "facil",
+      "prompt": "En Sesame Street, ¿de qué color es la piel de Bert, conocido como Blas, sin contar pelo, nariz ni ojos?",
+      "answerColors": [
+        "amarillo"
+      ],
+      "explanation": "Bert tiene piel amarilla. La nariz y el pelo, de otros colores, quedan excluidos.",
+      "tags": [
+        "series"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Bert and Ernie",
+          "url": "https://en.wikipedia.org/wiki/Bert_and_Ernie"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "series-018",
+      "category": "series",
+      "difficulty": "facil",
+      "prompt": "En Sesame Street, ¿de qué color es la piel de Ernie, conocido como Epi, sin contar pelo, nariz ni ojos?",
+      "answerColors": [
+        "naranja"
+      ],
+      "explanation": "Ernie tiene piel naranja. El Smithsonian documenta ese aspecto en su colección de juguetes licenciados.",
+      "tags": [
+        "series"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Smithsonian · Ernie finger puppet",
+          "url": "https://www.si.edu/object/ernie-finger-puppet%3Anmah_2019816"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "series-019",
+      "category": "series",
+      "difficulty": "facil",
+      "prompt": "En Sesame Street, ¿de qué color es la piel del Conde Draco, sin contar el pelo, los ojos ni la capa?",
+      "answerColors": [
+        "morado"
+      ],
+      "explanation": "El personaje Count von Count, llamado Conde Draco en España, tiene la piel morada.",
+      "tags": [
+        "series"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Smithsonian · Count von Count finger puppet",
+          "url": "https://americanhistory.si.edu/collections/object/nmah_2019822"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "series-020",
+      "category": "series",
+      "difficulty": "facil",
+      "prompt": "En Sesame Street, ¿de qué color es la piel de Abby Cadabby, sin contar pelo, ojos, alas ni vestido?",
+      "answerColors": [
+        "rosa"
+      ],
+      "explanation": "Abby Cadabby tiene piel rosa. Solo se pregunta por la piel, no por las partes de su traje.",
+      "tags": [
+        "series"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Abby Cadabby",
+          "url": "https://en.wikipedia.org/wiki/Abby_Cadabby"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "series-021",
+      "category": "series",
+      "difficulty": "medio",
+      "prompt": "En la primera temporada de Mighty Morphin Power Rangers (1993), ¿de qué color es principalmente el traje Ranger de Jason Lee Scott?",
+      "answerColors": [
+        "rojo"
+      ],
+      "explanation": "Jason es el Ranger rojo del equipo original. La pregunta se refiere a esa primera temporada, no a sus identidades posteriores.",
+      "tags": [
+        "series"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Mighty Morphin Power Rangers",
+          "url": "https://en.wikipedia.org/wiki/Mighty_Morphin_Power_Rangers"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "series-022",
+      "category": "series",
+      "difficulty": "medio",
+      "prompt": "En la primera temporada de Mighty Morphin Power Rangers (1993), ¿de qué color es principalmente el traje Ranger de Billy Cranston?",
+      "answerColors": [
+        "azul"
+      ],
+      "explanation": "Billy es el Ranger azul del equipo original. Se pide el color principal, sin contar guantes y detalles.",
+      "tags": [
+        "series"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Mighty Morphin Power Rangers",
+          "url": "https://en.wikipedia.org/wiki/Mighty_Morphin_Power_Rangers"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "series-023",
+      "category": "series",
+      "difficulty": "medio",
+      "prompt": "En la primera temporada de Mighty Morphin Power Rangers (1993), ¿de qué color es principalmente el traje Ranger de Trini Kwan?",
+      "answerColors": [
+        "amarillo"
+      ],
+      "explanation": "Trini es la Ranger amarilla del equipo original. No se incluyen los detalles blancos del traje.",
+      "tags": [
+        "series"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Mighty Morphin Power Rangers",
+          "url": "https://en.wikipedia.org/wiki/Mighty_Morphin_Power_Rangers"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "series-024",
+      "category": "series",
+      "difficulty": "medio",
+      "prompt": "En la primera temporada de Mighty Morphin Power Rangers (1993), ¿de qué color es principalmente el traje Ranger de Kimberly Hart?",
+      "answerColors": [
+        "rosa"
+      ],
+      "explanation": "Kimberly es la Ranger rosa del equipo original. Se pregunta por su primera identidad Ranger.",
+      "tags": [
+        "series"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Mighty Morphin Power Rangers",
+          "url": "https://en.wikipedia.org/wiki/Mighty_Morphin_Power_Rangers"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "series-025",
+      "category": "series",
+      "difficulty": "medio",
+      "prompt": "En la primera temporada de Mighty Morphin Power Rangers (1993), ¿de qué color es principalmente el traje Ranger de Zack Taylor?",
+      "answerColors": [
+        "negro"
+      ],
+      "explanation": "Zack es el Ranger negro del equipo original. Los detalles blancos del traje no forman parte de la pregunta.",
+      "tags": [
+        "series"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Mighty Morphin Power Rangers",
+          "url": "https://en.wikipedia.org/wiki/Mighty_Morphin_Power_Rangers"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cine-013",
+      "category": "cine",
+      "difficulty": "facil",
+      "prompt": "En Monstruos, S. A. (2001), ¿de qué color son las manchas del pelaje de Sulley, sin contar el pelo que las rodea?",
+      "answerColors": [
+        "morado"
+      ],
+      "explanation": "Las manchas de Sulley son moradas. Solo se pide su color, no el del resto del pelaje.",
+      "tags": [
+        "cine"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · List of Monsters, Inc. characters",
+          "url": "https://en.wikipedia.org/wiki/List_of_Monsters%2C_Inc._characters"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cine-014",
+      "category": "cine",
+      "difficulty": "facil",
+      "prompt": "En Monstruos, S. A. (2001), ¿de qué color es la piel de Mike Wazowski, sin contar ojo, cuernos ni boca?",
+      "answerColors": [
+        "verde"
+      ],
+      "explanation": "Mike tiene el cuerpo verde. El ojo y los cuernos quedan fuera de la respuesta.",
+      "tags": [
+        "cine"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · List of Monsters, Inc. characters",
+          "url": "https://en.wikipedia.org/wiki/List_of_Monsters%2C_Inc._characters"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cine-015",
+      "category": "cine",
+      "difficulty": "facil",
+      "prompt": "En Cars (2006), ¿de qué color es la pintura principal de Rayo McQueen durante las carreras, sin contar números, rayos ni publicidad?",
+      "answerColors": [
+        "rojo"
+      ],
+      "explanation": "Rayo McQueen lleva carrocería roja en su aspecto de competición de la primera película. Se excluyen los dibujos y la publicidad.",
+      "tags": [
+        "cine"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Lightning McQueen",
+          "url": "https://en.wikipedia.org/wiki/Lightning_McQueen"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cine-016",
+      "category": "cine",
+      "difficulty": "facil",
+      "prompt": "En Cars (2006), ¿de qué color es principalmente el óxido que cubre la carrocería de Mate, sin contar los restos de pintura?",
+      "answerColors": [
+        "marron"
+      ],
+      "explanation": "El óxido que domina el aspecto de Mate es marrón. Su antigua pintura azul y los restos de pintura quedan excluidos.",
+      "tags": [
+        "cine"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Pixar Wiki · Tow Mater",
+          "url": "https://pixar.fandom.com/wiki/Tow_Mater"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cine-017",
+      "category": "cine",
+      "difficulty": "facil",
+      "prompt": "En Del revés (2015), ¿de qué color es la piel de Alegría, sin contar pelo, ojos ni vestido?",
+      "answerColors": [
+        "amarillo"
+      ],
+      "explanation": "Alegría está representada con piel amarilla. Su pelo y su vestido no se cuentan.",
+      "tags": [
+        "cine"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Inside Out",
+          "url": "https://en.wikipedia.org/wiki/Inside_Out"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cine-018",
+      "category": "cine",
+      "difficulty": "facil",
+      "prompt": "En Del revés (2015), ¿de qué color es la piel de Miedo, sin contar ropa, ojos ni boca?",
+      "answerColors": [
+        "morado"
+      ],
+      "explanation": "Miedo es la emoción representada en morado. Se pregunta solo por su piel.",
+      "tags": [
+        "cine"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Inside Out",
+          "url": "https://en.wikipedia.org/wiki/Inside_Out"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cine-019",
+      "category": "cine",
+      "difficulty": "facil",
+      "prompt": "En Del revés (2015), ¿de qué color es la piel de Asco, sin contar ropa, ojos ni pelo?",
+      "answerColors": [
+        "verde"
+      ],
+      "explanation": "Asco está representada con piel verde. La ropa y el pelo quedan fuera de la pregunta.",
+      "tags": [
+        "cine"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Inside Out",
+          "url": "https://en.wikipedia.org/wiki/Inside_Out"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cine-020",
+      "category": "cine",
+      "difficulty": "facil",
+      "prompt": "En Del revés (2015), ¿de qué color es la piel de Ira, sin contar ropa, ojos ni las llamas de su cabeza?",
+      "answerColors": [
+        "rojo"
+      ],
+      "explanation": "Ira es la emoción de piel roja. Las llamas que aparecen al enfadarse no se incluyen.",
+      "tags": [
+        "cine"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Inside Out",
+          "url": "https://en.wikipedia.org/wiki/Inside_Out"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cine-021",
+      "category": "cine",
+      "difficulty": "facil",
+      "prompt": "En Del revés (2015), ¿de qué color es el cuerpo de Bing Bong, sin contar ropa, ojos ni accesorios?",
+      "answerColors": [
+        "rosa"
+      ],
+      "explanation": "Bing Bong es el amigo imaginario de Riley y tiene el cuerpo rosa. La ropa y los accesorios quedan excluidos.",
+      "tags": [
+        "cine"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Inside Out",
+          "url": "https://en.wikipedia.org/wiki/Inside_Out"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cine-022",
+      "category": "cine",
+      "difficulty": "facil",
+      "prompt": "En Frozen (2013), ¿de qué color es la nariz de Olaf?",
+      "answerColors": [
+        "naranja"
+      ],
+      "explanation": "La nariz de Olaf es una zanahoria naranja. La revista oficial de Disney reproduce ese color al recrear el personaje.",
+      "tags": [
+        "cine"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Disney Files · Olaf",
+          "url": "https://advc.disney.go.com/media/dvc/languagespecific/eng/member/justformembers/disneyfilesmagazine/2013/DisneyFilesMagazine_Winter2013.pdf"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cine-023",
+      "category": "cine",
+      "difficulty": "facil",
+      "prompt": "En Big Hero 6 (2014), ¿de qué color es el cuerpo inflable de Baymax, sin contar la cara ni la armadura?",
+      "answerColors": [
+        "blanco"
+      ],
+      "explanation": "El cuerpo de Baymax es un robot inflable blanco. Su armadura y sus ojos quedan excluidos.",
+      "tags": [
+        "cine"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Baymax",
+          "url": "https://en.wikipedia.org/wiki/Baymax"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cine-024",
+      "category": "cine",
+      "difficulty": "facil",
+      "prompt": "En Kung Fu Panda (2008), ¿de qué color es el pelo de las orejas de Po?",
+      "answerColors": [
+        "negro"
+      ],
+      "explanation": "Las orejas de Po tienen pelo negro. Solo se pregunta por las orejas, no por la ropa ni otras zonas del cuerpo.",
+      "tags": [
+        "cine"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Kung Fu Panda Wiki · Po",
+          "url": "https://kungfupanda.fandom.com/wiki/Po"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "animacion-013",
+      "category": "animacion",
+      "difficulty": "facil",
+      "prompt": "En Super Mario World (1990), ¿de qué color es el cuerpo del Yoshi que aparece primero, sin contar el vientre ni los accesorios?",
+      "answerColors": [
+        "verde"
+      ],
+      "explanation": "El primer Yoshi es verde. Hay otros Yoshis de distintos colores, por eso se concreta cuál se pregunta.",
+      "tags": [
+        "animacion"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Yoshi",
+          "url": "https://en.wikipedia.org/wiki/Yoshi"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "animacion-014",
+      "category": "animacion",
+      "difficulty": "facil",
+      "prompt": "En el diseño moderno habitual de Mario, ¿de qué color es su gorra, sin contar el emblema?",
+      "answerColors": [
+        "rojo"
+      ],
+      "explanation": "Mario lleva una gorra roja en su diseño moderno habitual. Se excluyen disfraces y transformaciones.",
+      "tags": [
+        "animacion"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Mario",
+          "url": "https://en.wikipedia.org/wiki/Mario"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "animacion-015",
+      "category": "animacion",
+      "difficulty": "facil",
+      "prompt": "En el traje habitual de fontanero de Wario, ¿de qué color es su gorra, sin contar el emblema?",
+      "answerColors": [
+        "amarillo"
+      ],
+      "explanation": "La gorra del traje habitual de Wario es amarilla. No se pregunta por su casco de motorista.",
+      "tags": [
+        "animacion"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Nintendo · Personajes de Mario",
+          "url": "https://mario.nintendo.com/es/characters/"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "animacion-016",
+      "category": "animacion",
+      "difficulty": "facil",
+      "prompt": "En el diseño habitual de Waluigi, ¿de qué color es su gorra, sin contar el emblema?",
+      "answerColors": [
+        "morado"
+      ],
+      "explanation": "Waluigi lleva una gorra morada. El emblema y las demás prendas quedan fuera de la pregunta.",
+      "tags": [
+        "animacion"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Waluigi",
+          "url": "https://en.wikipedia.org/wiki/Waluigi"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "animacion-017",
+      "category": "animacion",
+      "difficulty": "facil",
+      "prompt": "En su diseño habitual en los juegos de Mario, ¿de qué color es el vestido de princesa de Peach, sin contar accesorios?",
+      "answerColors": [
+        "rosa"
+      ],
+      "explanation": "El vestido habitual de Peach es rosa. No se incluyen el vestido de boda ni otros trajes especiales.",
+      "tags": [
+        "animacion"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Princess Peach",
+          "url": "https://en.wikipedia.org/wiki/Princess_Peach"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "animacion-018",
+      "category": "animacion",
+      "difficulty": "facil",
+      "prompt": "En su diseño moderno habitual en los juegos de Mario, ¿de qué color es la parte principal del vestido de Daisy, sin contar ribetes y accesorios?",
+      "answerColors": [
+        "amarillo"
+      ],
+      "explanation": "Daisy lleva un vestido principalmente amarillo, con otros detalles excluidos en la pregunta.",
+      "tags": [
+        "animacion"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Nintendo · Mario characters",
+          "url": "https://mario.nintendo.com/characters/"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "animacion-019",
+      "category": "animacion",
+      "difficulty": "facil",
+      "prompt": "En el diseño habitual de Bowser en los juegos de Mario, ¿de qué color es el fondo de su caparazón, sin contar el borde ni las púas?",
+      "answerColors": [
+        "verde"
+      ],
+      "explanation": "El caparazón de Bowser tiene fondo verde. El borde y las púas no se cuentan.",
+      "tags": [
+        "animacion"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Super Mario Wiki · Bowser",
+          "url": "https://www.mariowiki.com/Bowser"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "animacion-020",
+      "category": "animacion",
+      "difficulty": "facil",
+      "prompt": "En Spyro the Dragon (1998), ¿de qué color es principalmente la piel de Spyro, sin contar vientre, alas y cuernos?",
+      "answerColors": [
+        "morado"
+      ],
+      "explanation": "Spyro es un dragón de piel morada. Las otras partes de su diseño quedan excluidas.",
+      "tags": [
+        "animacion"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Spyro (character)",
+          "url": "https://en.wikipedia.org/wiki/Spyro_(character)"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "animacion-021",
+      "category": "animacion",
+      "difficulty": "facil",
+      "prompt": "En Crash Bandicoot (1996), ¿de qué color es el pelaje principal de Crash, sin contar vientre, cara ni ropa?",
+      "answerColors": [
+        "naranja"
+      ],
+      "explanation": "El color principal del pelaje de Crash es naranja. Se excluyen las partes de otro tono y la ropa.",
+      "tags": [
+        "animacion"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Crash Bandicoot (character)",
+          "url": "https://en.wikipedia.org/wiki/Crash_Bandicoot_(character)"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "animacion-022",
+      "category": "animacion",
+      "difficulty": "facil",
+      "prompt": "En la serie clásica de Mega Man, ¿de qué color es su armadura normal, antes de equipar armas que cambian sus colores?",
+      "answerColors": [
+        "azul"
+      ],
+      "explanation": "Mega Man lleva armadura azul en su estado normal. Las armas especiales pueden cambiar la paleta, por eso se excluyen.",
+      "tags": [
+        "animacion"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Mega Man (character)",
+          "url": "https://en.wikipedia.org/wiki/Mega_Man_(character)"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "animacion-023",
+      "category": "animacion",
+      "difficulty": "facil",
+      "prompt": "En el Pac-Man original de 1980, ¿de qué color es Pinky en su estado normal, sin contar ojos ni el estado asustado?",
+      "answerColors": [
+        "rosa"
+      ],
+      "explanation": "Pinky es el fantasma rosa del juego original. El estado asustado cambia su aspecto y no se incluye.",
+      "tags": [
+        "animacion"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Ghosts (Pac-Man)",
+          "url": "https://en.wikipedia.org/wiki/Ghosts_(Pac-Man)"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "animacion-024",
+      "category": "animacion",
+      "difficulty": "facil",
+      "prompt": "En Sonic the Hedgehog 3 (1994), ¿de qué color es el pelaje de Knuckles, sin contar pecho, guantes ni zapatos?",
+      "answerColors": [
+        "rojo"
+      ],
+      "explanation": "Knuckles es un equidna de pelaje rojo. Las demás partes de su diseño quedan fuera de la respuesta.",
+      "tags": [
+        "animacion"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Knuckles the Echidna",
+          "url": "https://en.wikipedia.org/wiki/Knuckles_the_Echidna"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "deportes-013",
+      "category": "deportes",
+      "difficulty": "medio",
+      "prompt": "¿De qué color es principalmente la camiseta tradicional de la selección masculina francesa de rugby a quince, sin contar emblemas ni publicidad?",
+      "answerColors": [
+        "azul"
+      ],
+      "explanation": "Francia juega tradicionalmente con camiseta azul. Se excluyen las equipaciones alternativas y los detalles.",
+      "tags": [
+        "deportes"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · France national rugby union team",
+          "url": "https://en.wikipedia.org/wiki/France_national_rugby_union_team"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "deportes-014",
+      "category": "deportes",
+      "difficulty": "medio",
+      "prompt": "¿De qué color es principalmente la camiseta tradicional de la selección masculina escocesa de rugby a quince, sin contar emblemas ni ribetes?",
+      "answerColors": [
+        "azul"
+      ],
+      "explanation": "Escocia utiliza tradicionalmente azul marino. Ese tono pertenece al azul de la paleta.",
+      "tags": [
+        "deportes"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Scottish Rugby · Equipación tradicional",
+          "url": "https://scottishrugby.org/news-and-features/scotland-reveals-rugby-world-cup-kit/"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "deportes-015",
+      "category": "deportes",
+      "difficulty": "medio",
+      "prompt": "¿De qué color es principalmente la camiseta tradicional de la selección masculina irlandesa de rugby a quince, sin contar emblemas ni publicidad?",
+      "answerColors": [
+        "verde"
+      ],
+      "explanation": "La camiseta tradicional de Irlanda es verde. No se incluyen las equipaciones alternativas.",
+      "tags": [
+        "deportes"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Ireland national rugby union team",
+          "url": "https://en.wikipedia.org/wiki/Ireland_national_rugby_union_team"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "deportes-016",
+      "category": "deportes",
+      "difficulty": "medio",
+      "prompt": "¿De qué color es principalmente la camiseta tradicional de la selección masculina galesa de rugby a quince, sin contar emblemas ni publicidad?",
+      "answerColors": [
+        "rojo"
+      ],
+      "explanation": "Gales juega tradicionalmente con camiseta roja. Los detalles y las equipaciones alternativas quedan excluidos.",
+      "tags": [
+        "deportes"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Wales national rugby union team",
+          "url": "https://en.wikipedia.org/wiki/Wales_national_rugby_union_team"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "deportes-017",
+      "category": "deportes",
+      "difficulty": "medio",
+      "prompt": "¿De qué color es principalmente la camiseta tradicional de la selección masculina inglesa de rugby a quince, sin contar emblemas ni publicidad?",
+      "answerColors": [
+        "blanco"
+      ],
+      "explanation": "La camiseta tradicional de Inglaterra es blanca. El emblema de la rosa y los demás detalles no se cuentan.",
+      "tags": [
+        "deportes"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · England national rugby union team",
+          "url": "https://en.wikipedia.org/wiki/England_national_rugby_union_team"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "deportes-018",
+      "category": "deportes",
+      "difficulty": "medio",
+      "prompt": "¿De qué color es principalmente la camiseta tradicional de la selección masculina italiana de rugby a quince, sin contar emblemas ni publicidad?",
+      "answerColors": [
+        "azul"
+      ],
+      "explanation": "La camiseta tradicional de Italia es azul de Saboya. En la paleta del juego se responde azul.",
+      "tags": [
+        "deportes"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Italy national rugby union team",
+          "url": "https://en.wikipedia.org/wiki/Italy_national_rugby_union_team"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "deportes-019",
+      "category": "deportes",
+      "difficulty": "medio",
+      "prompt": "En la codificación clásica de las bolas de pool americano, ¿de qué color es el fondo de la bola lisa número 1, sin contar el círculo del número?",
+      "answerColors": [
+        "amarillo"
+      ],
+      "explanation": "La bola lisa número 1 es amarilla en la codificación clásica. Se excluyen el número y las ediciones especiales.",
+      "tags": [
+        "deportes"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Billiard ball",
+          "url": "https://en.wikipedia.org/wiki/Billiard_ball"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "deportes-020",
+      "category": "deportes",
+      "difficulty": "medio",
+      "prompt": "En la codificación clásica de las bolas de pool americano, ¿de qué color es el fondo de la bola lisa número 2, sin contar el círculo del número?",
+      "answerColors": [
+        "azul"
+      ],
+      "explanation": "La bola lisa número 2 es azul en la codificación clásica. Se pregunta por el fondo, no por el número.",
+      "tags": [
+        "deportes"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Billiard ball",
+          "url": "https://en.wikipedia.org/wiki/Billiard_ball"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "deportes-021",
+      "category": "deportes",
+      "difficulty": "medio",
+      "prompt": "En la codificación clásica de las bolas de pool americano, ¿de qué color es el fondo de la bola lisa número 3, sin contar el círculo del número?",
+      "answerColors": [
+        "rojo"
+      ],
+      "explanation": "La bola lisa número 3 es roja en la codificación clásica. El círculo del número queda excluido.",
+      "tags": [
+        "deportes"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Billiard ball",
+          "url": "https://en.wikipedia.org/wiki/Billiard_ball"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "deportes-022",
+      "category": "deportes",
+      "difficulty": "medio",
+      "prompt": "En la codificación clásica de las bolas de pool americano, ¿de qué color es el fondo de la bola lisa número 5, sin contar el círculo del número?",
+      "answerColors": [
+        "naranja"
+      ],
+      "explanation": "La bola lisa número 5 es naranja en la codificación clásica. Se excluyen los juegos con colores especiales.",
+      "tags": [
+        "deportes"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Billiard ball",
+          "url": "https://en.wikipedia.org/wiki/Billiard_ball"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "deportes-023",
+      "category": "deportes",
+      "difficulty": "medio",
+      "prompt": "En la codificación clásica de las bolas de pool americano, ¿de qué color es el fondo de la bola lisa número 6, sin contar el círculo del número?",
+      "answerColors": [
+        "verde"
+      ],
+      "explanation": "La bola lisa número 6 es verde en la codificación clásica. El número no se cuenta.",
+      "tags": [
+        "deportes"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Billiard ball",
+          "url": "https://en.wikipedia.org/wiki/Billiard_ball"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "deportes-024",
+      "category": "deportes",
+      "difficulty": "medio",
+      "prompt": "En fútbol, ¿de qué color es la tarjeta con la que el árbitro comunica una amonestación?",
+      "answerColors": [
+        "amarillo"
+      ],
+      "explanation": "Una amonestación se comunica con tarjeta amarilla. La expulsión se comunica con tarjeta roja.",
+      "tags": [
+        "deportes"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "IFAB · Glosario de términos",
+          "url": "https://theifab.com/laws/latest/glossary/football-terms/"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "deportes-025",
+      "category": "deportes",
+      "difficulty": "medio",
+      "prompt": "En rugby a quince, ¿de qué color es la tarjeta que indica una suspensión temporal y el envío al sin-bin?",
+      "answerColors": [
+        "amarillo"
+      ],
+      "explanation": "La tarjeta amarilla indica la suspensión temporal. La pregunta no se refiere a una tarjeta de expulsión.",
+      "tags": [
+        "deportes"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "World Rugby · Definiciones",
+          "url": "https://passport.world.rugby/laws-of-the-game/definitions/"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "naturaleza-013",
+      "category": "naturaleza",
+      "difficulty": "medio",
+      "prompt": "En un flamenco común adulto (Phoenicopterus roseus), ¿de qué color son las patas?",
+      "answerColors": [
+        "rosa"
+      ],
+      "explanation": "Las patas del flamenco común adulto son rosas. Se concreta la edad porque los jóvenes tienen patas más oscuras.",
+      "tags": [
+        "naturaleza"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Greater flamingo",
+          "url": "https://en.wikipedia.org/wiki/Greater_flamingo"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "naturaleza-014",
+      "category": "naturaleza",
+      "difficulty": "medio",
+      "prompt": "En un cardenal norteño macho adulto, ¿de qué color es principalmente el plumaje, sin contar la máscara de la cara?",
+      "answerColors": [
+        "rojo"
+      ],
+      "explanation": "El macho adulto tiene plumaje rojo, con una máscara negra que queda excluida.",
+      "tags": [
+        "naturaleza"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Northern cardinal",
+          "url": "https://en.wikipedia.org/wiki/Northern_cardinal"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "naturaleza-015",
+      "category": "naturaleza",
+      "difficulty": "dificil",
+      "prompt": "En la chara crestada (Cyanocitta cristata), ¿de qué color es el plumaje del dorso, sin contar las marcas de alas y cola?",
+      "answerColors": [
+        "azul"
+      ],
+      "explanation": "El dorso es azul, con variaciones de intensidad según la subespecie. Se excluyen las marcas de otras partes.",
+      "tags": [
+        "naturaleza"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Blue jay",
+          "url": "https://en.wikipedia.org/wiki/Blue_jay"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "naturaleza-016",
+      "category": "naturaleza",
+      "difficulty": "medio",
+      "prompt": "En un faisán dorado macho adulto, ¿de qué color es la parte superior del dorso, sin contar cresta, cuello ni rabadilla?",
+      "answerColors": [
+        "verde"
+      ],
+      "explanation": "La parte superior del dorso es verde. Las otras zonas del plumaje de este faisán tienen colores diferentes.",
+      "tags": [
+        "naturaleza"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Golden pheasant",
+          "url": "https://en.wikipedia.org/wiki/Golden_pheasant"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "naturaleza-017",
+      "category": "naturaleza",
+      "difficulty": "medio",
+      "prompt": "En una hembra adulta de mirlo común europeo, ¿de qué color es principalmente el plumaje del dorso?",
+      "answerColors": [
+        "marron"
+      ],
+      "explanation": "La hembra adulta tiene el dorso marrón. Se distingue del macho adulto, cuyo plumaje es negro.",
+      "tags": [
+        "naturaleza"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Common blackbird",
+          "url": "https://en.wikipedia.org/wiki/Common_blackbird"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "naturaleza-018",
+      "category": "naturaleza",
+      "difficulty": "dificil",
+      "prompt": "En la rana arborícola Agalychnis callidryas, ¿de qué color es el iris, sin contar la pupila?",
+      "answerColors": [
+        "rojo"
+      ],
+      "explanation": "Esta especie tiene iris rojo. La pupila y los colores del resto del cuerpo quedan fuera de la pregunta.",
+      "tags": [
+        "naturaleza"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Agalychnis callidryas",
+          "url": "https://en.wikipedia.org/wiki/Agalychnis_callidryas"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "naturaleza-019",
+      "category": "naturaleza",
+      "difficulty": "medio",
+      "prompt": "En una orca adulta de coloración típica, ¿qué dos colores predominan en el dorso y el vientre, sin contar la mancha de silla de montar?",
+      "answerColors": [
+        "negro",
+        "blanco"
+      ],
+      "explanation": "El dorso es principalmente negro y el vientre blanco. Se excluye la mancha de silla, que puede ser gris.",
+      "tags": [
+        "naturaleza"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Killer whale",
+          "url": "https://en.wikipedia.org/wiki/Killer_whale"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "naturaleza-020",
+      "category": "naturaleza",
+      "difficulty": "medio",
+      "prompt": "En un pingüino emperador adulto, ¿qué dos colores tienen el dorso y el vientre, sin contar cabeza, cuello ni pecho superior?",
+      "answerColors": [
+        "negro",
+        "blanco"
+      ],
+      "explanation": "El dorso es negro y el vientre blanco. Las zonas amarillas del cuello y pecho superior quedan excluidas.",
+      "tags": [
+        "naturaleza"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Emperor penguin",
+          "url": "https://en.wikipedia.org/wiki/Emperor_penguin"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "naturaleza-021",
+      "category": "naturaleza",
+      "difficulty": "medio",
+      "prompt": "En la amapola común silvestre (Papaver rhoeas) de coloración típica, ¿de qué color son los pétalos, sin contar las manchas de la base?",
+      "answerColors": [
+        "rojo"
+      ],
+      "explanation": "Los pétalos típicos de la amapola común son rojos. Se excluyen las manchas de la base y variedades ornamentales.",
+      "tags": [
+        "naturaleza"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Papaver rhoeas",
+          "url": "https://en.wikipedia.org/wiki/Papaver_rhoeas"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "naturaleza-022",
+      "category": "naturaleza",
+      "difficulty": "medio",
+      "prompt": "En el aciano silvestre (Centaurea cyanus) de coloración típica, ¿de qué color son las flores?",
+      "answerColors": [
+        "azul"
+      ],
+      "explanation": "Las flores silvestres típicas del aciano son azules. Hay variedades ornamentales de otros colores, que no se incluyen.",
+      "tags": [
+        "naturaleza"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Centaurea cyanus",
+          "url": "https://en.wikipedia.org/wiki/Centaurea_cyanus"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "naturaleza-023",
+      "category": "naturaleza",
+      "difficulty": "medio",
+      "prompt": "En el diente de león común (Taraxacum officinale), ¿de qué color es la cabezuela cuando está en flor, antes de formar semillas?",
+      "answerColors": [
+        "amarillo"
+      ],
+      "explanation": "La cabezuela en flor es amarilla. No se pregunta por la esfera que se forma después con las semillas.",
+      "tags": [
+        "naturaleza"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Taraxacum officinale",
+          "url": "https://en.wikipedia.org/wiki/Taraxacum_officinale"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "naturaleza-024",
+      "category": "naturaleza",
+      "difficulty": "medio",
+      "prompt": "En el diente de león, ¿de qué color son los penachos de pelos que forman la esfera madura de semillas, sin contar las semillas mismas?",
+      "answerColors": [
+        "blanco"
+      ],
+      "explanation": "Los penachos que ayudan a dispersar las semillas son blancos. Se distinguen de la flor amarilla y de las semillas.",
+      "tags": [
+        "naturaleza"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "RePollinate · Recolección de semillas silvestres",
+          "url": "https://www.repollinate.org.uk/wp-content/uploads/sites/9/2023/05/Collecting-seed-from-wildflowers.pdf"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "naturaleza-025",
+      "category": "naturaleza",
+      "difficulty": "medio",
+      "prompt": "En la campanilla de invierno (Galanthus nivalis), ¿de qué color son las tres piezas exteriores de la flor, sin contar las marcas interiores?",
+      "answerColors": [
+        "blanco"
+      ],
+      "explanation": "Las tres piezas exteriores de la flor son blancas. Las marcas de las piezas interiores quedan excluidas.",
+      "tags": [
+        "naturaleza"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Galanthus nivalis",
+          "url": "https://en.wikipedia.org/wiki/Galanthus_nivalis"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "comida-014",
+      "category": "comida",
+      "difficulty": "medio",
+      "prompt": "¿De qué color son las pequeñas semillas comestibles del kiwi Hayward maduro, sin contar la pulpa?",
+      "answerColors": [
+        "negro"
+      ],
+      "explanation": "El kiwi Hayward contiene pequeñas semillas negras. Solo se pregunta por las semillas, no por la pulpa.",
+      "tags": [
+        "comida"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Kiwifruit",
+          "url": "https://en.wikipedia.org/wiki/Kiwifruit"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "comida-015",
+      "category": "comida",
+      "difficulty": "medio",
+      "prompt": "¿De qué color es la carne comestible de un coco maduro, sin contar la cáscara ni la película exterior?",
+      "answerColors": [
+        "blanco"
+      ],
+      "explanation": "La carne comestible del coco es blanca. La cáscara y la película que la recubre quedan excluidas.",
+      "tags": [
+        "comida"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Coconut",
+          "url": "https://en.wikipedia.org/wiki/Coconut"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "comida-016",
+      "category": "comida",
+      "difficulty": "medio",
+      "prompt": "¿De qué color es la pulpa de un kiwi de la variedad Hayward maduro, sin contar semillas ni centro?",
+      "answerColors": [
+        "verde"
+      ],
+      "explanation": "Hayward es una variedad de kiwi con pulpa verde. Se concreta la variedad porque existen kiwis de otras pulpas.",
+      "tags": [
+        "comida"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Kiwifruit",
+          "url": "https://en.wikipedia.org/wiki/Kiwifruit"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "comida-017",
+      "category": "comida",
+      "difficulty": "medio",
+      "prompt": "¿De qué color es la pulpa de una sandía Sugar Baby madura, sin contar semillas ni corteza?",
+      "answerColors": [
+        "rojo"
+      ],
+      "explanation": "La variedad Sugar Baby tiene pulpa roja. El nombre de la variedad evita confundirla con sandías de otros colores.",
+      "tags": [
+        "comida"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Burpee · Sugar Baby Watermelon",
+          "url": "https://www.burpee.com/products/watermelon-sugar-baby-prod000561"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "comida-018",
+      "category": "comida",
+      "difficulty": "medio",
+      "prompt": "¿De qué color es la carne de una zanahoria de la variedad Nantes, sin contar las hojas?",
+      "answerColors": [
+        "naranja"
+      ],
+      "explanation": "La carne de la zanahoria Nantes es naranja. Otras variedades de zanahoria pueden tener colores distintos.",
+      "tags": [
+        "comida"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Specialty Produce · Nantes Carrots",
+          "url": "https://specialtyproduce.com/produce/Nantes_Carrots_5213.php"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "comida-019",
+      "category": "comida",
+      "difficulty": "medio",
+      "prompt": "¿De qué color es principalmente la carne de una remolacha de la variedad Detroit Dark Red, sin contar hojas ni tallos?",
+      "answerColors": [
+        "rojo"
+      ],
+      "explanation": "Esta variedad tiene carne roja oscura. El rojo oscuro se responde con rojo; existen otras variedades de distinto color.",
+      "tags": [
+        "comida"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Beetroot",
+          "url": "https://en.wikipedia.org/wiki/Beetroot"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "comida-020",
+      "category": "comida",
+      "difficulty": "medio",
+      "prompt": "¿Qué dos colores tienen la piel y el interior de un rabanito Cherry Belle, sin contar las hojas?",
+      "answerColors": [
+        "rojo",
+        "blanco"
+      ],
+      "explanation": "Cherry Belle tiene piel roja e interior blanco. Se concreta la variedad porque otros rábanos tienen otros colores.",
+      "tags": [
+        "comida"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Radish",
+          "url": "https://en.wikipedia.org/wiki/Radish"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "comida-021",
+      "category": "comida",
+      "difficulty": "medio",
+      "prompt": "En un queso brie tradicional, ¿de qué color es la capa de moho de su corteza comestible?",
+      "answerColors": [
+        "blanco"
+      ],
+      "explanation": "La corteza del brie tradicional está cubierta de moho blanco. No se pregunta por la pasta interior.",
+      "tags": [
+        "comida"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Brie",
+          "url": "https://en.wikipedia.org/wiki/Brie"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "comida-022",
+      "category": "comida",
+      "difficulty": "medio",
+      "prompt": "¿De qué color son los granos de arroz común pulido, tras retirar cáscara y salvado, sin añadir ingredientes?",
+      "answerColors": [
+        "blanco"
+      ],
+      "explanation": "El pulido elimina cáscara y salvado y deja el aspecto blanco característico. Se excluyen arroces pigmentados y mezclas.",
+      "tags": [
+        "comida"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · White rice",
+          "url": "https://en.wikipedia.org/wiki/White_rice"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "comida-023",
+      "category": "comida",
+      "difficulty": "dificil",
+      "prompt": "En un tueste de café tipo City, ¿de qué color son los granos tostados?",
+      "answerColors": [
+        "marron"
+      ],
+      "explanation": "El tueste City da un color marrón medio. Se concreta el tueste porque otros pueden dejar los granos mucho más oscuros.",
+      "tags": [
+        "comida"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Coffee roasting",
+          "url": "https://en.wikipedia.org/wiki/Coffee_roasting"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "comida-024",
+      "category": "comida",
+      "difficulty": "dificil",
+      "prompt": "¿De qué color es la salsa de soja japonesa de tipo koikuchi vista en una capa fina a contraluz?",
+      "answerColors": [
+        "marron"
+      ],
+      "explanation": "La salsa de soja fermentada es marrón oscuro. Se observa en capa fina para distinguir el color de su apariencia casi negra en un recipiente profundo.",
+      "tags": [
+        "comida"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Soy sauce",
+          "url": "https://en.wikipedia.org/wiki/Soy_sauce"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "comida-025",
+      "category": "comida",
+      "difficulty": "medio",
+      "prompt": "¿De qué color es normalmente la superficie carnosa de un fresón de jardín maduro de coloración típica, sin contar hojas ni aquenios?",
+      "answerColors": [
+        "rojo"
+      ],
+      "explanation": "La pigmentación típica del fresón maduro es roja. Se excluyen variedades de fruto blanco y las pequeñas estructuras de la superficie.",
+      "tags": [
+        "comida"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Strawberry",
+          "url": "https://en.wikipedia.org/wiki/Strawberry"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "comida-026",
+      "category": "comida",
+      "difficulty": "medio",
+      "prompt": "¿De qué color es la cabeza comestible de una coliflor Snowball sana, antes de amarillear, sin contar las hojas?",
+      "answerColors": [
+        "blanco"
+      ],
+      "explanation": "La variedad Snowball forma una cabeza blanca. Se excluyen las hojas y el amarilleamiento causado por la exposición.",
+      "tags": [
+        "comida"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "HPS · Catálogo de semillas",
+          "url": "https://s3.amazonaws.com/cdn.hpsseed.com/downloads/24-25HPSCatalog.pdf"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cotidiano-013",
+      "category": "cotidiano",
+      "difficulty": "medio",
+      "prompt": "¿Qué dos colores forman el fondo y la cruz de la bandera nacional de Suecia?",
+      "answerColors": [
+        "azul",
+        "amarillo"
+      ],
+      "explanation": "La bandera sueca tiene una cruz amarilla sobre fondo azul.",
+      "tags": [
+        "cotidiano"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Flag of Sweden",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Sweden"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cotidiano-014",
+      "category": "cotidiano",
+      "difficulty": "medio",
+      "prompt": "¿Qué dos colores forman el fondo y la cruz de la bandera nacional de Dinamarca?",
+      "answerColors": [
+        "rojo",
+        "blanco"
+      ],
+      "explanation": "El Dannebrog tiene una cruz blanca sobre fondo rojo.",
+      "tags": [
+        "cotidiano"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Flag of Denmark",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Denmark"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cotidiano-015",
+      "category": "cotidiano",
+      "difficulty": "medio",
+      "prompt": "Sin contar un posible escudo, ¿qué dos colores forman el fondo y la cruz de la bandera nacional de Finlandia?",
+      "answerColors": [
+        "blanco",
+        "azul"
+      ],
+      "explanation": "La bandera civil finlandesa tiene una cruz azul sobre fondo blanco. El escudo de variantes estatales queda excluido.",
+      "tags": [
+        "cotidiano"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Flag of Finland",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Finland"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cotidiano-016",
+      "category": "cotidiano",
+      "difficulty": "medio",
+      "prompt": "¿Qué tres colores forman el fondo, la cruz y su borde en la bandera nacional de Noruega?",
+      "answerColors": [
+        "rojo",
+        "azul",
+        "blanco"
+      ],
+      "explanation": "La bandera noruega tiene fondo rojo y una cruz azul perfilada de blanco.",
+      "tags": [
+        "cotidiano"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Flag of Norway",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Norway"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cotidiano-017",
+      "category": "cotidiano",
+      "difficulty": "medio",
+      "prompt": "¿Qué tres colores forman el fondo, la cruz y su borde en la bandera nacional de Islandia?",
+      "answerColors": [
+        "azul",
+        "rojo",
+        "blanco"
+      ],
+      "explanation": "La bandera islandesa tiene fondo azul y una cruz roja perfilada de blanco.",
+      "tags": [
+        "cotidiano"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Flag of Iceland",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Iceland"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cotidiano-018",
+      "category": "cotidiano",
+      "difficulty": "medio",
+      "prompt": "¿Qué dos colores forman el fondo y la cruz de la bandera nacional de Suiza?",
+      "answerColors": [
+        "rojo",
+        "blanco"
+      ],
+      "explanation": "La bandera suiza tiene una cruz blanca centrada sobre fondo rojo.",
+      "tags": [
+        "cotidiano"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Flag of Switzerland",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Switzerland"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cotidiano-019",
+      "category": "cotidiano",
+      "difficulty": "medio",
+      "prompt": "Sin contar el escudo de variantes estatales, ¿qué dos colores tienen las franjas de la bandera nacional de Austria?",
+      "answerColors": [
+        "rojo",
+        "blanco"
+      ],
+      "explanation": "La bandera civil de Austria tiene franjas roja, blanca y roja. Son dos colores distintos.",
+      "tags": [
+        "cotidiano"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Flag of Austria",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Austria"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cotidiano-020",
+      "category": "cotidiano",
+      "difficulty": "medio",
+      "prompt": "Sin contar el escudo de algunas variantes, ¿qué dos colores tienen las franjas de la bandera nacional de Polonia?",
+      "answerColors": [
+        "blanco",
+        "rojo"
+      ],
+      "explanation": "La bandera polaca tiene una franja blanca arriba y otra roja abajo.",
+      "tags": [
+        "cotidiano"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Flag of Poland",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Poland"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cotidiano-021",
+      "category": "cotidiano",
+      "difficulty": "medio",
+      "prompt": "¿Qué dos colores tienen las franjas de la bandera nacional de Ucrania?",
+      "answerColors": [
+        "azul",
+        "amarillo"
+      ],
+      "explanation": "La bandera ucraniana tiene una franja azul arriba y otra amarilla abajo.",
+      "tags": [
+        "cotidiano"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Flag of Ukraine",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Ukraine"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cotidiano-022",
+      "category": "cotidiano",
+      "difficulty": "medio",
+      "prompt": "¿Qué tres colores tienen las franjas de la bandera nacional de Estonia?",
+      "answerColors": [
+        "azul",
+        "negro",
+        "blanco"
+      ],
+      "explanation": "La bandera estonia combina azul, negro y blanco, de arriba abajo.",
+      "tags": [
+        "cotidiano"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Flag of Estonia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Estonia"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cotidiano-023",
+      "category": "cotidiano",
+      "difficulty": "medio",
+      "prompt": "¿Qué tres colores tienen las franjas de la bandera nacional de los Países Bajos en su diseño actual?",
+      "answerColors": [
+        "rojo",
+        "blanco",
+        "azul"
+      ],
+      "explanation": "El diseño nacional actual tiene franjas roja, blanca y azul. No se pregunta por la histórica bandera del Príncipe.",
+      "tags": [
+        "cotidiano"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Flag of the Netherlands",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_Netherlands"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cotidiano-024",
+      "category": "cotidiano",
+      "difficulty": "medio",
+      "prompt": "¿Qué tres colores tienen las franjas de la bandera nacional tricolor de Luxemburgo?",
+      "answerColors": [
+        "rojo",
+        "blanco",
+        "azul"
+      ],
+      "explanation": "La bandera nacional tiene franjas roja, blanca y azul claro. No se pregunta por el pabellón con el león.",
+      "tags": [
+        "cotidiano"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Flag of Luxembourg",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Luxembourg"
+        }
+      ],
+      "reviewedAt": "2026-10-03"
+    },
+    {
+      "id": "cotidiano-025",
+      "category": "cotidiano",
+      "difficulty": "medio",
+      "prompt": "¿Qué tres colores tienen las franjas de la bandera nacional de Rumanía?",
+      "answerColors": [
+        "azul",
+        "amarillo",
+        "rojo"
+      ],
+      "explanation": "La bandera rumana tiene tres franjas verticales: azul, amarilla y roja, desde el asta.",
+      "tags": [
+        "cotidiano"
+      ],
+      "status": "approved",
+      "sources": [
+        {
+          "title": "Wikipedia · Flag of Romania",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Romania"
         }
       ],
       "reviewedAt": "2026-10-03"

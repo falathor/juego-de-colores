@@ -4,7 +4,7 @@ Fecha: 3 de octubre de 2026.
 
 ## Comprobaciones realizadas
 
-- **27/27 pruebas de lógica y catálogo** con `node tests/run.mjs`, sin paquetes
+- **28/28 pruebas de lógica y catálogo** con `node tests/run.mjs`, sin paquetes
   del proyecto. Incluyen un flujo con cuatro equipos y restauración en cada turno.
 - **13/13 comprobaciones de navegador** con Playwright externo y Chrome de
   escritorio. Partidas completas en los tres modos, respuestas ocultas,
@@ -32,23 +32,26 @@ Fecha: 3 de octubre de 2026.
   ejes y borde visible. Comprobados los once fondos de la paleta; contraste de
   texto mínimo calculado **4,91:1**. Capturas adicionales `tarjetas-*.png` en
   `artifacts/` usan datos ficticios para comprobar la presentación.
-- **OpenSpec: 4/4 elementos válidos**, cambios `crear-juego`,
-  `ampliar-preguntas-y-tarjetas`, `publicar-github-pages` y especificación
+- **OpenSpec: 5/5 elementos válidos**, cambios `crear-juego`,
+  `ampliar-preguntas-y-tarjetas`, `publicar-github-pages`, `ampliar-catalogo-100` y especificación
   `juego`, mediante `openspec validate --all` usando la CLI externa.
 
 ## Contenido y tamaño
 
-98 preguntas aprobadas: trece en España y series y doce en cada una de las
-otras seis categorías. La versión 1.1.0 incorpora exactamente 50 nuevas;
-se ha comparado con el catálogo anterior y sus 49 entradas permanecen intactas.
+198 preguntas aprobadas: veinticuatro en cine y animación y veinticinco en cada
+una de las otras seis categorías. La versión 1.2.0 incorpora exactamente 100 nuevas;
+se ha comparado con el catálogo anterior y sus 99 entradas permanecen intactas.
+Una prueba de conservación comprueba la huella de las entradas de ambas versiones anteriores.
 Cada pregunta aprobada
 incluye referencia consultada y fecha de revisión. Hay un borrador adicional
 excluido de las partidas. No se han comprobado las respuestas simplemente
 mediante el validador de JSON: se consultaron fuentes durante la preparación.
 
 HTML + CSS + cinco módulos JS: **57.868 bytes** (aprox. 57,9 KB, sin comprimir).
-Catálogo: **67.921 bytes** (aprox. 67,9 KB, sin comprimir).
-Ambos cumplen el presupuesto orientativo de 100 KB por bloque.
+Catálogo: **136.037 bytes** (aprox. 136 KB, sin comprimir).
+La aplicación mantiene el presupuesto orientativo de 100 KB. El catálogo supera
+ese objetivo inicial al incorporar las cien preguntas solicitadas; permanece como
+JSON legible sin añadir dependencias ni una compilación.
 Las pruebas y documentación no se descargan durante una partida.
 
 ## Pendiente de comprobación externa
@@ -67,7 +70,7 @@ sin conexión.
 - Web HTTPS: https://falathor.github.io/juego-de-colores/.
 - GitHub Pages configurado desde la raíz de `main`; despliegue inicial correcto.
 - Las actualizaciones se publican mediante `git push origin main`.
-- **13/13 comprobaciones remotas correctas** con el ejecutor de navegador y
+- Publicación anterior (versión 1.1.0): **13/13 comprobaciones remotas correctas** con el ejecutor de navegador y
   Chrome de escritorio: 98 preguntas, los tres modos, recarga, puntuación,
   filtros, anulación, privacidad de turnos y tarjetas a 320 px, sin errores de
   consola. También se ejecutaron **27/27 pruebas** desde la web publicada.
