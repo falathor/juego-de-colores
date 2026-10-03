@@ -32,8 +32,8 @@ Fecha: 3 de octubre de 2026.
   ejes y borde visible. Comprobados los once fondos de la paleta; contraste de
   texto mínimo calculado **4,91:1**. Capturas adicionales `tarjetas-*.png` en
   `artifacts/` usan datos ficticios para comprobar la presentación.
-- **OpenSpec: 3/3 elementos válidos**, cambios `crear-juego`,
-  `ampliar-preguntas-y-tarjetas` y especificación
+- **OpenSpec: 4/4 elementos válidos**, cambios `crear-juego`,
+  `ampliar-preguntas-y-tarjetas`, `publicar-github-pages` y especificación
   `juego`, mediante `openspec validate --all` usando la CLI externa.
 
 ## Contenido y tamaño
@@ -58,6 +58,17 @@ La emulación de ancho en Chrome no verifica esos motores ni el comportamiento
 de sus teclados, áreas seguras o almacenamiento. Tampoco se ha auditado con un
 lector de pantalla ni se ha realizado una certificación completa de accesibilidad.
 
-La app está lista para subir a GitHub Pages, pero no se ha publicado ni se ha
-comprobado una URL remota. La guía está en `README.md`. No hay sincronización
-entre dispositivos ni soporte garantizado de recarga sin conexión.
+No hay sincronización entre dispositivos ni soporte garantizado de recarga
+sin conexión.
+
+## Publicación
+
+- Repositorio público: https://github.com/falathor/juego-de-colores.
+- Web HTTPS: https://falathor.github.io/juego-de-colores/.
+- GitHub Pages configurado desde la raíz de `main`; despliegue inicial correcto.
+- Las actualizaciones se publican mediante `git push origin main`.
+- **13/13 comprobaciones remotas correctas** con el ejecutor de navegador y
+  Chrome de escritorio: 98 preguntas, los tres modos, recarga, puntuación,
+  filtros, anulación, privacidad de turnos y tarjetas a 320 px, sin errores de
+  consola. También se ejecutaron **27/27 pruebas** desde la web publicada.
+  Los resultados detallados están en `artifacts/browser-results.json`.

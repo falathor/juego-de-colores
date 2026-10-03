@@ -108,3 +108,15 @@ entre una y cuatro tarjetas sin desbordar a 320 px, en todos los modos.
   cada tarjeta mide al menos 140 × 170 px si el espacio disponible lo permite.
 - WHEN la solución aún no se ha revelado
 - THEN no aparece ninguna tarjeta de solución.
+
+### Requirement: Publicación en GitHub Pages
+El proyecto SHALL publicarse en la cuenta indicada por el usuario con la
+visibilidad acordada. GitHub Pages SHALL servir la aplicación desde main y
+su raíz, con rutas relativas y sin credenciales del entorno en el repositorio.
+La documentación SHALL indicar la URL comprobada y el flujo de actualización.
+
+#### Scenario: Juego disponible online
+- GIVEN el proyecto subido y GitHub Pages activado
+- WHEN se abre la URL HTTPS de la aplicación
+- THEN se cargan la interfaz y las 98 preguntas aprobadas y se puede completar
+  una partida sin errores de recursos.

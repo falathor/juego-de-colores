@@ -5,6 +5,9 @@ de colores. Funciona con cartas físicas, pasando un único móvil entre equipos
 o en solitario. HTML, CSS y JavaScript nativo; **sin dependencias de ejecución,
 compilación, cuentas ni servidor de aplicación**.
 
+**Jugar online:** [falathor.github.io/juego-de-colores](https://falathor.github.io/juego-de-colores/).
+Repositorio público: [falathor/juego-de-colores](https://github.com/falathor/juego-de-colores).
+
 ## Ejecutar en local
 
 Desde la carpeta del proyecto, con Node.js 22 o posterior:
@@ -160,7 +163,20 @@ node tests/browser-smoke.mjs /ruta/absoluta/a/playwright/index.mjs https://USUAR
 
 Guías oficiales: [qué es GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)
 y [configurar la publicación](https://docs.github.com/en/pages/quickstart).
-El proyecto se entrega preparado para subir; **no está publicado** en una cuenta.
+La publicación está activa en la cuenta **falathor**, desde la raíz de **main**.
+Cada subida a esa rama actualiza automáticamente la web. Para publicar cambios
+desde esta carpeta, después de revisarlos y ejecutar las pruebas:
+
+```sh
+git add -- ARCHIVOS_MODIFICADOS
+git commit -m "Descripción del cambio" -m "Detalle y validación del cambio"
+git push origin main
+```
+
+Sustituye `ARCHIVOS_MODIFICADOS` por los archivos que quieras incluir. Comprueba
+el despliegue en la pestaña **Actions** del repositorio y recarga la web cuando
+termine. Las partidas guardadas mantienen sus preguntas; para usar un catálogo
+actualizado, empieza una nueva partida.
 
 ## Organización
 
