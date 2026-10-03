@@ -1,9 +1,10 @@
 # ¿De qué color?
 
-Juego presencial de preguntas en castellano. Todas las respuestas son conjuntos
+Juego de preguntas en castellano. Todas las respuestas son conjuntos
 de colores. Funciona con cartas físicas, pasando un único móvil entre equipos,
-o en solitario. HTML, CSS y JavaScript nativo; **sin dependencias de ejecución,
-compilación, cuentas ni servidor de aplicación**.
+o en línea desde varios dispositivos. HTML, CSS y JavaScript nativo, sin librerías
+de navegador ni cuentas para jugar. La web se sirve en GitHub Pages y las salas
+se sincronizan mediante Cloudflare Workers y Durable Objects.
 
 **Jugar online:** [falathor.github.io/juego-de-colores](https://falathor.github.io/juego-de-colores/).
 Repositorio público: [falathor/juego-de-colores](https://github.com/falathor/juego-de-colores).
@@ -37,8 +38,24 @@ Abre **http://localhost:8001/juego-de-colores/**.
 - **Pasa el móvil**: configura 2–4 equipos. Leed juntos cada pregunta y pasad
   el dispositivo. Cada equipo abre su turno, elige y confirma. La pantalla
   neutral oculta las selecciones; la solución aparece cuando todos responden.
-- **Individual**: selecciona exactamente los colores indicados y confirma.
-  El resumen muestra aciertos sobre rondas válidas y porcentaje.
+- **Jugar en línea**: escribe tu nombre (opcional), crea una sala y configura
+  sus filtros. Comparte el código de **cuatro dígitos**, incluidos los ceros
+  iniciales, o el enlace: este incorpora directamente al jugador. La sala admite
+  **2–8 personas**, cada una con su dispositivo. El anfitrión participa e inicia
+  cuando están todos, revela las soluciones y avanza las rondas. Las respuestas
+  confirmadas quedan bloqueadas y ocultas a los demás hasta revelar. El anfitrión
+  puede confirmar cerrar una ronda incompleta: los ausentes reciben cero puntos.
+
+En línea, pulsa **Volver a la sala** después de recargar. La misma sesión se
+recupera sin añadir otro jugador. La sincronización consulta el servicio cada
+dos segundos; ante una interrupción reintenta manteniendo tu identidad. Las
+salas caducan **seis horas después de crearlas** y no admiten jugadores nuevos
+una vez iniciada la partida. Salir como anfitrión cierra la sala para todos;
+salir como invitado durante la partida conserva tu sesión para poder volver.
+Si el navegador bloquea el guardado, mantén abierta la página.
+
+Las partidas individuales guardadas antes de esta actualización siguen siendo
+recuperables; el inicio ofrece el modo en línea para las partidas nuevas.
 
 El orden no importa. Un acierto completo suma un punto; no hay puntos parciales
 ni penalizaciones. Puede ganar más de un equipo. La puntuación es una variante
@@ -125,6 +142,7 @@ Con Node.js 22 o posterior, sin instalar paquetes:
 
 ```sh
 node tests/run.mjs
+node --test tests/online.test.mjs
 ```
 
 O abre **http://localhost:8000/tests/** con el servidor en marcha. El ejecutor
@@ -151,6 +169,52 @@ node tests/browser-smoke.mjs /ruta/absoluta/a/playwright/index.mjs https://USUAR
 ```
 
 ## Publicar en GitHub Pages
+
+### Servicio de partidas
+
+La URL pública del Worker se configura en `js/online-config.js`. El servicio
+actual es `https://colors-online-falathor.colors-online-service.workers.dev`.
+No contiene credenciales. Para desarrollar el backend desde `backend/`:
+
+```sh
+npm ci
+npx wrangler dev --port 8787
+```
+
+Para probar contra el servicio local, cambia temporalmente `ONLINE_API` a
+`http://127.0.0.1:8787` y abre la web en `http://localhost:8000/`. Restablece
+la URL publicada antes de subir el frontend. `backend/wrangler.jsonc` limita
+los orígenes permitidos a GitHub Pages y los servidores locales documentados.
+
+Para publicar el backend, desde `backend/`:
+
+```sh
+npx wrangler login
+npx wrangler deploy
+```
+
+Publica y comprueba primero el backend, después la web. Wrangler y su archivo
+de bloqueo son dependencias de desarrollo; `node_modules/`, `.wrangler/`,
+`.dev.vars*` y archivos de credenciales están excluidos de Git. No añadas claves
+a `online-config.js` ni a los enlaces de invitación.
+
+La prueba multijugador usa tres contextos de Chrome independientes y un API
+local o publicado. El API local tiene almacenamiento de desarrollo separado;
+las pruebas unitarias de persistencia usan exclusivamente un almacén ficticio.
+Con el backend y el servidor estático en marcha:
+
+```sh
+node tests/online-browser.mjs /ruta/a/playwright/index.mjs http://localhost:8000/ http://127.0.0.1:8787
+```
+
+Los nombres, respuestas y progreso se guardan temporalmente en Cloudflare.
+Cada sala tiene un plazo fijo de seis horas y una alarma borra sus datos al
+caducar. Las claves de sesión se guardan en el navegador; el servidor conserva
+solo su hash. No hay chat, cuentas de jugadores ni registro de respuestas en
+la observabilidad del Worker. El código corto permite entrar a cualquiera que
+lo conozca mientras la sala está en espera; no funciona como una contraseña.
+
+### Web estática
 
 1. Crea un repositorio, por ejemplo `juego-de-colores`. Para el flujo habitual,
    usa un repositorio público o comprueba la disponibilidad de Pages en tu plan.
@@ -191,6 +255,8 @@ actualizado, empieza una nueva partida.
 | `js/ui.js` | DOM seguro, foco, controles y diálogos |
 | `js/storage.js` | Persistencia local y alternativa en memoria |
 | `js/catalog.js` | Paleta, categorías, carga y validación |
+| `js/online-*.js` | Motor de salas, cliente HTTP, interfaz y URL pública del servicio |
+| `backend/` | Worker, Durable Objects y configuración de despliegue |
 | `data/questions.es.json` | Preguntas editables y referencias |
 | `tests/` | Ejecutor de lógica y pruebas opcionales de navegador |
 | `tools/serve.mjs` | Servidor local opcional con Node |
@@ -198,8 +264,11 @@ actualizado, empieza una nueva partida.
 
 ## Límites
 
-- Una pantalla compartida; abrir la URL en otros dispositivos crea sesiones
-  independientes. No hay salas ni sincronización.
+- El modo en línea requiere conexión y admite hasta ocho jugadores por sala.
+  Comparte su código o enlace para entrar en la misma partida. No transfiere el
+  rol de anfitrión: si se desconecta, puede volver desde su sesión guardada.
+- El servicio está sujeto a las cuotas de Cloudflare; el límite de acceso es
+  cinco salas creadas por diez minutos y cuarenta entradas por minuto, por IP.
 - La privacidad de turnos es casual y las respuestas del catálogo son públicas.
 - Necesita red para cargar recursos. No incluye service worker ni promete uso
   sin conexión después de cerrar o recargar.

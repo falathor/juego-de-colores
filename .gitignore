@@ -4,3 +4,5 @@ node_modules/
 sa.json
 *.pem
 *.key
+.wrangler/
+.dev.vars*

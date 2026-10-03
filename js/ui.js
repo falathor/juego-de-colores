@@ -21,7 +21,7 @@ const button = (label, action, className = 'secondary', attrs = {}) => el('butto
   type: 'button', class: className, text: label, onClick: action, ...attrs,
 });
 const heading = (label, tag = 'h1', className = '') => el(tag, { text: label, tabindex: '-1', 'data-heading': '', class: className });
-const modeNames = { physical: 'Jugar con cartas', pass: 'Pasa el móvil', solo: 'Individual' };
+const modeNames = { physical: 'Jugar con cartas', pass: 'Pasa el móvil', solo: 'Individual', online: 'Jugar en línea' };
 export function notice(message) {
   const node = document.getElementById('notice');
   node.textContent = message;
@@ -51,7 +51,7 @@ export function confirmDialog(title, message, action, label = 'Confirmar') {
     { label, className: 'danger', action },
   ]);
 }
-export function renderHome({ catalog, game, corrupt, error, configure, resume, discard, retry }) {
+export function renderHome({ catalog, game, corrupt, error, configure, resume, discard, retry, onlineResume }) {
   const root = el('div', { class: 'home-view' });
   const title = heading('');
   title.append('¿De qué ', el('span', { class: 'color-word', text: 'color' }), '?');
@@ -63,10 +63,12 @@ export function renderHome({ catalog, game, corrupt, error, configure, resume, d
   if (corrupt) root.append(el('div', { class: 'resume' },
     text('p', 'La partida guardada está dañada. Puedes borrarla e iniciar una nueva.'),
     button('Borrar partida dañada', discard)));
+  if (onlineResume) root.append(el('div', { class: 'resume' }, text('p', 'Tienes una sesión de juego en línea guardada.'),
+    button('Volver a la sala', onlineResume, 'primary')));
   const modeCards = [
     ['physical', 'Jugar con cartas', 'Sacad vuestras cartas de colores. Nosotros ponemos las preguntas.', '2 o más personas · Mazo físico', 'cards'],
     ['pass', 'Pasa el móvil', 'Un solo dispositivo, varios equipos. Cada respuesta, en secreto.', '2–4 equipos · Sin cartas', '⇄'],
-    ['solo', 'Individual', '¿Cuánto recuerdas? Elige los colores y comprueba tus aciertos.', '1 persona · A tu ritmo', '✦'],
+    ['online', 'Jugar en línea', 'Cada persona en su dispositivo. Compartid un código o un enlace.', '2–8 personas · Una misma partida', '↗'],
   ];
   root.append(el('div', { class: 'mode-grid' }, modeCards.map(([mode, label, description, detail, art]) => {
     const illustration = el('span', { class: 'mode-art', 'aria-hidden': 'true' });
@@ -85,7 +87,7 @@ export function renderSetup({ catalog, config, seen, update, start, back }) {
   root.append(button('← Volver', back, 'back'), el('div', { class: 'setup-title' },
     text('p', 'PREPARAD LA PARTIDA', 'eyebrow'), heading(modeNames[config.mode]),
     text('p', config.mode === 'physical' ? 'Jugad con vuestras cartas y revelad la solución juntos.'
-      : config.mode === 'pass' ? 'Responded por turnos, pasando un único dispositivo.' : 'Un reto de memoria, color a color.')));
+      : config.mode === 'pass' ? 'Responded por turnos, pasando un único dispositivo.' : config.mode === 'online' ? 'Crea una sala e invita a los demás desde sus dispositivos.' : 'Un reto de memoria, color a color.')));
   const panel = el('div', { class: 'panel setup-panel' });
   const categoryButtons = CATEGORIES.map(c => button('', () => {
     const categories = config.categories.includes(c.id) ? config.categories.filter(id => id !== c.id) : [...config.categories, c.id];
@@ -125,7 +127,7 @@ export function renderSetup({ catalog, config, seen, update, start, back }) {
   const available = text('p', '', 'availability');
   available.id = 'availability';
   available.setAttribute('aria-live', 'polite');
-  const startButton = button('Empezar partida →', start, 'primary', { id: 'start-game', 'aria-describedby': 'availability' });
+  const startButton = button(config.mode === 'online' ? 'Crear sala →' : 'Empezar partida →', start, 'primary', { id: 'start-game', 'aria-describedby': 'availability' });
   function refreshAvailability() {
     const questions = filteredQuestions(catalog, config);
     const count = questions.length;
@@ -155,14 +157,17 @@ export function solutionTextColor(hex) {
     / (Math.min(background, luminance(foreground)) + .05);
   return contrast(dark) >= contrast(light) ? dark : light;
 }
-function colorTags(ids) {
+export function colorTags(ids) {
   return el('div', { class: 'solution-colors' }, COLORS.filter(c => ids.includes(c.id)).map(c =>
     el('div', { class: 'solution-card', style: `--swatch:${c.hex};--solution-ink:${solutionTextColor(c.hex)}` },
       el('strong', { text: c.label }))));
 }
-function answerLabel(ids) { return COLORS.filter(c => ids?.includes(c.id)).map(c => c.label).join(' + '); }
+export function answerLabel(ids) { return COLORS.filter(c => ids?.includes(c.id)).map(c => c.label).join(' + '); }
 function scoreList(game, round = null) {
-  return el('div', { class: 'score-list' }, scores(game).map(team => {
+  return scoreRows(scores(game), round);
+}
+export function scoreRows(players, round = null) {
+  return el('div', { class: 'score-list' }, players.map(team => {
     const details = el('div', {}, text('div', team.name, 'team-name'));
     if (round && !round.void) {
       const correct = round.correctTeamIds.includes(team.id);
@@ -172,6 +177,16 @@ function scoreList(game, round = null) {
     return el('div', { class: 'score-row' }, details,
       el('div', { class: 'score-number' }, String(team.score), text('span', ' pts', 'small-unit')));
   }));
+}
+export function colorPicker(selection, toggle) {
+  return el('div', { class: 'color-grid', role: 'group', 'aria-label': 'Colores de tu respuesta' }, COLORS.map(c =>
+    button('', () => toggle(c.id), 'color-button', {
+      id: `color-${c.id}`, 'aria-pressed': String(selection.includes(c.id)), 'aria-label': c.label,
+    })).map((b, i) => {
+      b.append(el('span', { class: 'swatch', style: `--swatch:${COLORS[i].hex}`, 'aria-hidden': 'true' }), text('span', COLORS[i].label),
+        el('span', { class: 'selection-mark', text: selection.includes(COLORS[i].id) ? '✓' : '', 'aria-hidden': 'true' }));
+      return b;
+    }));
 }
 export function renderGame({ game, transition, home }) {
   if (game.phase === 'finished') return renderFinal({ game, home, again: () => transition('again') });
@@ -203,14 +218,7 @@ export function renderGame({ game, transition, home }) {
   if (!result) panel.append(el('p', { class: 'required' }, text('span', String(q.answerColors.length)),
     text('span', `${game.phase === 'answering' ? 'Elige' : 'La respuesta tiene'} ${q.answerColors.length} ${q.answerColors.length === 1 ? 'color' : 'colores'}${game.phase === 'answering' ? '' : q.answerColors.length === 1 ? ' distinto' : ' distintos'}.`)));
   if (game.phase === 'answering') {
-    panel.append(el('div', { class: 'color-grid', role: 'group', 'aria-label': 'Colores de tu respuesta' }, COLORS.map(c =>
-      button('', () => transition('toggleColor', c.id), 'color-button', {
-        id: `color-${c.id}`, 'aria-pressed': String(game.selection.includes(c.id)), 'aria-label': c.label,
-      })).map((b, i) => {
-        b.append(el('span', { class: 'swatch', style: `--swatch:${COLORS[i].hex}`, 'aria-hidden': 'true' }), text('span', COLORS[i].label),
-          el('span', { class: 'selection-mark', text: game.selection.includes(COLORS[i].id) ? '✓' : '', 'aria-hidden': 'true' }));
-        return b;
-      })), el('p', { class: 'selection-count', 'aria-live': 'polite', text: `${game.selection.length} de ${q.answerColors.length} ${q.answerColors.length === 1 ? 'color seleccionado' : 'colores seleccionados'}` }),
+    panel.append(colorPicker(game.selection, id => transition('toggleColor', id)), el('p', { class: 'selection-count', 'aria-live': 'polite', text: `${game.selection.length} de ${q.answerColors.length} ${q.answerColors.length === 1 ? 'color seleccionado' : 'colores seleccionados'}` }),
       el('div', { class: 'game-actions' }, button('Confirmar respuesta', () => transition('confirmAnswer'), 'primary',
         { disabled: game.selection.length !== q.answerColors.length })));
   } else if (result) {

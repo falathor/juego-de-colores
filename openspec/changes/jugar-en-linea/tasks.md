@@ -1,0 +1,6 @@
+- [x] Definir arquitectura, requisitos y aceptación.
+- [x] Implementar motor y servicio autoritativo con pruebas.
+- [x] Integrar interfaz, invitaciones y recuperación.
+- [x] Verificar API, dos navegadores y modos presenciales.
+- [x] Activar servicio con la cuenta del usuario.
+- [ ] Actualizar documentación, publicar y verificar URL remota.

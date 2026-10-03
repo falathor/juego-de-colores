@@ -6,15 +6,26 @@ Fecha: 3 de octubre de 2026.
 
 - **28/28 pruebas de lógica y catálogo** con `node tests/run.mjs`, sin paquetes
   del proyecto. Incluyen un flujo con cuatro equipos y restauración en cada turno.
+- **13/13 pruebas online** con `node --test tests/online.test.mjs`: roles,
+  privacidad de respuestas, capacidad, caducidad, códigos con ceros, filtros,
+  idempotencia, anulación, petición antigua, conservación de confirmaciones
+  concurrentes, CORS y autenticación. Los fallos intermedios de persistencia
+  fuerzan rollback del documento y alarma; no se conecta a datos de producción.
+- **5/5 comprobaciones multijugador**, con tres contextos independientes de
+  Chrome, contra Wrangler local y contra el Worker publicado de Cloudflare:
+  entrada por código/enlace, roles, respuestas simultáneas ocultas, recarga,
+  revelación compartida, puntos sin duplicados, anulación, cierre de ronda con
+  ausentes, diez rondas puntuables, empate y cierre de sala. Invitado a 320 px.
 - **13/13 comprobaciones de navegador** con Playwright externo y Chrome de
-  escritorio. Partidas completas en los tres modos, respuestas ocultas,
+  escritorio. Partidas completas presenciales e individual anterior, respuestas ocultas,
   teclado para seleccionar, límite de selección, recarga de turnos y resultados,
   empate, nombres interpretados como texto, marcador físico, anulación y
   agotamiento, filtros, corrupción y fallo de `localStorage`.
 - Carga por HTTP en raíz y `/juego-de-colores/`, con partida completada en la
   subcarpeta. CSS, módulos y JSON se cargan con rutas relativas.
-- Sin errores de consola en los flujos de navegador comprobados ni descargas
-  externas de fuentes, imágenes, librerías o servicios durante el juego.
+- Sin errores de consola en los flujos comprobados ni descargas externas de
+  fuentes, imágenes o librerías. En línea se consulta únicamente el servicio
+  de partidas; abrir el inicio no conecta con Cloudflare.
 - Viewports de 1280 × 900 y 320 × 740. Sin desplazamiento horizontal en inicio,
   configuración, pregunta, selección y solución a 320 px. Once opciones con etiqueta,
   tres columnas móviles, controles de al menos 44 px y foco de teclado visible.
@@ -32,9 +43,11 @@ Fecha: 3 de octubre de 2026.
   ejes y borde visible. Comprobados los once fondos de la paleta; contraste de
   texto mínimo calculado **4,91:1**. Capturas adicionales `tarjetas-*.png` en
   `artifacts/` usan datos ficticios para comprobar la presentación.
-- **OpenSpec: 5/5 elementos válidos**, cambios `crear-juego`,
+- **OpenSpec: 6/6 elementos válidos**, cambios `crear-juego`,
   `ampliar-preguntas-y-tarjetas`, `publicar-github-pages`, `ampliar-catalogo-100` y especificación
-  `juego`, mediante `openspec validate --all` usando la CLI externa.
+  `jugar-en-linea` y especificación `juego`, mediante `openspec validate --all`
+  usando la CLI externa. Los avisos informativos de archivo de cambios
+  anteriores proceden de requisitos ya sincronizados; no hay errores de validación.
 
 ## Contenido y tamaño
 
@@ -47,7 +60,7 @@ incluye referencia consultada y fecha de revisión. Hay un borrador adicional
 excluido de las partidas. No se han comprobado las respuestas simplemente
 mediante el validador de JSON: se consultaron fuentes durante la preparación.
 
-HTML + CSS + cinco módulos JS: **57.868 bytes** (aprox. 57,9 KB, sin comprimir).
+HTML + CSS + nueve módulos JS: **84.109 bytes** (aprox. 84,1 KB, sin comprimir).
 Catálogo: **136.037 bytes** (aprox. 136 KB, sin comprimir).
 La aplicación mantiene el presupuesto orientativo de 100 KB. El catálogo supera
 ese objetivo inicial al incorporar las cien preguntas solicitadas; permanece como
@@ -61,8 +74,9 @@ La emulación de ancho en Chrome no verifica esos motores ni el comportamiento
 de sus teclados, áreas seguras o almacenamiento. Tampoco se ha auditado con un
 lector de pantalla ni se ha realizado una certificación completa de accesibilidad.
 
-No hay sincronización entre dispositivos ni soporte garantizado de recarga
-sin conexión.
+No se garantiza recargar sin conexión. El modo online sincroniza por consulta
+cada dos segundos, necesita red y no transfiere automáticamente el anfitrión.
+Las salas duran hasta seis horas y están sujetas a las cuotas del servicio.
 
 ## Publicación
 
@@ -70,10 +84,16 @@ sin conexión.
 - Web HTTPS: https://falathor.github.io/juego-de-colores/.
 - GitHub Pages configurado desde la raíz de `main`; despliegue inicial correcto.
 - Las actualizaciones se publican mediante `git push origin main`.
-- Publicación actual (versión 1.2.0): **13/13 comprobaciones remotas correctas** con el ejecutor de navegador y
+- Publicación anterior del catálogo (versión 1.2.0): **13/13 comprobaciones remotas correctas** con el ejecutor de navegador y
   Chrome de escritorio: 198 preguntas, los tres modos, recarga, puntuación,
   filtros, anulación, privacidad de turnos y tarjetas a 320 px, sin errores de
   consola. También se ejecutaron **28/28 pruebas** desde la web publicada.
   Los resultados detallados están en `artifacts/browser-results.json`.
 - Despliegue del commit `7b665a0` completado correctamente. El catálogo público
   sirve `contentVersion: 1.2.0`, con 198 aprobadas y 199 entradas totales.
+- Servicio de salas publicado y comprobado:
+  https://colors-online-falathor.colors-online-service.workers.dev.
+  Se ha autorizado Wrangler con la cuenta del usuario y publicado el Worker
+  con dos Durable Objects SQLite. No se activaron planes de pago.
+- La actualización de la web se publicará después de verificar el backend;
+  la comprobación final de la URL de GitHub Pages se registra tras su despliegue.

@@ -25,7 +25,17 @@ async function availableQuestions(categories, difficulty) {
   return catalog.questions.filter(q => q.status === 'approved' && categories.includes(q.category)
     && (difficulty === 'todas' || q.difficulty === difficulty)).length;
 }
-async function fresh() { await page.goto(root); await page.evaluate(() => localStorage.clear()); await page.reload(); await page.getByRole('heading', { name: 'Individual', exact: true }).waitFor(); }
+async function fresh() { await page.goto(root); await page.evaluate(() => localStorage.clear()); await page.reload(); await page.getByRole('heading', { name: 'Jugar en línea', exact: true }).waitFor(); }
+async function legacySolo(filters = {}) {
+  await page.evaluate(async patch => {
+    const { loadCatalog, CATEGORIES } = await import('./js/catalog.js');
+    const { createGame } = await import('./js/game.js');
+    localStorage.setItem('de-que-color.partida.v1', JSON.stringify(createGame(await loadCatalog(), {
+      mode: 'solo', duration: 10, difficulty: 'todas', categories: CATEGORIES.map(c => c.id), ...patch,
+    })));
+  }, filters);
+  await page.reload(); await page.getByRole('button', { name: 'Continuar partida' }).click();
+}
 async function mode(name, count = '10') {
   await page.locator('.mode-card').filter({ has: page.getByRole('heading', { name, exact: true }) }).click();
   await page.locator('#duration').selectOption(count);
@@ -63,8 +73,8 @@ await test('Mazo físico sin marcador: respuesta oculta y diez rondas completas'
   }
   assert((await page.locator('h1').innerText()).includes('Mazo completado'), 'No termina');
 });
-await test('Individual: teclado, límite de colores, guardado y partida completa', async () => {
-  await fresh(); await mode('Individual'); await start();
+await test('Individual anterior: sesión compatible, teclado, límite, guardado y partida completa', async () => {
+  await fresh(); await legacySolo();
   await page.getByRole('button', { name: 'Elegir colores', exact: true }).click();
   const q = (await saved()).order[0];
   assert(await page.getByRole('button', { name: 'Confirmar respuesta' }).isDisabled(), 'Confirmar vacío permitido');
@@ -140,7 +150,7 @@ await test('Marcador físico y anulación: retirar solo puntos actuales, sustitu
   assert((await page.locator('.final-panel').innerText()).includes('agotado'), 'Falta explicar agotamiento');
 });
 await test('Filtros vacíos, categorías OR y dificultad difícil', async () => {
-  await fresh(); await mode('Individual'); await page.locator('#all-categories').click();
+  await fresh(); await mode('Pasa el móvil'); await page.locator('#all-categories').click();
   assert(await page.locator('#start-game').isDisabled(), 'Empieza sin preguntas');
   await page.locator('#category-series').click(); await page.locator('#category-comida').click();
   await page.locator('#difficulty').selectOption('dificil');
@@ -153,10 +163,11 @@ await test('Fallos de localStorage: aviso y juego en memoria', async () => {
   const volatileContext = await browser.newContext();
   await volatileContext.addInitScript(() => Object.defineProperty(window, 'localStorage', { get() { throw new Error('Denied'); } }));
   const p = await volatileContext.newPage(); await p.goto(root);
-  await p.locator('.mode-card').filter({ has: p.getByRole('heading', { name: 'Individual', exact: true }) }).click();
+  await p.locator('.mode-card').filter({ has: p.getByRole('heading', { name: 'Pasa el móvil', exact: true }) }).click();
   await p.getByRole('button', { name: 'Empezar partida →' }).click();
-  assert((await p.locator('#notice').innerText()).includes('No se puede guardar'), 'Falta aviso');
-  await p.getByRole('button', { name: 'Elegir colores', exact: true }).click();
+  assert((await p.locator('#notice').innerText()).includes('no permite guardar') || (await p.locator('#notice').innerText()).includes('No se puede guardar'), 'Falta aviso');
+  await p.getByRole('button', { name: 'Empezar los turnos', exact: true }).click();
+  await p.getByRole('button', { name: 'Empezar respuesta', exact: true }).click();
   assert(await p.locator('.color-button').count() === 11, 'No se puede jugar sin persistencia');
   await volatileContext.close();
 });
@@ -170,9 +181,10 @@ await test('320 px, cuadrícula móvil, foco visible y zoom 200 % equivalente', 
   await page.screenshot({ path: new URL('inicio-movil.png', artifacts).pathname.replace(/^\/(\w:)/, '$1'), fullPage: true });
   const fits = () => page.evaluate(() => document.documentElement.scrollWidth <= innerWidth);
   assert(await fits(), 'Desbordamiento en inicio');
-  await mode('Individual'); assert(await fits(), 'Desbordamiento en configuración'); await start();
+  await mode('Pasa el móvil'); assert(await fits(), 'Desbordamiento en configuración'); await start();
   assert(await fits(), 'Desbordamiento en pregunta');
-  await page.getByRole('button', { name: 'Elegir colores', exact: true }).click(); assert(await fits(), 'Desbordamiento en selección');
+  await page.getByRole('button', { name: 'Empezar los turnos', exact: true }).click();
+  await page.getByRole('button', { name: 'Empezar respuesta', exact: true }).click(); assert(await fits(), 'Desbordamiento en selección');
   assert(await page.locator('.color-button').count() === 11, 'Colores faltantes');
   assert((await page.locator('.color-grid').evaluate(e => getComputedStyle(e).gridTemplateColumns)).split(' ').length === 3, 'No hay tres columnas');
   const sizes = await page.locator('.color-button').evaluateAll(nodes => nodes.map(n => ({ width: n.getBoundingClientRect().width, height: n.getBoundingClientRect().height })));
@@ -230,9 +242,7 @@ await test('Solución: tarjetas grandes, nombres centrados y negrita, uno a cuat
 });
 await test('GitHub Pages: subcarpeta carga CSS, módulos y JSON y permite terminar', async () => {
   await page.goto(process.argv[3] || 'http://localhost:8001/juego-de-colores/');
-  await page.locator('.mode-card').first().waitFor(); await mode('Individual');
-  await page.locator('#all-categories').click(); await page.locator('#category-series').click();
-  await page.locator('#difficulty').selectOption('dificil'); await start();
+  await page.locator('.mode-card').first().waitFor(); await legacySolo({ categories: ['series'], difficulty: 'dificil' });
   assert((await saved()).target === 1, 'No carga datos bajo subcarpeta');
   await soloAnswer(); await page.getByRole('button', { name: 'Ver resultado final' }).click();
   assert((await page.locator('.big-score').innerText()) === '1 / 1', 'No termina bajo subcarpeta');

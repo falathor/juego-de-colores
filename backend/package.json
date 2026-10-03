@@ -1,0 +1,11 @@
+{
+  "name": "colors-online-service",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --port 8787",
+    "deploy": "wrangler deploy",
+    "test": "node --test ../tests/online.test.mjs"
+  },
+  "devDependencies": { "wrangler": "^4.0.0" }
+}

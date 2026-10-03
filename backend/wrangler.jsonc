@@ -1,0 +1,17 @@
+{
+  "name": "colors-online-falathor",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-03",
+  "workers_dev": true,
+  "vars": {
+    "ALLOWED_ORIGINS": "https://falathor.github.io,http://localhost:8000,http://localhost:8001,http://127.0.0.1:8000"
+  },
+  "durable_objects": {
+    "bindings": [
+      { "name": "ROOMS", "class_name": "ColorRoom" },
+      { "name": "ACCESS", "class_name": "AccessGate" }
+    ]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["ColorRoom", "AccessGate"] }],
+  "observability": { "enabled": false }
+}
