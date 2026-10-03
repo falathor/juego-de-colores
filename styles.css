@@ -5,4 +5,5 @@
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
 
 @media(max-width:600px){.solution-colors{gap:14px}.solution-card{width:150px;height:185px;padding:16px}}
+.resume p{min-width:0;overflow-wrap:anywhere}
 .room-code{display:block;text-align:center;font-size:clamp(3rem,12vw,5rem);letter-spacing:.18em;color:var(--accent)}.invite-link{overflow-wrap:anywhere}.room-members{list-style:none;padding:0;margin:16px 0;display:grid;gap:8px}.room-members li{display:flex;justify-content:space-between;gap:12px;padding:12px;border:1px solid var(--line);border-radius:12px;font-size:.85rem;overflow-wrap:anywhere}.room-members span{font-size:.78rem;color:var(--muted);text-align:right}.online-loading{color:var(--muted)}

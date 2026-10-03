@@ -60,7 +60,7 @@ incluye referencia consultada y fecha de revisión. Hay un borrador adicional
 excluido de las partidas. No se han comprobado las respuestas simplemente
 mediante el validador de JSON: se consultaron fuentes durante la preparación.
 
-HTML + CSS + nueve módulos JS: **85.605 bytes** (aprox. 85,6 KB, sin comprimir).
+HTML + CSS + nueve módulos JS: **85.651 bytes** (aprox. 85,7 KB, sin comprimir).
 Catálogo: **136.037 bytes** (aprox. 136 KB, sin comprimir).
 La aplicación mantiene el presupuesto orientativo de 100 KB. El catálogo supera
 ese objetivo inicial al incorporar las cien preguntas solicitadas; permanece como
@@ -117,3 +117,6 @@ Actualización: 4 de octubre de 2026.
   También verifica cambios con una respuesta confirmada y con puntos guardados.
 - **6/6 comprobaciones multijugador locales correctas** contra Wrangler,
   además de las **15/15 pruebas online** y **7/7 validaciones OpenSpec**.
+- La misma batería se ejecuta desde el servidor estático local contra el
+  Worker publicado de Cloudflare, incluyendo un nombre de 24 caracteres
+  a 320 px y conservación de respuestas y puntos tras cambiar el nombre.

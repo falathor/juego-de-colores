@@ -61,7 +61,10 @@ try {
     await invited.reload(); await invited.getByRole('button', { name: 'Volver a la sala', exact: true }).click();
     await invited.getByText('Juegas como <b>María</b>', { exact: true }).waitFor();
     assert.equal((await request(invited)).state.myId, before.myId);
-    await rename(host, 'Anfitriona'); await rename(guest, 'Luis Miguel');
+    await rename(host, 'Anfitriona'); await rename(guest, 'W'.repeat(24));
+    await guest.getByText(`Juegas como ${'W'.repeat(24)}`, { exact: true }).waitFor();
+    assert.ok(await guest.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+    await rename(guest, 'Luis Miguel');
     await invited.locator('.room-members').getByText('Anfitriona', { exact: true }).waitFor();
     await invited.locator('.room-members').getByText('Luis Miguel', { exact: true }).waitFor();
   });
