@@ -1,0 +1,10 @@
+import { readFile } from 'node:fs/promises';
+import { runTests } from './game.test.js';
+import { runContentTests } from './content.test.js';
+const results = runTests();
+const catalog = JSON.parse(await readFile(new URL('../data/questions.es.json', import.meta.url), 'utf8'));
+results.push(...runContentTests(catalog));
+for (const r of results) console.log(`${r.ok ? 'PASS' : 'FAIL'} ${r.name}${!r.ok ? ': ' + r.error : ''}`);
+const failed = results.filter(r => !r.ok).length;
+console.log(`${results.length - failed}/${results.length} pruebas correctas`);
+if (failed) process.exitCode = 1;

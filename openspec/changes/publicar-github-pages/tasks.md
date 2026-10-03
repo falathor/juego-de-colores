@@ -1,0 +1,5 @@
+- [x] Definir publicación y criterios de aceptación.
+- [ ] Autenticar y confirmar la cuenta y visibilidad del repositorio.
+- [ ] Subir el proyecto y activar GitHub Pages.
+- [ ] Verificar la URL remota y una partida.
+- [ ] Actualizar la documentación y entregar los enlaces.

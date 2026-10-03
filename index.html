@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf8f3">
+  <meta name="description" content="Un juego de preguntas con respuestas de colores. Juega con cartas, pasa el móvil o pon a prueba tu memoria en solitario.">
+  <title>¿De qué color? · El juego</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <header class="site-header">
+    <button class="brand" id="home" aria-label="¿De qué color? — Inicio"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>¿De qué color?</span></button>
+    <nav aria-label="Ayuda"><button class="text-button" id="instructions">Cómo se juega</button><button class="icon-button" id="settings" aria-label="Ajustes">⚙</button></nav>
+  </header>
+  <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
+  <main id="main" tabindex="-1"><p class="loading">Preparando los colores…</p></main>
+  <footer class="site-footer"><span>Una pregunta. Un poco de memoria. Mucho color.</span><button class="text-button" id="about">Acerca de</button></footer>
+  <dialog id="dialog" aria-labelledby="dialog-title"></dialog>
+  <noscript>Activa JavaScript para jugar. La aplicación funciona sin cuentas ni instalaciones.</noscript>
+</body>
+</html>

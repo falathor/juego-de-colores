@@ -1,0 +1,5 @@
+- [x] Definir requisitos y criterios de aceptación.
+- [x] Consultar fuentes y añadir 50 preguntas aprobadas sin alterar las previas.
+- [x] Implementar tarjetas centradas y contraste para la paleta completa.
+- [x] Verificar catálogo, regresiones, presentación y OpenSpec.
+- [x] Actualizar documentación y resultados de validación.

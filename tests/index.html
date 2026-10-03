@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Pruebas · ¿De qué color?</title><link rel="icon" type="image/svg+xml" href="../favicon.svg"><link rel="stylesheet" href="../styles.css"></head>
+<body><main><h1>Pruebas del juego</h1><p id="summary" role="status">Ejecutando…</p><ol id="results"></ol><p><a href="../">Volver al juego</a></p></main>
+<script type="module">
+import { runTests } from './game.test.js';
+import { loadCatalog } from '../js/catalog.js';
+import { runContentTests } from './content.test.js';
+const results = runTests();
+try {
+  const catalog = await loadCatalog();
+  results.push(...runContentTests(catalog));
+} catch (error) { results.push({ name: 'Catálogo real', ok: false, error: error.message }); }
+for (const result of results) {
+  const li = document.createElement('li');
+  li.textContent = `${result.ok ? '✓' : '×'} ${result.name}${result.error ? ': ' + result.error : ''}`;
+  li.dataset.ok = String(result.ok);
+  document.getElementById('results').append(li);
+}
+const passed = results.filter(r => r.ok).length;
+document.getElementById('summary').textContent = `${passed}/${results.length} pruebas correctas`;
+document.getElementById('summary').dataset.passed = String(passed === results.length);
+</script></body></html>
