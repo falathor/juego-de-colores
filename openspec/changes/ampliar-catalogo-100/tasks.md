@@ -1,5 +1,5 @@
 - [x] Definir criterios de aceptación.
 - [x] Revisar fuentes y añadir cien preguntas.
 - [x] Actualizar especificación, documentación y pruebas.
-- [ ] Validar, crear commit y subir main.
-- [ ] Comprobar el despliegue público.
+- [x] Validar, crear commit y subir main.
+- [x] Comprobar el despliegue público.

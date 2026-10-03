@@ -70,8 +70,10 @@ sin conexión.
 - Web HTTPS: https://falathor.github.io/juego-de-colores/.
 - GitHub Pages configurado desde la raíz de `main`; despliegue inicial correcto.
 - Las actualizaciones se publican mediante `git push origin main`.
-- Publicación anterior (versión 1.1.0): **13/13 comprobaciones remotas correctas** con el ejecutor de navegador y
-  Chrome de escritorio: 98 preguntas, los tres modos, recarga, puntuación,
+- Publicación actual (versión 1.2.0): **13/13 comprobaciones remotas correctas** con el ejecutor de navegador y
+  Chrome de escritorio: 198 preguntas, los tres modos, recarga, puntuación,
   filtros, anulación, privacidad de turnos y tarjetas a 320 px, sin errores de
-  consola. También se ejecutaron **27/27 pruebas** desde la web publicada.
+  consola. También se ejecutaron **28/28 pruebas** desde la web publicada.
   Los resultados detallados están en `artifacts/browser-results.json`.
+- Despliegue del commit `7b665a0` completado correctamente. El catálogo público
+  sirve `contentVersion: 1.2.0`, con 198 aprobadas y 199 entradas totales.
