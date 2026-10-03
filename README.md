@@ -57,6 +57,13 @@ Si el navegador bloquea el guardado, mantén abierta la página.
 Las partidas individuales guardadas antes de esta actualización siguen siendo
 recuperables; el inicio ofrece el modo en línea para las partidas nuevas.
 
+En cualquier fase de la sala, usa **Cambiar mi nombre**, junto a «Juegas como…».
+Está disponible para el anfitrión y para quienes entren por código o enlace,
+incluso si recibieron un nombre automático. El nombre puede tener entre 1 y 24
+caracteres y debe ser distinto de los demás, sin distinguir mayúsculas.
+El cambio aparece en todos los dispositivos y se conserva al recargar, sin
+alterar las respuestas, los puntos ni el rol de anfitrión.
+
 El orden no importa. Un acierto completo suma un punto; no hay puntos parciales
 ni penalizaciones. Puede ganar más de un equipo. La puntuación es una variante
 propia, no el reglamento oficial de un juego comercial.

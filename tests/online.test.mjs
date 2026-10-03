@@ -11,6 +11,36 @@ const host = { id: 'host', name: 'Ana', authHash: 'host-hash' }, guest = { id: '
 const lobby = () => joinRoom(createRoom('0042', host, config, catalog), guest);
 const started = () => actOnRoom(lobby(), host.id, { action: 'start' });
 const action = (room, id, name, extra = {}) => actOnRoom(room, id, { action: name, round: room.round, ...extra });
+test('Personalizar nombre propio en cualquier fase conserva identidad, rol, respuestas y puntos', () => {
+  let room = lobby();
+  const named = actOnRoom(room, guest.id, { action: 'rename', name: '  Lucía  ', playerId: host.id });
+  assert.equal(named.players[1].name, 'Lucía'); assert.deepEqual(named.players[0], host);
+  assert.equal(room.players[1].name, 'Luis'); assert.equal(named.players[1].id, guest.id);
+  assert.equal(action(named, guest.id, 'rename', { name: 'Lucía' }), named);
+  room = action(named, host.id, 'start'); room = action(room, guest.id, 'answer', { colors: room.order[0].answerColors });
+  const answering = action(room, guest.id, 'rename', { name: '<b>Lucía</b>' });
+  assert.deepEqual(answering.answers, room.answers); assert.equal(answering.hostId, room.hostId);
+  room = action(answering, host.id, 'reveal', { force: true });
+  for (const phase of ['result','finished']) {
+    const before = { ...room, phase };
+    const after = action(before, guest.id, 'rename', { name: phase });
+    assert.deepEqual(after.results, before.results); assert.deepEqual(after.answers, before.answers);
+    assert.equal(roomView(after, guest.id).players[1].score, 1);
+    assert.deepEqual({ ...after, players: before.players, revision: before.revision }, before);
+  }
+  const renamedHost = action(room, host.id, 'rename', { name: 'Anfitriona' });
+  assert.equal(renamedHost.hostId, host.id); assert.equal(renamedHost.players[0].name, 'Anfitriona');
+});
+test('Cambio de nombre rechaza inválidos, duplicados y sesiones ajenas sin mutación', () => {
+  const room = lobby(), before = structuredClone(room);
+  for (const name of [undefined, '', ' ', 'a'.repeat(25), '\nLuis', 42, 'ANA', ' Ana ']) {
+    assert.throws(() => action(room, guest.id, 'rename', { name }));
+    assert.deepEqual(room, before);
+  }
+  assert.throws(() => action(room, 'intruder', 'rename', { name: 'Otro' }));
+  const automatic = joinRoom(action(room, host.id, 'rename', { name: 'jugador 1' }), { id: 'invite', name: '', authHash: 'invite-hash' });
+  assert.equal(automatic.players.at(-1).name, 'Jugador 2');
+});
 test('Códigos conservan ceros iniciales; configuración, nombres y catálogo se validan', () => {
   assert.equal(validCode('0042'), true); assert.equal(validCode('42'), false);
   assert.throws(() => createRoom('42', host, config, catalog));

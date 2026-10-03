@@ -6,7 +6,7 @@ Fecha: 3 de octubre de 2026.
 
 - **28/28 pruebas de lógica y catálogo** con `node tests/run.mjs`, sin paquetes
   del proyecto. Incluyen un flujo con cuatro equipos y restauración en cada turno.
-- **13/13 pruebas online** con `node --test tests/online.test.mjs`: roles,
+- **15/15 pruebas online** con `node --test tests/online.test.mjs`: roles,
   privacidad de respuestas, capacidad, caducidad, códigos con ceros, filtros,
   idempotencia, anulación, petición antigua, conservación de confirmaciones
   concurrentes, CORS y autenticación. Los fallos intermedios de persistencia
@@ -43,9 +43,9 @@ Fecha: 3 de octubre de 2026.
   ejes y borde visible. Comprobados los once fondos de la paleta; contraste de
   texto mínimo calculado **4,91:1**. Capturas adicionales `tarjetas-*.png` en
   `artifacts/` usan datos ficticios para comprobar la presentación.
-- **OpenSpec: 6/6 elementos válidos**, cambios `crear-juego`,
+- **OpenSpec: 7/7 elementos válidos**, cambios `crear-juego`,
   `ampliar-preguntas-y-tarjetas`, `publicar-github-pages`, `ampliar-catalogo-100` y especificación
-  `jugar-en-linea` y especificación `juego`, mediante `openspec validate --all`
+  `jugar-en-linea`, `personalizar-nombre` y especificación `juego`, mediante `openspec validate --all`
   usando la CLI externa. Los avisos informativos de archivo de cambios
   anteriores proceden de requisitos ya sincronizados; no hay errores de validación.
 
@@ -60,7 +60,7 @@ incluye referencia consultada y fecha de revisión. Hay un borrador adicional
 excluido de las partidas. No se han comprobado las respuestas simplemente
 mediante el validador de JSON: se consultaron fuentes durante la preparación.
 
-HTML + CSS + nueve módulos JS: **84.109 bytes** (aprox. 84,1 KB, sin comprimir).
+HTML + CSS + nueve módulos JS: **85.605 bytes** (aprox. 85,6 KB, sin comprimir).
 Catálogo: **136.037 bytes** (aprox. 136 KB, sin comprimir).
 La aplicación mantiene el presupuesto orientativo de 100 KB. El catálogo supera
 ese objetivo inicial al incorporar las cien preguntas solicitadas; permanece como
@@ -102,3 +102,18 @@ Las salas duran hasta seis horas y están sujetas a las cuotas del servicio.
   y **28/28 pruebas de juego y catálogo** ejecutadas desde la web.
   Se verificaron los módulos públicos y la URL del servicio. Los informes están
   en `artifacts/online-browser-results.json` y `artifacts/browser-results.json`.
+
+## Personalización de nombres
+
+Actualización: 4 de octubre de 2026.
+
+- Acción autenticada para cambiar únicamente el nombre propio, disponible en
+  la sala de espera, durante las rondas y en el resultado final.
+- Dos pruebas nuevas cubren validación, duplicados, controles, nombres de
+  1–24 caracteres, conservación de identidad, rol, respuestas y puntos, y
+  asignación automática cuando ya existe un nombre equivalente en minúsculas.
+- El ejecutor multijugador incorpora una sexta comprobación: personalización
+  por enlace, código y anfitrión, sincronización, nombres como texto y recarga.
+  También verifica cambios con una respuesta confirmada y con puntos guardados.
+- **6/6 comprobaciones multijugador locales correctas** contra Wrangler,
+  además de las **15/15 pruebas online** y **7/7 validaciones OpenSpec**.

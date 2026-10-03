@@ -1,0 +1,4 @@
+- [x] Definir requisitos y aceptación.
+- [x] Implementar cambio propio y controles compartidos.
+- [x] Probar validación, sincronización, recarga y conservación de progreso.
+- [ ] Actualizar documentación y publicar servicio y web.

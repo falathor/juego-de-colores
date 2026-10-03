@@ -53,6 +53,17 @@ function onlineAction(action, extra = {}) {
   if (action === 'askVoid') { confirmDialog('¿Anular esta pregunta?', 'Se retirarán los puntos de esta ronda en todos los dispositivos y se buscará una pregunta sustituta.', () => onlineAction('void'), 'Anular pregunta'); return; }
   runOnline(() => online.action(action, extra));
 }
+function editOnlineName() {
+  const input = el('input', { type: 'text', id: 'edit-online-name', maxlength: '24', autocomplete: 'nickname' });
+  input.value = onlineState.players.find(p => p.id === onlineState.myId).name;
+  showDialog('Cambiar tu nombre', [el('label', { for: 'edit-online-name' },
+    el('span', { class: 'field-label', text: 'Tu nombre' }), input),
+    el('p', { text: 'Entre 1 y 24 caracteres. Los demás jugadores verán tu nuevo nombre.' })], [
+    { label: 'Cancelar', className: 'secondary', action: () => {} },
+    { label: 'Guardar nombre', action: () => onlineAction('rename', { name: input.value }) },
+  ]);
+  input.focus(); input.select();
+}
 function leaveOnline() {
   const host = onlineState?.myId === onlineState?.hostId;
   confirmDialog(host ? 'Cerrar la sala' : 'Salir de la sala', host ? 'La sala se cerrará para todos los jugadores.' : onlineState?.phase === 'lobby' ? 'Saldrás de la sala de espera.' : 'Tu sesión seguirá guardada para que puedas volver a esta partida.', () => {
@@ -76,7 +87,7 @@ function render(focusId) {
         else if (selection.length < onlineState.question.required) selection = [...selection, id];
         else { notice(`Solo puedes elegir ${onlineState.question.required} colores. Quita uno para cambiarlo.`); return; }
         render(`color-${id}`);
-      }, action: onlineAction, leave: leaveOnline, copy: copyInvite,
+      }, action: onlineAction, leave: leaveOnline, copy: copyInvite, rename: editOnlineName,
       reveal: () => onlineState.allAnswered ? onlineAction('reveal') : confirmDialog('Cerrar la ronda', 'Quienes todavía no han respondido obtendrán cero puntos. La solución se mostrará a todos.', () => onlineAction('reveal', { force: true }), 'Cerrar y revelar'),
     }) : el('section', { class: 'panel' }, el('h1', { text: 'Conectando con la sala…', 'data-heading': '', tabindex: '-1' }),
       el('button', { type: 'button', class: 'secondary', text: 'Volver', onClick: () => { online.pause(); view = 'online'; render(); } }))

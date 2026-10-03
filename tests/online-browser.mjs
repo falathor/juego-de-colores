@@ -27,6 +27,11 @@ async function request(page, path = '', input) {
   }, { api, path, input });
 }
 async function answer(page, colors) { for (const c of colors) await page.locator(`#color-${c}`).click(); await page.getByRole('button', { name: 'Confirmar respuesta', exact: true }).click(); await page.getByText('Tu respuesta está guardada:', { exact: false }).waitFor(); }
+async function rename(page, name) {
+  await page.getByRole('button', { name: 'Cambiar mi nombre', exact: true }).click();
+  await page.locator('#edit-online-name').fill(name);
+  await page.locator('#dialog').getByRole('button', { name: 'Guardar nombre', exact: true }).click();
+}
 async function test(name, fn) { await fn(); results.push(name); console.log('PASS', name); }
 try {
   await test('Crear sala, cuatro dígitos, invitados por código/enlace y permisos de anfitrión', async () => {
@@ -47,6 +52,19 @@ try {
     assert.ok(await guest.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
     await invited.screenshot({ path: 'artifacts/sala-en-linea.png', fullPage: true });
   });
+  await test('Personalizar nombres por enlace, código y anfitrión; sincronización, validación y recarga', async () => {
+    const before = (await request(invited)).state;
+    await rename(invited, 'Ana'); await invited.getByText('Ya hay alguien con ese nombre.', { exact: false }).waitFor();
+    assert.equal((await request(invited)).state.players.find(p => p.id === before.myId).name, before.players.find(p => p.id === before.myId).name);
+    await rename(invited, '<b>María</b>'); await host.locator('.room-members').getByText('<b>María</b>', { exact: true }).waitFor();
+    assert.equal(await host.locator('.room-members b').count(), 0);
+    await invited.reload(); await invited.getByRole('button', { name: 'Volver a la sala', exact: true }).click();
+    await invited.getByText('Juegas como <b>María</b>', { exact: true }).waitFor();
+    assert.equal((await request(invited)).state.myId, before.myId);
+    await rename(host, 'Anfitriona'); await rename(guest, 'Luis Miguel');
+    await invited.locator('.room-members').getByText('Anfitriona', { exact: true }).waitFor();
+    await invited.locator('.room-members').getByText('Luis Miguel', { exact: true }).waitFor();
+  });
   await test('Respuestas privadas, selección exacta, confirmación simultánea y sesión recuperada', async () => {
     await host.getByRole('button', { name: 'Empezar partida', exact: true }).click();
     await Promise.all([host,guest,invited].map(p => p.locator('.color-grid').waitFor()));
@@ -61,6 +79,10 @@ try {
     await guest.getByText('Tu respuesta está guardada:', { exact: false }).waitFor();
     const after = await game(guest); assert.equal(before.token === after.token, true); assert.equal(before.code, after.code);
     assert.equal(await guest.locator('.color-grid').count(), 0);
+    const answered = (await request(guest)).state;
+    await rename(guest, 'Luis en partida');
+    const renamed = (await request(guest)).state;
+    assert.equal(renamed.myId, answered.myId); assert.deepEqual(renamed.ownAnswer, answered.ownAnswer);
     await answer(invited, colors);
     await host.getByRole('button', { name: 'Revelar solución', exact: true }).waitFor();
     assert.ok(await guest.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
@@ -69,6 +91,9 @@ try {
     await host.getByRole('button', { name: 'Revelar solución', exact: true }).click();
     await Promise.all([host,guest,invited].map(p => p.locator('.solution-card').first().waitFor()));
     assert.ok(!(await guest.locator('#main').innerText()).split('\n').includes('null'));
+    assert.ok((await guest.locator('.score-number').allTextContents()).every(t => t.startsWith('1')));
+    await rename(guest, 'Luis con puntos');
+    await host.locator('.score-list').getByText('Luis con puntos', { exact: true }).waitFor();
     assert.ok((await guest.locator('.score-number').allTextContents()).every(t => t.startsWith('1')));
     assert.equal((await request(host, '/action', { action: 'reveal', round: 0 })).state.completed, 1);
     await guest.screenshot({ path: 'artifacts/solucion-en-linea-movil.png', fullPage: true });

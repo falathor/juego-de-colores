@@ -23,10 +23,12 @@ function members(state) {
   return el('ul', { class: 'room-members', 'aria-label': 'Jugadores de la sala' }, state.players.map(player => el('li', {},
     el('strong', { text: player.name }), el('span', { text: `${player.id === state.hostId ? 'Anfitrión · ' : ''}${state.phase === 'lobby' ? (player.online ? 'Conectado' : 'Reconectando') : player.submitted ? 'Respuesta guardada' : 'Pendiente'}` }))));
 }
-export function renderOnlineRoom({ state, selection, toggle, action, reveal, leave, copy, busy }) {
+export function renderOnlineRoom({ state, selection, toggle, action, reveal, leave, copy, rename, busy }) {
   const host = state.myId === state.hostId;
+  const profile = el('div', { class: 'resume' }, p(`Juegas como ${state.players.find(p => p.id === state.myId).name}`),
+    button('Cambiar mi nombre', rename, 'secondary', busy));
   const exit = button(host ? 'Cerrar sala' : 'Salir de la sala', leave, 'text-button', busy);
-  if (state.phase === 'lobby') return el('section', { class: 'setup-view' }, heading('Sala de espera'),
+  if (state.phase === 'lobby') return el('section', { class: 'setup-view' }, heading('Sala de espera'), profile,
     el('div', { class: 'panel setup-panel' }, p('CÓDIGO DE LA SALA', 'eyebrow'),
       el('strong', { class: 'room-code', text: state.code }), p('2–8 jugadores. Comparte el código o este enlace para que entren directamente.'),
       el('a', { href: inviteLink(state.code), text: inviteLink(state.code), class: 'invite-link' }),
@@ -36,7 +38,7 @@ export function renderOnlineRoom({ state, selection, toggle, action, reveal, lea
   if (state.phase === 'finished') {
     const top = Math.max(...state.players.map(p => p.score)), winners = state.players.filter(p => p.score === top).map(p => p.name);
     return el('section', { class: 'panel final-panel' }, p('FIN DE LA PARTIDA', 'eyebrow'),
-      heading(winners.length > 1 ? '¡Victoria compartida!' : `¡Gana ${winners[0]}!`), p(winners.join(' · ')),
+      heading(winners.length > 1 ? '¡Victoria compartida!' : `¡Gana ${winners[0]}!`), p(winners.join(' · ')), profile,
       p(`${state.completed} rondas válidas jugadas.`), state.completed < state.target ? p('Se han agotado las preguntas disponibles para sustituir las anuladas.') : null,
       scoreRows(state.players), exit);
   }
@@ -62,6 +64,6 @@ export function renderOnlineRoom({ state, selection, toggle, action, reveal, lea
     panel.append(el('details', { class: 'sources' }, el('summary', { text: 'Consultar las fuentes de esta pregunta' }),
       q.sources.map(s => el('a', { href: s.url, target: '_blank', rel: 'noopener noreferrer', text: s.title }))));
   }
-  return el('section', { class: 'game-view' }, el('div', { class: 'game-top' }, p(`Sala ${state.code}`),
+  return el('section', { class: 'game-view' }, profile, el('div', { class: 'game-top' }, p(`Sala ${state.code}`),
     el('strong', { text: `Ronda ${Math.min(state.completed + (result && !state.result.void ? 0 : 1), state.target)} de ${state.target}` })), panel, exit);
 }

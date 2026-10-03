@@ -38,7 +38,7 @@ export function joinRoom(room, player, now = Date.now()) {
   if (room.phase !== 'lobby') throw new Error('La partida ya ha empezado. Solo pueden volver quienes estaban dentro.');
   if (room.players.length >= MAX_PLAYERS) throw new Error('La sala está llena (máximo ocho jugadores).');
   let number = 1;
-  while (room.players.some(p => p.name === `Jugador ${number}`)) number++;
+  while (room.players.some(p => p.name.toLocaleLowerCase('es') === `jugador ${number}`)) number++;
   const name = playerName(player.name, `Jugador ${number}`);
   if (room.players.some(p => p.name.toLocaleLowerCase('es') === name.toLocaleLowerCase('es'))) {
     throw new Error('Ya hay alguien con ese nombre. Elige otro.');
@@ -74,6 +74,16 @@ export function actOnRoom(room, playerId, command, now = Date.now()) {
   const host = room.hostId === playerId;
   const hostActions = ['start','reveal','next','void','close'];
   if (hostActions.includes(command.action) && !host) throw new Error('Solo el anfitrión puede hacer eso.');
+  if (command.action === 'rename') {
+    const name = playerName(command.name);
+    if (!name) throw new Error('Escribe un nombre de 1 a 24 caracteres.');
+    if (room.players.some(p => p.id !== playerId && p.name.toLocaleLowerCase('es') === name.toLocaleLowerCase('es'))) {
+      throw new Error('Ya hay alguien con ese nombre. Elige otro.');
+    }
+    if (room.players.find(p => p.id === playerId).name === name) return room;
+    return { ...room, revision: room.revision + 1,
+      players: room.players.map(p => p.id === playerId ? { ...p, name } : p) };
+  }
   if (command.action === 'close') return { ...room, phase: 'closed', revision: room.revision + 1 };
   if (command.action === 'leave') {
     if (host) return { ...room, phase: 'closed', revision: room.revision + 1 };
