@@ -3,4 +3,4 @@
 - [x] Integrar interfaz, invitaciones y recuperación.
 - [x] Verificar API, dos navegadores y modos presenciales.
 - [x] Activar servicio con la cuenta del usuario.
-- [ ] Actualizar documentación, publicar y verificar URL remota.
+- [x] Actualizar documentación, publicar y verificar URL remota.

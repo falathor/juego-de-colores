@@ -95,5 +95,10 @@ Las salas duran hasta seis horas y están sujetas a las cuotas del servicio.
   https://colors-online-falathor.colors-online-service.workers.dev.
   Se ha autorizado Wrangler con la cuenta del usuario y publicado el Worker
   con dos Durable Objects SQLite. No se activaron planes de pago.
-- La actualización de la web se publicará después de verificar el backend;
-  la comprobación final de la URL de GitHub Pages se registra tras su despliegue.
+- Actualización multijugador del commit `7a18605`: despliegue de GitHub Pages
+  completado correctamente. **5/5 comprobaciones multijugador remotas** sobre
+  la web publicada y su configuración real, sin sustituir módulos del cliente,
+  además de **13/13 comprobaciones de navegador presenciales y de compatibilidad**
+  y **28/28 pruebas de juego y catálogo** ejecutadas desde la web.
+  Se verificaron los módulos públicos y la URL del servicio. Los informes están
+  en `artifacts/online-browser-results.json` y `artifacts/browser-results.json`.
