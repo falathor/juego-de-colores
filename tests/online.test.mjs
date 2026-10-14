@@ -5,6 +5,7 @@ import { CATEGORIES } from '../js/catalog.js';
 import { createRoom, joinRoom, actOnRoom, roomView, ROOM_LIFETIME, validCode } from '../js/online-game.js';
 import worker, { ColorRoom, AccessGate } from '../backend/worker.js';
 import { OnlineClient } from '../js/online-client.js';
+import { readRoom, writeRoom } from '../backend/room-storage.js';
 
 const config = { duration: 10, categories: CATEGORIES.map(c => c.id), difficulty: 'todas' };
 const host = { id: 'host', name: 'Ana', authHash: 'host-hash' }, guest = { id: 'guest', name: 'Luis', authHash: 'guest-hash' };
@@ -46,8 +47,15 @@ test('Códigos conservan ceros iniciales; configuración, nombres y catálogo se
   assert.throws(() => createRoom('42', host, config, catalog));
   for (const patch of [{ duration: 99 }, { categories: [] }, { categories: ['desconocida'] }, { difficulty: '__proto__' }]) assert.throws(() => createRoom('0042', host, { ...config, ...patch }, catalog));
   for (const name of [' ', 'a'.repeat(25), '\nLuis', 42]) assert.throws(() => joinRoom(lobby(), { ...guest, id: 'new', name }));
-  const room = lobby(); assert.equal(room.order.length, 198); assert.equal(new Set(room.order.map(q => q.id)).size, 198);
-  assert.equal(createRoom('0042', host, { ...config, categories: ['series'], difficulty: 'dificil' }, catalog).target, 1);
+  const room = lobby(); assert.equal(room.order.length, 2000); assert.equal(new Set(room.order.map(q => q.id)).size, 2000);
+  assert.equal(createRoom('0042', host, { ...config, categories: ['series'], difficulty: 'dificil' }, catalog).target, 10);
+});
+test('Videojuegos y Mitos permiten diez rondas de cada dificultad con filtros estrictos', () => {
+  for (const category of ['videojuegos','mitos']) for (const difficulty of ['facil','medio','dificil']) {
+    const room = createRoom('0042', host, { duration:10, categories:[category], difficulty }, catalog);
+    assert.equal(room.target,10); assert.ok(room.order.length>=50);
+    assert.ok(room.order.every(q=>q.category===category && q.difficulty===difficulty && q.status==='approved'));
+  }
 });
 test('Sala admite de dos a ocho personas, nombres únicos y no admite entradas tras empezar', () => {
   let room = createRoom('0042', host, config, catalog);
@@ -105,18 +113,25 @@ test('Partida completa y agotamiento terminan con puntuación única; abandono y
   assert.throws(() => roomView(action(room, host.id, 'close'), host.id));
   assert.equal(action(lobby(), guest.id, 'leave').players.length, 1);
   assert.throws(() => action(started(), guest.id, 'leave'));
-  room = joinRoom(createRoom('0042', host, { ...config, categories: ['series'], difficulty: 'dificil' }, catalog), guest);
+  const tiny = { ...catalog, questions: [catalog.questions.find(q => q.status === 'approved' && q.category === 'series' && q.difficulty === 'dificil')] };
+  room = joinRoom(createRoom('0042', host, { ...config, categories: ['series'], difficulty: 'dificil' }, tiny), guest);
   room = action(room, host.id, 'start'); room = action(room, host.id, 'reveal', { force: true }); room = action(room, host.id, 'void'); room = action(room, host.id, 'next');
   assert.equal(room.phase, 'finished'); assert.equal(roomView(room, host.id).completed, 0);
 });
 
 // Dedicated in-memory test storage; never connects to a deployed namespace.
 function context() {
-  const ctx = { queue: Promise.resolve(), values: new Map(), alarm: null, fail: '' };
+  const ctx = { queue: Promise.resolve(), values: new Map(), alarm: null, fail: '', writes: 0, failWrite: -1 };
   ctx.blockConcurrencyWhile = fn => { const result = ctx.queue.then(fn); ctx.queue = result.catch(() => {}); return result; };
   ctx.storage = {
-    async get(k) { return structuredClone(ctx.values.get(k)); },
-    async put(k,v) { if (ctx.fail === 'put') throw Error('write failure'); ctx.values.set(k, structuredClone(v)); },
+    async get(k) { return Array.isArray(k) ? new Map(k.map(id => [id, structuredClone(ctx.values.get(id))])) : structuredClone(ctx.values.get(k)); },
+    async put(k,v) {
+      if (ctx.fail === 'put' || ++ctx.writes === ctx.failWrite) throw Error('write failure');
+      const size = v instanceof Uint8Array ? v.byteLength : new TextEncoder().encode(JSON.stringify(v)).length;
+      if (size > 128*1024) throw Error('KV value exceeds 128 KiB');
+      ctx.values.set(k, structuredClone(v));
+    },
+    async delete(k) { for (const id of Array.isArray(k) ? k : [k]) ctx.values.delete(id); },
     async setAlarm(time) { if (ctx.fail === 'alarm') throw Error('alarm failure'); ctx.alarm = time; },
     async deleteAll() { ctx.values.clear(); ctx.alarm = null; },
     async transaction(fn) { const before = structuredClone(ctx.values), alarm = ctx.alarm; try { return await fn(); } catch (e) { ctx.values = before; ctx.alarm = alarm; throw e; } },
@@ -140,7 +155,32 @@ test('Fallo intermedio al crear revierte documento y alarma; reintento es posibl
   ctx.fail = ''; assert.equal((await service.fetch(internal('create', { code: '0042', player: host, config }))).status, 200);
   const before = structuredClone(service.room); ctx.fail = 'put';
   assert.equal((await service.fetch(internal('join', { player: guest }))).status, 503);
-  assert.deepEqual(service.room, before); assert.deepEqual(ctx.values.get('room'), before);
+  assert.deepEqual(service.room, before); assert.deepEqual(await readRoom(ctx.storage), before);
+});
+test('Sala de 2.000 preguntas usa bloques acotados, recupera UTF-8 y revierte un fallo intermedio', async () => {
+  const ctx = context(), room = lobby();
+  assert.ok(new TextEncoder().encode(JSON.stringify(room)).length > 128*1024);
+  ctx.failWrite = 2;
+  await assert.rejects(writeRoom(ctx.storage, room, null, room.expiresAt));
+  assert.equal(ctx.values.size, 0); assert.equal(ctx.alarm, null);
+  ctx.failWrite = -1;
+  await writeRoom(ctx.storage, room, null, room.expiresAt);
+  assert.deepEqual(await readRoom(ctx.storage), room);
+  assert.ok([...ctx.values.values()].filter(v => v instanceof Uint8Array).every(v => v.byteLength <= 64*1024));
+  const previousWrites = ctx.writes, renamed = action(room, guest.id, 'rename', { name: 'Lucía 🐲' });
+  await writeRoom(ctx.storage, renamed, room);
+  assert.ok(ctx.writes-previousWrites <= 3, 'Una transición no debe reescribir todo el mazo');
+  assert.deepEqual(await readRoom(ctx.storage), renamed);
+  const stored = structuredClone(ctx.values); ctx.failWrite = ctx.writes + 2;
+  await assert.rejects(writeRoom(ctx.storage, action(renamed, host.id, 'start'), renamed));
+  assert.deepEqual(ctx.values, stored); assert.deepEqual(await readRoom(ctx.storage), renamed);
+});
+test('Formato anterior de salas se lee y migra sin perder preguntas o miembros', async () => {
+  const ctx = context(), room = lobby(); ctx.values.set('room', structuredClone(room));
+  assert.deepEqual(await readRoom(ctx.storage), room);
+  const renamed = action(room, guest.id, 'rename', { name: 'Otro' });
+  await writeRoom(ctx.storage, renamed, room);
+  assert.equal(ctx.values.get('room').format, 2); assert.deepEqual(await readRoom(ctx.storage), renamed);
 });
 test('Límites de acceso atómicos y limpieza automática de datos', async () => {
   const ctx = context(), gate = new AccessGate(ctx); ctx.fail = 'alarm';

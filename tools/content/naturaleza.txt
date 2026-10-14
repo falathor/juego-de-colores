@@ -1,0 +1,92 @@
+Giant panda|un panda gigante adulto de coloración habitual|las manchas alrededor de los ojos=n/f;las orejas=n/f;el pelo del vientre=w/f
+Tiger|un tigre de Bengala adulto de coloración habitual|las rayas oscuras=n/f;el fondo del pelaje del lomo=o/f;el pelo del vientre=w/m
+Lion|un león adulto de coloración habitual|el penacho de la punta de la cola=n/m;la nariz=n/m
+Giraffe|una jirafa reticulada adulta|la lengua en su parte exterior más pigmentada=p/d;las manchas del pelaje=b/f
+Hippopotamus|un hipopótamo común adulto|los colmillos visibles=w/f;la secreción cutánea recién coloreada llamada sudor de sangre=r/d
+African bush elephant|un elefante africano adulto sin barro en la piel|la piel=g/f;los colmillos=w/f
+Zebra|una cebra de llanura adulta de coloración habitual|las rayas oscuras=n/f;las rayas claras=w/f
+Okapi|un okapi adulto de coloración habitual|las franjas claras de las patas=w/m;las franjas oscuras de las patas=n/m;el pelaje principal del cuerpo=b/d
+Red fox|un zorro rojo adulto de coloración habitual|el pelo de las partes inferiores de las patas=n/m;el pelo del pecho=w/m
+Arctic fox|un zorro ártico de coloración más habitual con pelaje de invierno|el pelaje=w/f;la nariz=n/m
+Polar bear|un oso polar adulto visto a distancia con el pelaje limpio|el aspecto general del pelo=w/f;la nariz=n/m
+Brown bear|un oso pardo adulto de coloración habitual|el pelaje predominante=b/f;la nariz=n/m
+American black bear|un oso Ursus americanus de coloración más habitual en el este de Norteamérica|el pelaje=n/f;los dientes=w/m
+Raccoon|un mapache común de coloración habitual|la máscara alrededor de los ojos=n/f;el pelaje principal del dorso=g/m
+Striped skunk|una mofeta rayada de coloración habitual|las bandas del lomo=w/f;el fondo del pelaje=n/f
+Red panda|un panda rojo adulto de coloración habitual|el pelaje del vientre=n/m;las marcas claras de la cara=w/m
+Ring-tailed lemur|un lémur de cola anillada adulto|las franjas claras de la cola=w/f;las franjas oscuras de la cola=n/f;el pelo del dorso=g/m
+Mandrill|un mandril macho adulto de coloración intensa|la franja central de la nariz=r/m;las crestas laterales del hocico=a/m;la barba=y/d
+Golden lion tamarin|un tití león dorado adulto de coloración habitual|el pelaje que rodea la cara=o/d;la piel desnuda de la cara=n/d
+Western gorilla|un gorila occidental macho adulto de espalda plateada|el pelo de la zona central de la espalda=g/m;la piel de la cara=n/m
+Chimpanzee|un chimpancé común adulto de coloración habitual|el pelo corporal=n/f
+Eastern grey kangaroo|un canguro oriental Macropus giganteus adulto|el pelo del lomo=g/m;la nariz=n/m
+Koala|un koala de coloración habitual|la nariz=n/f;el pelo predominante del lomo=g/f;el pelo del pecho=w/m
+Tasmanian devil|un diablo de Tasmania de coloración habitual con mancha pectoral|el pelaje predominante=n/m;la mancha del pecho=w/m
+Harp seal|una cría de foca de Groenlandia con una semana de vida|el pelaje=w/m;los ojos=n/d
+Walrus|una morsa adulta|los colmillos=w/f
+Beluga whale|una beluga adulta de coloración habitual|la piel=w/m
+Bottlenose dolphin|un delfín mular de coloración habitual|la piel del dorso=g/f
+Great white shark|un tiburón blanco adulto de coloración habitual|el vientre=w/m;el dorso=g/m
+Clownfish|un pez payaso común Amphiprion ocellaris de coloración habitual|el fondo del cuerpo=o/f;las bandas anchas del cuerpo=w/f;los bordes finos de las bandas=n/d
+Blue tang|un pez cirujano Paracanthurus hepatus adulto de coloración habitual|el cuerpo predominante=a/f;la aleta caudal=y/m;la marca de paleta del cuerpo=n/d
+Goldfish|un pez dorado doméstico de variedad cometa en su coloración más conocida|las escamas predominantes=o/f
+Common kingfisher|un martín pescador común adulto|el pecho=o/m;el dorso=a/m;la mancha de la garganta=w/d
+European robin|un petirrojo europeo adulto de coloración habitual|el vientre bajo=w/m;las patas=b/d
+Eurasian blue tit|un herrerillo común adulto|el vientre=y/m;la coronilla=a/d;las mejillas=w/d
+Great tit|un carbonero común adulto|la cabeza=n/m;las mejillas=w/m;el vientre=y/m;la franja longitudinal del vientre=n/d
+European goldfinch|un jilguero europeo adulto|la máscara de la cara=r/m;la banda alar=y/m;la coronilla=n/d
+Eurasian bullfinch|un camachuelo común macho adulto|el pecho=r/d;la coronilla=n/d;la rabadilla=w/d
+Common chaffinch|un pinzón vulgar macho adulto en plumaje reproductor|las dos barras de las alas=w/d
+European greenfinch|un verderón común macho adulto|las franjas llamativas de alas y cola=y/d
+Barn swallow|una golondrina común adulta europea|la garganta=r/m;el vientre=w/m
+Western jackdaw|una grajilla occidental adulta|el iris=g/d;el plumaje de la nuca=g/d
+Eurasian magpie|una urraca común adulta|el plumaje de los hombros=w/m;el plumaje de la cabeza=n/m
+Great spotted woodpecker|un pico picapinos macho adulto|la mancha de la nuca=r/d;el bajo vientre=r/d;las mejillas=w/d
+European green woodpecker|un pito real adulto|la coronilla=r/d;el plumaje predominante del dorso=v/d
+Hoopoe|una abubilla adulta|las franjas claras de las alas=w/d;las franjas oscuras de las alas=n/d
+Barn owl|una lechuza común europea de morfo claro|el disco facial=w/m
+Snowy owl|un búho nival macho adulto con plumaje muy claro|el plumaje predominante=w/f;el iris=y/m
+Atlantic puffin|un frailecillo atlántico adulto en época de cría|el vientre=w/m;el dorso=n/m
+Emperor penguin|un pingüino emperador adulto|las manchas de los laterales del cuello=y/m;la cabeza=n/m
+King penguin|un pingüino rey adulto en plumaje habitual|las manchas de los laterales del cuello=o/d;el vientre=w/m
+Gentoo penguin|un pingüino papúa adulto|el pico=o/d;la banda sobre la cabeza=w/d
+Adélie penguin|un pingüino de Adelia adulto|el anillo alrededor de los ojos=w/d;la cabeza=n/d
+Northern cardinal|un cardenal norteño macho adulto|la máscara de la cara=n/m;el pico=r/d
+Scarlet macaw|un guacamayo macao adulto de coloración habitual|el plumaje de la cabeza=r/f;la banda media de las alas=y/m;las plumas exteriores de las alas=a/m
+Blue-and-yellow macaw|un guacamayo Ara ararauna adulto|el pecho=y/m;el dorso=a/m;la frente=v/d
+Hyacinth macaw|un guacamayo jacinto adulto|el plumaje predominante=a/m;el anillo de piel de los ojos=y/d
+Keel-billed toucan|un tucán de pico iris Ramphastos sulfuratus adulto|el plumaje del pecho=y/d;el plumaje del dorso=n/d
+Toco toucan|un tucán toco adulto|la garganta=w/m;el plumaje del cuerpo=n/m;la mayor parte del pico=o/m
+Resplendent quetzal|un quetzal resplandeciente macho adulto|el pecho y vientre=r/d;las largas plumas de la cola=v/d
+Violet-backed starling|un estornino amatista macho adulto|el dorso=p/d;el vientre=w/d
+Lilac-breasted roller|una carraca de pecho lila adulta|el pecho=p/d;el vientre=a/d
+Red-eyed tree frog|una rana Agalychnis callidryas adulta|el dorso=v/m;los dedos=o/d
+Golden poison frog|una rana Phyllobates terribilis de la variedad de coloración más común|la piel predominante=y/d
+Blue poison dart frog|una rana Dendrobates tinctorius del morfo azureus|el fondo de la piel=a/m;las manchas=n/m
+Fire salamander|una salamandra común de patrón típico|el fondo de la piel=n/m;las manchas=y/m
+Green iguana|una iguana Iguana iguana juvenil de coloración habitual|la piel predominante=v/m
+Monarch butterfly|una mariposa monarca adulta|el fondo de las alas=o/f;las venas de las alas=n/m;los puntos del borde de las alas=w/d
+Common blue|una mariposa Polyommatus icarus macho con las alas abiertas|el anverso de las alas=a/d
+Clouded yellow|una mariposa Colias croceus macho con las alas abiertas|el fondo del anverso de las alas=y/d
+Seven-spot ladybird|una mariquita de siete puntos adulta|el fondo de los élitros=r/f;la cabeza=n/m
+Common wasp|una avispa Vespula vulgaris adulta|las bandas claras del abdomen=y/f;las bandas oscuras del abdomen=n/f
+Honey bee|una abeja de la miel con bandas típicas oscuras|los ojos=n/m
+Fly agaric|una seta Amanita muscaria típica adulta|el fondo del sombrero=r/f;las verrugas del sombrero=w/m;el pie=w/d
+Shaggy ink cap|una seta Coprinus comatus al final de su maduración|el líquido en que se disuelven las láminas=n/d
+Cornflower|un aciano silvestre típico|el follaje=v/m
+Common poppy|una amapola común Papaver rhoeas típica|las manchas de la base de los pétalos=n/d
+Sunflower|un girasol común de flores liguladas típicas|las lígulas exteriores=y/f;las hojas=v/f
+Lavandula angustifolia|una lavanda Lavandula angustifolia de floración típica|las flores=p/m
+Holly|un acebo europeo hembra con frutos maduros típicos|los frutos=r/m;las hojas=v/f
+Mistletoe|un muérdago europeo Viscum album con frutos maduros|las bayas=w/d;las hojas=v/m
+Yew|un tejo europeo Taxus baccata con arilos maduros|la cubierta carnosa de la semilla=r/d;las hojas=v/m
+Ginkgo biloba|un ginkgo en pleno otoño antes de perder sus hojas|las hojas=y/m
+Jacaranda mimosifolia|una jacaranda de floración habitual|las flores=p/d
+Wisteria sinensis|una glicinia china de la variedad típica|los racimos de flores=p/d
+Dalmatian (dog)|un perro dálmata de la coloración más habitual|el fondo del pelo=w/f;las manchas del pelo=n/f
+New Zealand rabbit|un conejo neozelandés albino|el pelaje=w/f;el iris=r/m
+Mute swan|un cisne vulgar adulto de coloración habitual|el plumaje=w/f;el pico=o/m;el bulto de la base del pico=n/d
+Cheetah|un guepardo adulto de coloración habitual|las líneas faciales que parecen lágrimas=n/f
+Leopard|un leopardo adulto de coloración habitual no melanística|los bordes de las rosetas del pelaje=n/f
+Polar bear|un oso polar adulto de coloración habitual|los ojos=n/f
+American flamingo|un flamenco americano adulto de coloración intensa|las plumas de vuelo vistas al abrir las alas=n/d

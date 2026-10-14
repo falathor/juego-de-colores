@@ -1,7 +1,10 @@
 schema: spec-driven
 context: |
   ¿De qué color? is a Spanish, mobile-first static browser game.
-  Follow ESPECIFICACION-JUEGO-COLORES.md. Native HTML/CSS/ES modules;
-  no runtime dependencies, build, server backend, accounts, or remote API.
-  Deployable at the root and a GitHub Pages subdirectory.
+  Native HTML/CSS/ES modules without browser dependencies or a frontend build.
+  GitHub Pages serves the frontend; Cloudflare Workers and SQLite Durable Objects
+  provide authenticated shared rooms without player accounts.
+  Deployable at the root and a GitHub Pages subdirectory. The current catalogue
+  has 2,000 approved questions across ten categories of 200, with all three levels.
+  Preserve legacy saved games and immutable IDs when expanding the catalogue.
   Content must be original and factually reviewed before approval.

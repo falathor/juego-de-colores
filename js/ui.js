@@ -79,7 +79,7 @@ export function renderHome({ catalog, game, corrupt, error, configure, resume, d
   })));
   if (error) root.append(text('p', error, 'catalog-error'), button('Volver a cargar preguntas', retry, 'secondary wide'));
   const count = catalog?.questions.filter(q => q.status === 'approved').length || 0;
-  root.append(el('div', { class: 'facts' }, [count ? `${count} preguntas` : 'Preguntas originales', '8 categorías', 'Sin prisas ni cronómetro'].map(f => text('span', f))));
+  root.append(el('div', { class: 'facts' }, [count ? `${count} preguntas` : 'Preguntas originales', `${CATEGORIES.length} categorías`, 'Sin prisas ni cronómetro'].map(f => text('span', f))));
   return root;
 }
 export function renderSetup({ catalog, config, seen, update, start, back }) {

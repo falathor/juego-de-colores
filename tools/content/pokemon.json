@@ -1,0 +1,1102 @@
+[
+  {
+    "category": "videojuegos",
+    "difficulty": "facil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Charmander, sin contar formas variocolor?",
+    "answerColors": [
+      "rojo"
+    ],
+    "explanation": "Charmander figura en el grupo rojo de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Charmander, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/charmander/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "facil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Squirtle, sin contar formas variocolor?",
+    "answerColors": [
+      "azul"
+    ],
+    "explanation": "Squirtle figura en el grupo azul de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Squirtle, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/squirtle/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "facil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Pikachu, sin contar formas variocolor?",
+    "answerColors": [
+      "amarillo"
+    ],
+    "explanation": "Pikachu figura en el grupo amarillo de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Pikachu, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/pikachu/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "facil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Jigglypuff, sin contar formas variocolor?",
+    "answerColors": [
+      "rosa"
+    ],
+    "explanation": "Jigglypuff figura en el grupo rosa de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Jigglypuff, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/jigglypuff/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "facil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Clefairy, sin contar formas variocolor?",
+    "answerColors": [
+      "rosa"
+    ],
+    "explanation": "Clefairy figura en el grupo rosa de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Clefairy, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/clefairy/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "facil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Psyduck, sin contar formas variocolor?",
+    "answerColors": [
+      "amarillo"
+    ],
+    "explanation": "Psyduck figura en el grupo amarillo de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Psyduck, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/psyduck/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "facil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Meowth, sin contar formas variocolor?",
+    "answerColors": [
+      "amarillo"
+    ],
+    "explanation": "Meowth figura en el grupo amarillo de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Meowth, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/meowth/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "facil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Machop, sin contar formas variocolor?",
+    "answerColors": [
+      "gris"
+    ],
+    "explanation": "Machop figura en el grupo gris de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Machop, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/machop/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "facil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Geodude, sin contar formas variocolor?",
+    "answerColors": [
+      "marron"
+    ],
+    "explanation": "Geodude figura en el grupo marrón de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Geodude, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/geodude/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "facil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Poliwag, sin contar formas variocolor?",
+    "answerColors": [
+      "azul"
+    ],
+    "explanation": "Poliwag figura en el grupo azul de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Poliwag, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/poliwag/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "facil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Oddish, sin contar formas variocolor?",
+    "answerColors": [
+      "azul"
+    ],
+    "explanation": "Oddish figura en el grupo azul de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Oddish, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/oddish/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "facil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Diglett, sin contar formas variocolor?",
+    "answerColors": [
+      "marron"
+    ],
+    "explanation": "Diglett figura en el grupo marrón de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Diglett, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/diglett/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "facil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Magnemite, sin contar formas variocolor?",
+    "answerColors": [
+      "gris"
+    ],
+    "explanation": "Magnemite figura en el grupo gris de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Magnemite, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/magnemite/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "facil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Drowzee, sin contar formas variocolor?",
+    "answerColors": [
+      "amarillo"
+    ],
+    "explanation": "Drowzee figura en el grupo amarillo de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Drowzee, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/drowzee/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "facil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Voltorb, sin contar formas variocolor?",
+    "answerColors": [
+      "rojo"
+    ],
+    "explanation": "Voltorb figura en el grupo rojo de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Voltorb, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/voltorb/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "medio",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Cubone, sin contar formas variocolor?",
+    "answerColors": [
+      "marron"
+    ],
+    "explanation": "Cubone figura en el grupo marrón de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Cubone, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/cubone/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "medio",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Koffing, sin contar formas variocolor?",
+    "answerColors": [
+      "morado"
+    ],
+    "explanation": "Koffing figura en el grupo morado de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Koffing, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/koffing/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "medio",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Tangela, sin contar formas variocolor?",
+    "answerColors": [
+      "azul"
+    ],
+    "explanation": "Tangela figura en el grupo azul de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Tangela, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/tangela/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "medio",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Horsea, sin contar formas variocolor?",
+    "answerColors": [
+      "azul"
+    ],
+    "explanation": "Horsea figura en el grupo azul de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Horsea, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/horsea/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "medio",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Staryu, sin contar formas variocolor?",
+    "answerColors": [
+      "marron"
+    ],
+    "explanation": "Staryu figura en el grupo marrón de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Staryu, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/staryu/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "medio",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Magikarp, sin contar formas variocolor?",
+    "answerColors": [
+      "rojo"
+    ],
+    "explanation": "Magikarp figura en el grupo rojo de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Magikarp, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/magikarp/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "medio",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Lapras, sin contar formas variocolor?",
+    "answerColors": [
+      "azul"
+    ],
+    "explanation": "Lapras figura en el grupo azul de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Lapras, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/lapras/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "medio",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Ditto, sin contar formas variocolor?",
+    "answerColors": [
+      "morado"
+    ],
+    "explanation": "Ditto figura en el grupo morado de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Ditto, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/ditto/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "medio",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Eevee, sin contar formas variocolor?",
+    "answerColors": [
+      "marron"
+    ],
+    "explanation": "Eevee figura en el grupo marrón de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Eevee, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/eevee/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "medio",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Porygon, sin contar formas variocolor?",
+    "answerColors": [
+      "rosa"
+    ],
+    "explanation": "Porygon figura en el grupo rosa de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Porygon, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/porygon/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "medio",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Snorlax, sin contar formas variocolor?",
+    "answerColors": [
+      "negro"
+    ],
+    "explanation": "Snorlax figura en el grupo negro de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Snorlax, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/snorlax/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "medio",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Dratini, sin contar formas variocolor?",
+    "answerColors": [
+      "azul"
+    ],
+    "explanation": "Dratini figura en el grupo azul de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Dratini, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/dratini/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "medio",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Mew, sin contar formas variocolor?",
+    "answerColors": [
+      "rosa"
+    ],
+    "explanation": "Mew figura en el grupo rosa de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Mew, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/mew/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "medio",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Chikorita, sin contar formas variocolor?",
+    "answerColors": [
+      "verde"
+    ],
+    "explanation": "Chikorita figura en el grupo verde de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Chikorita, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/chikorita/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "medio",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Cyndaquil, sin contar formas variocolor?",
+    "answerColors": [
+      "amarillo"
+    ],
+    "explanation": "Cyndaquil figura en el grupo amarillo de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Cyndaquil, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/cyndaquil/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "medio",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Totodile, sin contar formas variocolor?",
+    "answerColors": [
+      "azul"
+    ],
+    "explanation": "Totodile figura en el grupo azul de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Totodile, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/totodile/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "medio",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Sentret, sin contar formas variocolor?",
+    "answerColors": [
+      "marron"
+    ],
+    "explanation": "Sentret figura en el grupo marrón de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Sentret, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/sentret/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "medio",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Hoothoot, sin contar formas variocolor?",
+    "answerColors": [
+      "marron"
+    ],
+    "explanation": "Hoothoot figura en el grupo marrón de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Hoothoot, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/hoothoot/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "medio",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Mareep, sin contar formas variocolor?",
+    "answerColors": [
+      "blanco"
+    ],
+    "explanation": "Mareep figura en el grupo blanco de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Mareep, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/mareep/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "medio",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Marill, sin contar formas variocolor?",
+    "answerColors": [
+      "azul"
+    ],
+    "explanation": "Marill figura en el grupo azul de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Marill, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/marill/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "dificil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Wooper, sin contar formas variocolor?",
+    "answerColors": [
+      "azul"
+    ],
+    "explanation": "Wooper figura en el grupo azul de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Wooper, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/wooper/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "dificil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Girafarig, sin contar formas variocolor?",
+    "answerColors": [
+      "amarillo"
+    ],
+    "explanation": "Girafarig figura en el grupo amarillo de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Girafarig, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/girafarig/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "dificil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Dunsparce, sin contar formas variocolor?",
+    "answerColors": [
+      "amarillo"
+    ],
+    "explanation": "Dunsparce figura en el grupo amarillo de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Dunsparce, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/dunsparce/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "dificil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Snubbull, sin contar formas variocolor?",
+    "answerColors": [
+      "rosa"
+    ],
+    "explanation": "Snubbull figura en el grupo rosa de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Snubbull, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/snubbull/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "dificil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Slugma, sin contar formas variocolor?",
+    "answerColors": [
+      "rojo"
+    ],
+    "explanation": "Slugma figura en el grupo rojo de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Slugma, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/slugma/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "dificil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Swinub, sin contar formas variocolor?",
+    "answerColors": [
+      "marron"
+    ],
+    "explanation": "Swinub figura en el grupo marrón de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Swinub, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/swinub/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "dificil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Remoraid, sin contar formas variocolor?",
+    "answerColors": [
+      "gris"
+    ],
+    "explanation": "Remoraid figura en el grupo gris de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Remoraid, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/remoraid/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "dificil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Houndour, sin contar formas variocolor?",
+    "answerColors": [
+      "negro"
+    ],
+    "explanation": "Houndour figura en el grupo negro de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Houndour, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/houndour/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "dificil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Phanpy, sin contar formas variocolor?",
+    "answerColors": [
+      "azul"
+    ],
+    "explanation": "Phanpy figura en el grupo azul de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Phanpy, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/phanpy/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "dificil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Smeargle, sin contar formas variocolor?",
+    "answerColors": [
+      "blanco"
+    ],
+    "explanation": "Smeargle figura en el grupo blanco de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Smeargle, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/smeargle/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "dificil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Miltank, sin contar formas variocolor?",
+    "answerColors": [
+      "rosa"
+    ],
+    "explanation": "Miltank figura en el grupo rosa de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Miltank, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/miltank/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "dificil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Raikou, sin contar formas variocolor?",
+    "answerColors": [
+      "amarillo"
+    ],
+    "explanation": "Raikou figura en el grupo amarillo de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Raikou, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/raikou/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "dificil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Suicune, sin contar formas variocolor?",
+    "answerColors": [
+      "azul"
+    ],
+    "explanation": "Suicune figura en el grupo azul de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Suicune, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/suicune/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "dificil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Celebi, sin contar formas variocolor?",
+    "answerColors": [
+      "verde"
+    ],
+    "explanation": "Celebi figura en el grupo verde de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Celebi, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/celebi/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "category": "videojuegos",
+    "difficulty": "dificil",
+    "prompt": "En la clasificación por colores de la Pokédex de los videojuegos, ¿qué color corresponde a Mudkip, sin contar formas variocolor?",
+    "answerColors": [
+      "azul"
+    ],
+    "explanation": "Mudkip figura en el grupo azul de la clasificación por color de especie. Esta pregunta trata esa clasificación, no todos los detalles de su cuerpo.",
+    "tags": [
+      "videojuegos",
+      "pokemon",
+      "pokedex"
+    ],
+    "status": "approved",
+    "sources": [
+      {
+        "title": "PokéAPI · Especie Mudkip, clasificación de color",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/mudkip/"
+      }
+    ],
+    "reviewedAt": "2026-10-15"
+  }
+]

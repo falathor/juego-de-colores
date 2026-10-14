@@ -26,14 +26,15 @@ async function availableQuestions(categories, difficulty) {
     && (difficulty === 'todas' || q.difficulty === difficulty)).length;
 }
 async function fresh() { await page.goto(root); await page.evaluate(() => localStorage.clear()); await page.reload(); await page.getByRole('heading', { name: 'Jugar en línea', exact: true }).waitFor(); }
-async function legacySolo(filters = {}) {
-  await page.evaluate(async patch => {
-    const { loadCatalog, CATEGORIES } = await import('./js/catalog.js');
+async function legacySolo(filters = {}, limit) {
+  await page.evaluate(async ({ patch, limit }) => {
+    const { loadCatalog, CATEGORIES, filteredQuestions } = await import('./js/catalog.js');
     const { createGame } = await import('./js/game.js');
-    localStorage.setItem('de-que-color.partida.v1', JSON.stringify(createGame(await loadCatalog(), {
+    const config = {
       mode: 'solo', duration: 10, difficulty: 'todas', categories: CATEGORIES.map(c => c.id), ...patch,
-    })));
-  }, filters);
+    }, data = await loadCatalog();
+    localStorage.setItem('de-que-color.partida.v1', JSON.stringify(createGame(limit ? { ...data, questions: filteredQuestions(data, config).slice(0,limit) } : data, config)));
+  }, { patch: filters, limit });
   await page.reload(); await page.getByRole('button', { name: 'Continuar partida' }).click();
 }
 async function mode(name, count = '10') {
@@ -52,13 +53,14 @@ await test('Inicio completo y sin conexiones externas de ejecución', async () =
   const external = []; page.on('request', req => { if (new URL(req.url()).origin !== origin) external.push(req.url()); });
   await page.goto(root); await page.locator('.mode-card').first().waitFor();
   assert(await page.locator('.mode-card').count() === 3, 'Faltan modos');
-  assert((await page.locator('.facts').innerText()).includes('198 preguntas'), 'Falta el catálogo');
+  assert((await page.locator('.facts').innerText()).includes('2000 preguntas'), 'Falta el catálogo');
+  assert((await page.locator('.facts').innerText()).includes('10 categorías'), 'Faltan categorías');
   assert(external.length === 0, 'Se descargan recursos externos');
   await page.screenshot({ path: new URL('inicio-escritorio.png', artifacts).pathname.replace(/^\/(\w:)/, '$1'), fullPage: true });
 });
-await test('Navegador: ejecutor de 28 pruebas', async () => {
+await test('Navegador: ejecutor de 30 pruebas', async () => {
   await page.goto(`${root}tests/`); await page.locator('#summary[data-passed=true]').waitFor();
-  assert(await page.locator('#results li').count() === 28, 'Conteo de pruebas inesperado');
+  assert(await page.locator('#results li').count() === 30, 'Conteo de pruebas inesperado');
 });
 await test('Mazo físico sin marcador: respuesta oculta y diez rondas completas', async () => {
   await fresh(); await mode('Jugar con cartas'); await start();
@@ -129,10 +131,18 @@ await test('Marcador físico y anulación: retirar solo puntos actuales, sustitu
   await fresh(); await mode('Jugar con cartas', '30'); await page.locator('#scoreboard').check();
   await page.locator('#all-categories').click(); await page.locator('#category-espana').click();
   await page.locator('#difficulty').selectOption('medio');
-  const available = await availableQuestions(['espana'], 'medio');
-  assert(available > 1 && available < 30, 'El filtro no permite comprobar agotamiento');
-  assert((await page.locator('#availability').innerText()).includes(`${available} rondas`), 'No avisa de pocas preguntas');
-  await start(); await page.getByRole('button', { name: 'Ver respuesta', exact: true }).click();
+  const available = 3;
+  await start();
+  // A dedicated three-question snapshot exercises exhaustion independently of catalogue growth.
+  await page.evaluate(async () => {
+    const { createGame } = await import('./js/game.js');
+    const { loadCatalog } = await import('./js/catalog.js');
+    const data = await loadCatalog();
+    localStorage.setItem('de-que-color.partida.v1', JSON.stringify(createGame({ ...data, questions: data.questions.filter(q => q.status === 'approved' && q.category === 'espana' && q.difficulty === 'medio').slice(0,3) },
+      { mode:'physical', duration:30, categories:['espana'], difficulty:'medio', scoreboard:true, names:['Equipo 1','Equipo 2'] })));
+  });
+  await page.reload(); await page.getByRole('button', { name: 'Continuar partida' }).click();
+  await page.getByRole('button', { name: 'Ver respuesta', exact: true }).click();
   assert((await page.locator('.game-top').innerText()).includes('Ronda 1'), 'Ronda cero');
   await page.locator('#physical-team-0').click(); await page.locator('#physical-team-1').click();
   await page.getByRole('button', { name: 'Confirmar ronda' }).click();
@@ -155,9 +165,19 @@ await test('Filtros vacíos, categorías OR y dificultad difícil', async () => 
   await page.locator('#category-series').click(); await page.locator('#category-comida').click();
   await page.locator('#difficulty').selectOption('dificil');
   const available = await availableQuestions(['series','comida'], 'dificil');
-  assert(available > 0 && available < 10, 'El filtro no permite comprobar una partida corta');
-  assert((await page.locator('#availability').innerText()).includes(`${available} rondas`), 'Filtros incorrectos');
-  await start(); const s = await saved(); assert(s.target === available, 'Duración filtrada incorrecta');
+  assert(available >= 100, 'Faltan preguntas difíciles en los dos grupos');
+  assert((await page.locator('#availability').innerText()).includes(`${available} preguntas disponibles`), 'Filtros incorrectos');
+  await start(); const s = await saved(); assert(s.target === 10, 'Duración filtrada incorrecta');
+});
+await test('Videojuegos y Mitos: tres dificultades y filtros estrictos en la interfaz', async () => {
+  for (const category of ['videojuegos','mitos']) for (const difficulty of ['facil','medio','dificil']) {
+    await fresh(); await mode('Jugar con cartas');
+    assert(await page.locator('.category-grid .chip').count()===10,'Faltan categorías');
+    await page.locator('#all-categories').click(); await page.locator(`#category-${category}`).click();
+    await page.locator('#difficulty').selectOption(difficulty); await start();
+    const snapshot=await saved(); assert(snapshot.target===10,'No ofrece diez rondas');
+    assert(snapshot.order.every(q=>q.category===category && q.difficulty===difficulty),'El filtro mezcla categorías o niveles');
+  }
 });
 await test('Fallos de localStorage: aviso y juego en memoria', async () => {
   const volatileContext = await browser.newContext();
@@ -242,7 +262,7 @@ await test('Solución: tarjetas grandes, nombres centrados y negrita, uno a cuat
 });
 await test('GitHub Pages: subcarpeta carga CSS, módulos y JSON y permite terminar', async () => {
   await page.goto(process.argv[3] || 'http://localhost:8001/juego-de-colores/');
-  await page.locator('.mode-card').first().waitFor(); await legacySolo({ categories: ['series'], difficulty: 'dificil' });
+  await page.locator('.mode-card').first().waitFor(); await legacySolo({ categories: ['series'], difficulty: 'dificil' }, 1);
   assert((await saved()).target === 1, 'No carga datos bajo subcarpeta');
   await soloAnswer(); await page.getByRole('button', { name: 'Ver resultado final' }).click();
   assert((await page.locator('.big-score').innerText()) === '1 / 1', 'No termina bajo subcarpeta');

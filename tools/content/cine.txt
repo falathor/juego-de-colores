@@ -1,0 +1,103 @@
+Luke Skywalker|Luke al final de El retorno del Jedi de 1983|la hoja del sable de luz=v/f;la ropa del duelo final=n/m
+Luke Skywalker|Luke en Una nueva esperanza de 1977|la hoja del sable que recibe de Obi-Wan=a/f;la túnica de su ropa de granjero=w/m
+Princess Leia|Leia con el vestido principal de Una nueva esperanza de 1977|el vestido=w/f;el pelo=b/m
+Han Solo|Han Solo con su ropa más reconocible de Una nueva esperanza de 1977|el chaleco=n/f;la camisa=w/m;los pantalones=a/d
+Chewbacca|Chewbacca con su diseño de la trilogía original de Star Wars|el pelaje=b/f
+Darth Vader|Darth Vader con su armadura de la trilogía original de Star Wars|la capa=n/f;los ojos de la máscara en El retorno del Jedi=n/d
+Yoda|Yoda en El imperio contraataca de 1980|la piel=v/f;los mechones de pelo=w/m
+Darth Maul|Darth Maul en La amenaza fantasma de 1999|la piel entre los tatuajes=r/f;los tatuajes de la cara=n/m;la hoja del sable doble=r/m;el iris=y/d
+Mace Windu|Mace Windu en El ataque de los clones de 2002|la hoja del sable de luz=p/m
+Qui-Gon Jinn|Qui-Gon Jinn en La amenaza fantasma de 1999|la hoja del sable de luz=v/m;la capa exterior=b/d
+Obi-Wan Kenobi|Obi-Wan durante el duelo de La venganza de los Sith de 2005|la hoja de su sable de luz=a/m
+Kylo Ren|Kylo Ren en El despertar de la Fuerza de 2015|las tres hojas visibles del sable=r/f;la túnica exterior=n/m
+Rey (Star Wars)|Rey durante su última escena en El ascenso de Skywalker de 2019|la hoja de su nuevo sable de luz=y/d
+R2-D2|R2-D2 en la trilogía original de Star Wars|los paneles pintados de la cúpula=a/f;las placas pintadas del cuerpo=w/m
+BB-8|BB-8 en El despertar de la Fuerza de 2015|los aros pintados de la esfera=o/f;el fondo pintado de la esfera=w/m;la lente principal del ojo=n/d
+C-3PO|C-3PO durante El despertar de la Fuerza de 2015|el brazo izquierdo=r/d
+Boba Fett|Boba Fett con la armadura de El retorno del Jedi de 1983|el fondo del casco=v/m;el borde de la abertura del visor=r/d;el visor=n/d
+Stormtrooper (Star Wars)|los stormtroopers imperiales de Una nueva esperanza de 1977|las placas principales de armadura=w/f;el traje flexible entre las placas=n/m
+Wicket W. Warrick|Wicket en El retorno del Jedi de 1983|el pelaje=b/m;la capucha=o/d
+The Matrix|la elección de Neo ante Morfeo en Matrix de 1999|la pastilla que decide tomar Neo=r/m
+The Matrix|Neo con el traje del asalto al vestíbulo de Matrix de 1999|el abrigo=n/f;las gafas de sol=n/m
+The Wizard of Oz (1939 film)|la Bruja Mala del Oeste de El mago de Oz de 1939|la piel=v/f;el sombrero=n/m;el vestido=n/m
+The Wizard of Oz (1939 film)|el camino a la Ciudad Esmeralda de El mago de Oz de 1939|el pavimento de ladrillos=y/f
+The Wizard of Oz (1939 film)|Dorothy en El mago de Oz de 1939|los calcetines=a/d;las cintas de las trenzas=a/d
+Mary Poppins (film)|Mary Poppins con su traje del paseo por la campiña animada de 1964|el vestido=w/m;la faja del vestido=r/d
+Willy Wonka & the Chocolate Factory|Willy Wonka con su abrigo más reconocible en la película de 1971|el abrigo=p/f;el sombrero=b/m
+Charlie and the Chocolate Factory (film)|Willy Wonka con su ropa principal en la película de 2005|el sombrero=n/m;los guantes=p/d
+Beetlejuice|Beetlejuice con su traje de rayas de la película de 1988|las rayas de la chaqueta=nw/f;el pelo=v/m
+Edward Scissorhands|Edward con su traje de cuero de Eduardo Manostijeras de 1990|el traje=n/f;el pelo=n/m
+The Mask (1994 film)|Stanley Ipkiss transformado con el traje más icónico de La máscara de 1994|la cara=v/f;el traje=y/m;el sombrero=y/d
+Joker (2019 film)|Arthur Fleck con su traje de payaso del final de Joker de 2019|la chaqueta=r/m;el chaleco=y/d;el pelo=v/m
+The Dark Knight|el Joker con su ropa principal de El caballero oscuro de 2008|el abrigo=p/m;el chaleco=v/d;el maquillaje del fondo de la cara=w/m;el maquillaje de los labios=r/d
+Superman (1978 film)|Superman con su traje de la película de 1978|el mono=a/f;la capa=r/f;las botas=r/m
+Spider-Man (2002 film)|Spider-Man con su traje de la película de 2002|las zonas de la máscara=r/f;los costados del cuerpo=a/m
+Iron Man (2008 film)|Tony Stark con la armadura Mark III de Iron Man de 2008|las placas principales del pecho=r/f
+Captain America: The First Avenger|Steve Rogers con su traje de combate más conocido de la película de 2011|el casco=a/m;la estrella del pecho=w/m
+Thor (film)|Thor con su traje de la película de 2011|la capa=r/f;el pelo=y/m
+Black Panther (film)|T'Challa con su traje de Black Panther de 2018|el tejido principal del traje=n/f;la energía acumulada que brilla en el traje=p/d
+Guardians of the Galaxy (film)|Gamora en Guardianes de la Galaxia de 2014|la piel=v/f
+Guardians of the Galaxy (film)|Groot en Guardianes de la Galaxia de 2014|la corteza del cuerpo=b/f;los brotes de hojas=v/m
+Guardians of the Galaxy (film)|Yondu en Guardianes de la Galaxia de 2014|la piel=a/m;la cresta de la cabeza=r/d
+Guardians of the Galaxy Vol. 2|Nebula en Guardianes de la Galaxia vol. 2|las zonas de piel de la cara=a/m
+Hellboy (2004 film)|Hellboy en la película de 2004|la piel=r/f;el abrigo=b/m
+Avatar (2009 film)|los na'vi de Avatar de 2009|la piel=a/f;el iris=y/m
+E.T. the Extra-Terrestrial|E.T. en la película de 1982|la piel=b/f;el brillo de la punta del dedo=o/m
+Gremlins|Gizmo en Gremlins de 1984|las manchas claras del pelaje=w/m;las manchas oscuras del pelaje=b/m
+Back to the Future|Marty McFly con su ropa del viaje inicial de Regreso al futuro de 1985|el chaleco acolchado=r/f;la chaqueta vaquera=a/m
+Kill Bill: Volume 1|la Novia con su mono de combate más icónico de Kill Bill volumen 1|el fondo del mono=y/f;las franjas laterales del mono=n/m
+The Grand Budapest Hotel|Gustave con su uniforme de conserje de El gran hotel Budapest|el uniforme=p/m
+The Shining (film)|el pasillo de la escena de las gemelas de El resplandor de 1980|los vestidos de las gemelas=a/m;los calcetines de las gemelas=w/d
+It (2017 film)|Pennywise en It de 2017|los pompones del traje=r/m;el pelo=o/m;el maquillaje del fondo de la cara=w/m
+Harry Potter and the Philosopher's Stone (film)|el primer partido de quidditch de Harry en la película de 2001|la capa deportiva de Gryffindor=r/m;la capa deportiva de Slytherin=v/m
+Harry Potter and the Chamber of Secrets (film)|Dobby en Harry Potter y la cámara secreta de 2002|el iris=v/d
+Harry Potter and the Prisoner of Azkaban (film)|el Autobús Noctámbulo en la película de 2004|la carrocería=p/m
+Toy Story|Woody con su ropa habitual de Toy Story de 1995|la camisa=y/f;el sombrero=b/f;el pañuelo del cuello=r/m;las manchas del chaleco=nw/m;los vaqueros=a/m
+Toy Story|Buzz Lightyear con su traje espacial de Toy Story de 1995|el fondo de las placas de armadura=w/f;la capucha bajo el casco=p/m;los ribetes principales del traje=v/m
+Toy Story 2|Jessie con su ropa habitual de Toy Story 2|el sombrero=r/f;los vaqueros=a/m;la parte superior de la camisa=y/d
+Toy Story|Rex con su diseño de Toy Story|la piel=v/f
+Toy Story|Hamm con su diseño de Toy Story|el cuerpo=s/f
+Toy Story 3|Lotso con su diseño de Toy Story 3|el pelo predominante=s/m;la nariz=b/d
+Toy Story 4|Forky con su diseño de Toy Story 4|el tenedor que forma la cabeza=w/m;los limpiapipas de los brazos=r/m;la plastilina de la boca=a/d
+Finding Nemo|Nemo en Buscando a Nemo de 2003|los finos bordes que delimitan las franjas=n/m
+Finding Nemo|Dory en Buscando a Nemo de 2003|el cuerpo predominante=a/f;la cola=y/m;la marca lateral que forma un dibujo de paleta=n/d
+Monsters, Inc.|Sulley en Monstruos S. A. de 2001|el pelaje entre las manchas=a/f;los cuernos=w/d
+Monsters, Inc.|Boo con su ropa habitual en Monstruos S. A. de 2001|la camiseta=s/m;los pantalones=p/d;los calcetines=w/d
+Monsters, Inc.|Randall con su coloración normal de Monstruos S. A. de 2001|la piel=p/m
+Cars (film)|Rayo McQueen con el número 95 en Cars de 2006|el número de la carrocería=y/d
+Cars (film)|Sally Carrera en Cars de 2006|la carrocería=a/m
+Cars (film)|Luigi el Fiat 500 en Cars de 2006|la carrocería=y/d
+Cars (film)|Chick Hicks en Cars de 2006|la carrocería=v/d
+Cars (film)|Ramone con su pintura más reconocible de Cars de 2006|la carrocería=p/d
+Inside Out (2015 film)|Alegría en Del revés de 2015|el pelo=a/f;los motivos de flores del vestido=a/d
+Inside Out (2015 film)|Tristeza en Del revés de 2015|el jersey=w/m;el pelo=a/m
+Inside Out (2015 film)|Asco en Del revés de 2015|el pañuelo del cuello=p/m;el pelo=v/m
+Inside Out (2015 film)|Ira en Del revés de 2015|la camisa=w/m;la corbata=r/d
+Inside Out 2|Ansiedad en Del revés 2|el pelo=o/f;las rayas de su jersey=ow/d
+Inside Out 2|Vergüenza en Del revés 2|la piel=s/f
+WALL-E|EVE en WALL-E de 2008|la carcasa exterior=w/f;las luces de los ojos=a/m
+WALL-E|WALL-E en la película de 2008|la pintura del torso=y/f;las orugas de las ruedas=n/d
+Up (2009 film)|Carl Fredricksen con su ropa habitual de Up|el pelo=w/f;el marco de las gafas=n/m;la chaqueta=b/d
+Up (2009 film)|Russell con su uniforme de explorador de Up|la camisa=y/m;la banda de insignias=b/d;el pañuelo del cuello=o/d
+Brave (2012 film)|Mérida en Brave de 2012|el pelo=o/f
+The Incredibles|la familia Parr con sus supertrajes de Los Increíbles de 2004|el tejido principal=r/f;los guantes=n/m;las botas=n/m;la letra i del emblema=y/d
+The Incredibles|Frozono con su supertraje de Los Increíbles de 2004|el visor de las gafas=r/d
+The Incredibles|Edna Moda con su ropa habitual de Los Increíbles de 2004|el pelo=n/m;el vestido=n/d
+Kung Fu Panda|Po en Kung Fu Panda de 2008|las manchas alrededor de los ojos=n/f;el pelo del vientre=w/m
+Kung Fu Panda|Shifu en Kung Fu Panda de 2008|la barba=w/d
+Madagascar (2005 film)|Marty la cebra de Madagascar de 2005|las rayas del cuerpo=nw/f
+Madagascar (2005 film)|los pingüinos de Madagascar de 2005|el dorso=n/f;el vientre=w/m;el pico=o/d
+Despicable Me|Gru con su ropa habitual de Gru mi villano favorito de 2010|el abrigo=n/m;las rayas más claras de la bufanda=g/d
+Despicable Me|los Minions con su ropa de trabajo de la película de 2010|el peto=a/f;los guantes=n/m
+Despicable Me 2|los Minions transformados por el suero PX-41 en la película de 2013|la piel=p/m
+Megamind|Megamind con su diseño de la película de 2010|la piel=a/f;la barba=n/d
+The Bad Guys (film)|el señor Lobo con el traje del atraco inicial de Los tipos malos de 2022|el traje=w/d;el pelo de la cabeza=g/m
+The Secret Life of Pets|Max en Mascotas de 2016|la mayor parte del pelo del cuerpo=w/m;las manchas de la cabeza=b/d
+The Secret Life of Pets|Snowball el conejo en Mascotas de 2016|el pelaje=w/m
+Ratatouille (film)|Remy en Ratatouille de 2007|el pelaje=g/m;la nariz=s/d
+Ratatouille (film)|Linguini con su uniforme de cocina de Ratatouille de 2007|la chaqueta=w/m;el gorro=w/m;el pelo=r/d
+Ratatouille (film)|Anton Ego con su ropa más reconocible de Ratatouille|la chaqueta=n/d
+The Nightmare Before Christmas|Jack Skellington con su traje habitual de Pesadilla antes de Navidad|el cráneo=w/f;las rayas del traje=nw/m
+The Nightmare Before Christmas|Oogie Boogie bajo luz normal en Pesadilla antes de Navidad|el saco que forma su cuerpo=b/d
+Corpse Bride|Emily en La novia cadáver de 2005|la piel=a/m;el pelo=a/d;el vestido=w/d
+Coraline (film)|Coraline con su ropa más reconocible de la película de 2009|el pelo=a/m;el chubasquero=y/m;las botas de lluvia=y/d

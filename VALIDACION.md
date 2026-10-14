@@ -2,6 +2,51 @@
 
 Fecha: 3 de octubre de 2026.
 
+## Ampliación a 2.000 preguntas — 15 de octubre de 2026
+
+- Catálogo **2.0.0**: **2.000 aprobadas**, diez categorías de **200** y el
+  borrador previo del pistacho excluido. Cada categoría tiene al menos **50 de
+  cada dificultad**. La tabla completa está en README.
+- Añadidas **1.802 preguntas**. Las 199 entradas de 1.2.0 conservan IDs,
+  enunciados, respuestas y metadatos; veinte solo cambian de categoría a
+  Videojuegos. Una huella normalizada verifica todas las entradas anteriores.
+- Nuevas categorías **Videojuegos** y **Mitos y leyendas**. Animación pasa a
+  **Animación y anime**. Videojuegos incluye **29 preguntas de LoL** y seis de
+  Tetris, además de Mario, Sonic, Minecraft, Pokémon y otros juegos.
+- **41 preguntas de banderas** (2,05 %), todas anteriores. La ampliación de
+  España incorpora cultura, fiestas, gastronomía, arte, patrimonio y tradiciones.
+- Inventarios editoriales reproducibles en `tools/content/`; hechos acotados
+  por versión, especie, parte o estado. Las clasificaciones de PokéAPI se
+  consultan como datos estructurados. Se revisaron 22 ilustraciones oficiales
+  de LoL en Data Dragon 16.20.1 y se retiraron o corrigieron detalles ambiguos.
+  Las referencias con títulos inexistentes se sustituyen por páginas concretas
+  en `source-overrides.json`, incluidas fuentes institucionales españolas.
+- La recogida automatizada comprueba referencias y conserva fichas de consulta;
+  **no demuestra por sí sola la verdad de cada respuesta**. La dificultad es
+  editorial, sin calibración con jugadores; las convenciones visuales pueden
+  discutirse y se conserva la opción de anular una pregunta.
+- **30/30 pruebas** de juego y contenido y **18/18 de salas y persistencia**.
+  Incluyen diez categorías, reparto por nivel, conservación, LoL y ausencia de
+  banderas territoriales nuevas, y filtros de las categorías nuevas por nivel.
+- **2/2 pruebas editoriales de IDs**: reordenación estable, conservación al
+  corregir referencias e identificadores retirados que nunca se reutilizan.
+- **14/14 comprobaciones de navegador** locales: modos presenciales,
+  recuperación de individual anterior, diez filtros, tres niveles nuevos,
+  teclado, móviles, anulación y agotamiento con una instantánea de prueba.
+- **6/6 comprobaciones multijugador** locales con tres sesiones independientes,
+  un mazo de 2.000, personalización, respuestas privadas, recarga y final.
+- Persistencia online dividida en bloques UTF-8 de **64 KiB** con índice y
+  transacción. Se prueba recuperación completa, límites de 128 KiB por valor,
+  migración desde el formato previo y rollback tras un fallo intermedio. Una
+  transición ordinaria no vuelve a escribir el mazo completo.
+- **OpenSpec: 8/8**. Los avisos de archivo históricos no son errores.
+- Tamaños sin comprimir: frontend **85.743 bytes**; catálogo **1.273.254 bytes**.
+  La ampliación requiere más descarga inicial. Los inventarios, cachés e imágenes
+  de revisión no se descargan para jugar.
+
+Las secciones siguientes conservan el historial de validación de las entregas
+anteriores; sus conteos corresponden a las versiones indicadas.
+
 ## Comprobaciones realizadas
 
 - **28/28 pruebas de lógica y catálogo** con `node tests/run.mjs`, sin paquetes

@@ -1,0 +1,152 @@
+Arsenal F.C.|la camiseta local tradicional más reconocible del Arsenal|el cuerpo=r/f;las mangas=w/m
+Manchester United F.C.|la camiseta local tradicional del Manchester United sin adornos|el color principal=r/f
+Manchester City F.C.|la camiseta local tradicional del Manchester City sin adornos|el color principal=a/f
+Liverpool F.C.|la camiseta local tradicional del Liverpool sin adornos|el color principal=r/f
+Chelsea F.C.|la camiseta local tradicional del Chelsea sin adornos|el color principal=a/f
+Everton F.C.|la camiseta local tradicional del Everton sin adornos|el color principal=a/m
+Tottenham Hotspur F.C.|la camiseta local tradicional del Tottenham sin adornos|el color principal=w/m
+Leeds United F.C.|la camiseta local tradicional del Leeds United desde la década de 1960|el color principal=w/d
+Newcastle United F.C.|la camiseta tradicional a rayas del Newcastle United|las franjas verticales=nw/m
+Sunderland A.F.C.|la camiseta tradicional a rayas del Sunderland|las franjas verticales=rw/d
+Southampton F.C.|la camiseta tradicional a rayas del Southampton|las franjas verticales=rw/d
+Brighton & Hove Albion F.C.|la camiseta tradicional a rayas del Brighton|las franjas verticales=aw/d
+Blackburn Rovers F.C.|la camiseta local tradicional del Blackburn Rovers|las dos mitades del cuerpo=aw/d
+Crystal Palace F.C.|la camiseta tradicional a rayas del Crystal Palace|las franjas verticales=ra/d
+Norwich City F.C.|la camiseta local tradicional del Norwich City sin ribetes|el color principal=y/d
+Watford F.C.|la camiseta local tradicional del Watford desde finales de los años 1950|el color principal=y/d
+West Ham United F.C.|la camiseta local tradicional del West Ham|las mangas=a/d
+Aston Villa F.C.|la camiseta local tradicional del Aston Villa|las mangas=a/d
+Burnley F.C.|la camiseta local tradicional del Burnley|las mangas=a/d
+Real Betis|la camiseta tradicional a rayas del Real Betis|las franjas verticales=vw/f
+Sevilla FC|la camiseta local tradicional del Sevilla sin ribetes|el color principal=w/f
+Valencia CF|la camiseta local tradicional del Valencia sin ribetes|el color principal=w/f
+RCD Espanyol|la camiseta tradicional a rayas del Espanyol|las franjas verticales=aw/m
+Real Sociedad|la camiseta tradicional a rayas de la Real Sociedad|las franjas verticales=aw/m
+Deportivo de La Coruña|la camiseta tradicional a rayas del Deportivo de La Coruña|las franjas verticales=aw/m
+Racing de Santander|la camiseta tradicional a rayas del Racing de Santander|las franjas verticales=vw/d
+Sporting de Gijón|la camiseta tradicional a rayas del Sporting de Gijón|las franjas verticales=rw/m
+Real Oviedo|la camiseta local tradicional del Real Oviedo sin adornos|el color principal=a/m
+Getafe CF|la camiseta local tradicional del Getafe sin adornos|el color principal=a/m
+Villarreal CF|la camiseta local tradicional del Villarreal sin adornos|el color principal=y/f
+Cádiz CF|la camiseta local tradicional del Cádiz sin adornos|el color principal=y/m
+UD Las Palmas|la camiseta local tradicional de Las Palmas sin adornos|el color principal=y/m
+CD Tenerife|la camiseta local tradicional del Tenerife sin adornos|el color principal=w/d
+CA Osasuna|la camiseta local tradicional de Osasuna sin adornos|el color principal=r/m
+Albacete Balompié|la camiseta local tradicional del Albacete sin adornos|el color principal=w/d
+UD Almería|la camiseta tradicional a rayas del Almería|las franjas verticales=rw/d
+Málaga CF|la camiseta tradicional a rayas del Málaga|las franjas verticales=aw/d
+Granada CF|la camiseta tradicional a rayas del Granada|las franjas horizontales=rw/d
+FC Barcelona|la camiseta tradicional del Barcelona en sus dos tonos identificativos|las franjas del cuerpo=ar/f
+Athletic Bilbao|la camiseta tradicional a rayas del Athletic Club|las franjas verticales=rw/f
+Paris Saint-Germain F.C.|la camiseta local tradicional de diseño Hechter del PSG|el fondo del cuerpo=a/m;la franja central ancha=r/d;los bordes finos que enmarcan esa franja=w/d
+Olympique de Marseille|la camiseta local tradicional del Olympique de Marsella sin adornos|el color principal=w/m
+Olympique Lyonnais|la camiseta local tradicional del Olympique de Lyon sin adornos|el color principal=w/d
+AS Saint-Étienne|la camiseta local tradicional del Saint-Étienne sin adornos|el color principal=v/d
+AS Monaco FC|la camiseta local tradicional de diseño diagonal del Mónaco|las dos zonas principales=rw/d
+FC Nantes|la camiseta local tradicional del Nantes sin ribetes|el color principal=y/d
+FC Bayern Munich|la camiseta local predominantemente lisa más reconocible del Bayern desde los años 1970|el color principal=r/m
+Borussia Dortmund|la camiseta local tradicional del Borussia Dortmund sin ribetes|el color principal=y/f
+FC Schalke 04|la camiseta local tradicional del Schalke 04 sin ribetes|el color principal=a/d
+SV Werder Bremen|la camiseta local tradicional del Werder Bremen sin ribetes|el color principal=v/d
+Hamburger SV|la camiseta local tradicional del Hamburgo sin ribetes|el color principal=w/d
+AC Milan|la camiseta tradicional a rayas del AC Milan|las franjas verticales=rn/f
+Inter Milan|la camiseta tradicional a rayas del Inter de Milán|las franjas verticales=an/f
+Atalanta BC|la camiseta tradicional a rayas del Atalanta|las franjas verticales=an/d
+SSC Napoli|la camiseta local tradicional del Nápoles sin ribetes|el color principal=a/m
+ACF Fiorentina|la camiseta local tradicional de la Fiorentina sin ribetes|el color principal=p/m
+SS Lazio|la camiseta local tradicional de la Lazio sin ribetes|el color principal=a/d
+Palermo FC|la camiseta local tradicional del Palermo sin ribetes|el color principal=s/d
+UC Sampdoria|la camiseta tradicional de la Sampdoria sin contar la banda del pecho|el color principal=a/d
+US Lecce|la camiseta tradicional a rayas del Lecce|las franjas verticales=ry/d
+Genoa CFC|la camiseta tradicional dividida en dos mitades del Génova|las dos mitades=ra/d
+Ajax Amsterdam|la camiseta local tradicional del Ajax|la franja ancha central=r/m;las zonas laterales=w/d
+Feyenoord|la camiseta local tradicional del Feyenoord|las dos mitades principales=rw/d
+PSV Eindhoven|la camiseta local tradicional a rayas del PSV|las franjas verticales=rw/d
+Sporting CP|la camiseta tradicional del Sporting de Portugal|las franjas horizontales=vw/m
+FC Porto|la camiseta tradicional del Oporto|las franjas verticales=aw/m
+S.L. Benfica|la camiseta local tradicional del Benfica sin ribetes|el color principal=r/m
+Celtic F.C.|la camiseta tradicional del Celtic de Glasgow|las franjas horizontales=vw/m
+Rangers F.C.|la camiseta local tradicional del Rangers sin ribetes|el color principal=a/d
+Boca Juniors|la camiseta tradicional de Boca Juniors|el fondo=a/m;la franja horizontal del pecho=y/m
+Club Atlético River Plate|la camiseta tradicional de River Plate|el fondo=w/m;la banda diagonal=r/m
+Club Atlético Independiente|la camiseta local tradicional de Independiente de Avellaneda sin ribetes|el color principal=r/d
+Racing Club de Avellaneda|la camiseta tradicional de Racing de Avellaneda|las franjas verticales=aw/d
+Santos FC|la primera camiseta local tradicional del Santos brasileño|el color principal=w/d
+CR Flamengo|la camiseta tradicional del Flamengo|las franjas horizontales=rn/m
+Fluminense FC|la camiseta tradicional de tres colores del Fluminense|las franjas verticales=rvw/d
+Brazil national football team|la camiseta de campo tradicional de Brasil desde 1954 sin ribetes|el color principal=y/f
+Argentina national football team|la camiseta de campo tradicional de Argentina|las franjas verticales=aw/f
+Netherlands national football team|la camiseta de campo tradicional de Países Bajos sin ribetes|el color principal=o/f
+Croatia national football team|la camiseta de campo tradicional de Croacia|los cuadros=rw/m
+Germany national football team|la camiseta de campo tradicional de Alemania sin adornos|el color principal=w/m
+England national football team|la camiseta de campo tradicional de Inglaterra sin adornos|el color principal=w/m
+Cameroon national football team|la camiseta de campo tradicional de Camerún sin adornos|el color principal=v/d
+Japan national football team|la camiseta de campo tradicional de Japón desde los años 1990 sin adornos|el color principal=a/d
+Nigeria national football team|la camiseta de campo tradicional de Nigeria sin adornos|el color principal=v/d
+South Africa national rugby union team|la camiseta tradicional de los Springboks sin cuello ni emblemas|el color principal=v/m
+Australia national rugby union team|la camiseta tradicional de los Wallabies sin cuello ni emblemas|el color principal=y/m
+Argentina national rugby union team|la camiseta tradicional de rugby de los Pumas|las franjas horizontales=aw/d
+Japan national rugby union team|la camiseta tradicional de rugby de Japón|las franjas horizontales=rw/d
+Fiji national rugby union team|la camiseta local tradicional de rugby de Fiyi sin adornos|el color principal=w/d
+Samoa national rugby union team|la camiseta local tradicional de rugby de Samoa sin adornos|el color principal=a/d
+Tonga national rugby union team|la camiseta local tradicional de rugby de Tonga sin adornos|el color principal=r/d
+Los Angeles Lakers|las dos equipaciones clásicas de los Lakers de los años 1980|la camiseta local clásica=y/f;la camiseta visitante clásica=p/m
+Boston Celtics|la camiseta visitante clásica de los Boston Celtics sin letras ni ribetes|el color principal=v/f
+Chicago Bulls|la camiseta visitante clásica de los Chicago Bulls sin letras ni ribetes|el color principal=r/f
+New York Knicks|la camiseta visitante clásica de los Knicks sin letras ni ribetes|el color principal=a/m
+Golden State Warriors|la camiseta azul clásica de los Warriors|los números y letras principales=y/m
+Oakland Athletics|la gorra clásica de los Oakland Athletics antes de su traslado|el fondo de la copa=v/d;la visera=y/d
+New York Yankees|la gorra clásica de los New York Yankees|el monograma NY=w/m
+Boston Red Sox|la gorra azul clásica de los Boston Red Sox|la letra B=r/d
+Green jersey|el Tour de Francia en su clasificación por puntos|el maillot del líder=v/m
+White jersey|el Tour de Francia en su clasificación de jóvenes|el maillot del líder=w/m
+Giro d'Italia|el Giro de Italia de 2024|el maillot del líder de la general=s/f;el maillot del líder de la montaña=a/d;el maillot del líder de los jóvenes=w/d;el maillot del líder por puntos=p/d
+Vuelta a España|la Vuelta a España de 2024|el maillot del líder de la general=r/m;el maillot del líder por puntos=v/d;el maillot del líder de los jóvenes=w/d
+Snooker|una mesa de snooker con sus bolas reglamentarias|la bola que vale dos puntos=y/m;la bola que vale tres puntos=v/m;la bola que vale cuatro puntos=b/d;la bola que vale cinco puntos=a/m;la bola que vale seis puntos=s/m;la bola que vale siete puntos=n/m;las bolas que valen un punto=r/m
+Judo|el sistema tradicional de seis grados kyu de judo usado en España|el cinturón de sexto kyu=w/f;el cinturón de quinto kyu=y/m;el cinturón de cuarto kyu=o/m;el cinturón de tercer kyu=v/m;el cinturón de segundo kyu=a/d;el cinturón de primer kyu=b/d
+Judo|el judo de competición internacional con dos judogis diferenciados|el judogi del primer competidor=w/m;el judogi del segundo competidor=a/m
+Karate|el karate de competición con cinturones aka y ao|el cinturón aka=r/d;el cinturón ao=a/d
+Taekwondo|el dobok de taekwondo Kukkiwon de un adulto cinturón negro|el tejido principal=w/m;el cuello en V=n/d
+Taekwondo|el taekwondo olímpico con protectores electrónicos diferenciados|el peto hong=r/m;el peto chung=a/m
+Boxing ring|un cuadrilátero de boxeo con esquinas asignadas a los boxeadores y esquinas neutrales|las dos esquinas de los boxeadores=ra/m;las dos esquinas neutrales=w/d
+Tennis ball|la reglamentación de la ITF de 2024 para el color exterior de una pelota de tenis|los dos colores permitidos=wy/m
+Table tennis|la reglamentación ITTF de 2020 sobre las dos caras de una pala de ping-pong|las caras de goma=rn/m
+Table tennis|la reglamentación ITTF de 2024 para el color de la pelota de ping-pong|los dos colores permitidos=wo/m
+Tennis court|las pistas de tenis de Roland Garros de tierra batida tradicional|el polvo de ladrillo superficial=o/f
+Wimbledon Championships|la indumentaria obligatoria predominante de los jugadores en Wimbledon|el color principal de la ropa=w/f
+Mikasa Sports|el balón de voleibol Mikasa V200W presentado en 2019|los paneles exteriores=ay/d
+Mikasa Sports|el balón de vóley playa Mikasa VLS300|los paneles exteriores=ayw/d
+Bowling pin|un bolo de bowling de diez bolos de diseño clásico|el cuerpo=w/f;las bandas del cuello=r/m
+Cricket ball|un partido de críquet Test tradicional disputado de día|la pelota=r/m
+Cricket ball|un partido internacional de críquet de un día con indumentaria de colores|la pelota=w/m
+Cricket ball|un partido Test de críquet diurno-nocturno|la pelota=s/d
+Basketball (ball)|un balón clásico de baloncesto de cuero de coloración tradicional|la superficie entre los canales=o/f;los canales que separan los paneles=n/m
+Ice hockey puck|un disco de hockey sobre hielo reglamentario normal, sin logotipos|el caucho=n/f
+Ice hockey|una pista de hockey sobre hielo reglamentaria|la línea central=r/m;las dos líneas que delimitan zonas=a/m
+Goal (sport)|una portería reglamentaria de fútbol asociación|los postes y el larguero=w/f
+Association football|las tarjetas de sustitución electrónicas clásicas de fútbol|las cifras del jugador que entra=v/m;las cifras del jugador que sale=r/m
+Penalty card|el hockey sobre césped con tarjetas disciplinarias de advertencia|la tarjeta triangular de advertencia=v/d
+Penalty card|el hockey sobre césped con tarjetas disciplinarias de suspensión|la tarjeta cuadrada de suspensión temporal=y/d
+2024 Summer Olympics|la pista de atletismo del Stade de France de París 2024|la superficie de las calles=p/m
+2016 Summer Olympics|la pista de atletismo del estadio olímpico de Río 2016|la superficie de las calles=a/d
+London Stadium|la pista de atletismo del estadio de Londres durante los Juegos de 2012|la superficie de las calles=r/d
+Olympic swimming pool|una piscina olímpica de diez calles con la distribución estándar de corcheras de World Aquatics|las corcheras centrales de las calles 4 y 5=y/d;las corcheras exteriores de las calles 0 y 9=v/d;las corcheras de las calles 2 y 7=a/d
+Spain national football team|la camiseta de campo tradicional de España sin adornos|el color principal=r/f
+Portugal national football team|la camiseta de campo tradicional de Portugal desde los años 1960 sin adornos|el color principal=r/f
+France national football team|la camiseta de campo tradicional de Francia sin adornos|el color principal=a/f
+Italy national football team|la camiseta de campo tradicional de Italia sin adornos|el color principal=a/f
+Mexico national football team|la camiseta de campo tradicional de México sin adornos|el color principal=v/f
+Uruguay national football team|la camiseta de campo tradicional de Uruguay sin adornos|el color principal=a/f
+Belgium national football team|la camiseta de campo tradicional de Bélgica sin adornos|el color principal=r/f
+Sweden national football team|la camiseta de campo tradicional de Suecia sin adornos|el color principal=y/f
+Colombia national football team|la camiseta de campo tradicional de Colombia desde los años 1990 sin adornos|el color principal=y/f
+Badminton|un volante de bádminton tradicional de plumas de ganso|las plumas=w/f
+Chess|el inicio reglamentario de una partida de ajedrez con piezas de dos colores clásicos|las piezas de quien mueve primero=w/f;las piezas del adversario=n/f
+Chessboard|un tablero de ajedrez de diseño tradicional sin tonos de madera|las casillas alternas=nw/f
+Archery|una diana de tiro con arco de cinco colores de World Archery|la zona central de diez puntos=y/f;los anillos de siete y ocho puntos=r/f;los anillos de cinco y seis puntos=a/m;los anillos de tres y cuatro puntos=n/m;los anillos exteriores de uno y dos puntos=w/f
+Darts|una diana de dardos de sisal de diseño estándar|el círculo más pequeño del centro=r/f;el anillo inmediatamente alrededor del centro=v/f;los números del contorno=w/m;las zonas anchas alternas de puntuación=nw/f
+Olympic symbols|el dibujo clásico de los anillos olímpicos sobre fondo blanco|los tres anillos de la fila superior=anr/f;los dos anillos de la fila inferior=yv/f
+Golf ball|una pelota de golf clásica sin tintes ni dibujos|la cubierta exterior=w/f
+Baseball (ball)|una pelota reglamentaria de béisbol tradicional|la cubierta de cuero=w/f;el hilo de las costuras=r/f
+Softball|una pelota de sófbol moderna de color óptico más común en competición|la cubierta=y/m
+American football (ball)|un balón tradicional de fútbol americano de cuero sin logotipos|la superficie entre las costuras=b/f;los cordones centrales=w/m

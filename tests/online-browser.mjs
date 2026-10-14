@@ -6,10 +6,14 @@ import { mkdir, writeFile } from 'node:fs/promises';
 const { chromium } = await import(pathToFileURL(process.argv[2]).href);
 const root = process.argv[3] || 'http://localhost:8000/';
 const api = process.argv[4] || 'http://127.0.0.1:8787';
+const apiHost = new URL(api).hostname;
+const localApi = ['localhost','127.0.0.1'].includes(apiHost);
+const dedicatedApi = /(?:^|[-.])test(?:[.-]|$)/.test(apiHost);
+if (!localApi && !dedicatedApi) throw new Error('Usa un servicio de pruebas con almacenamiento separado (nombre -test). No ejecutes esta batería contra las salas de producción.');
 const browser = await chromium.launch({ channel: 'chrome', headless: true });
 const errors = [], results = [];
 const contexts = await Promise.all([1280,320,390].map(width => browser.newContext({ viewport: { width, height: 900 } })));
-if (['localhost','127.0.0.1'].includes(new URL(root).hostname)) {
+if (['localhost','127.0.0.1'].includes(new URL(root).hostname) || dedicatedApi) {
   for (const ctx of contexts) await ctx.route('**/js/online-config.js', route => route.fulfill({ contentType: 'text/javascript', body: `export const ONLINE_API = ${JSON.stringify(api)};` }));
 }
 const [host, guest, invited] = await Promise.all(contexts.map(ctx => ctx.newPage()));

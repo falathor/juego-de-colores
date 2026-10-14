@@ -1,5 +1,6 @@
 import catalog from '../data/questions.es.json' with { type: 'json' };
 import { createRoom, joinRoom, actOnRoom, roomView, assertRoomOpen, validCode } from '../js/online-game.js';
+import { readRoom, writeRoom } from './room-storage.js';
 
 const json = (data, status = 200) => Response.json(data, { status, headers: { 'Cache-Control': 'no-store' } });
 const hash = async value => [...new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(value)))].map(b => b.toString(16).padStart(2,'0')).join('');
@@ -66,7 +67,7 @@ export default {
 export class ColorRoom {
   constructor(ctx) {
     this.ctx = ctx; this.room = null; this.presence = new Map(); this.rate = new Map();
-    ctx.blockConcurrencyWhile(async () => { this.room = await ctx.storage.get('room') || null; });
+    ctx.blockConcurrencyWhile(async () => { this.room = await readRoom(ctx.storage); });
   }
   async fetch(request) {
     return this.ctx.blockConcurrencyWhile(async () => {
@@ -96,10 +97,7 @@ export class ColorRoom {
         }
         if (next !== this.room) {
           // Assign only after the atomic write succeeds: failures leave live state unchanged.
-          await this.ctx.storage.transaction(async () => {
-            await this.ctx.storage.put('room', next);
-            if (path === '/create') await this.ctx.storage.setAlarm(next.expiresAt);
-          });
+          await writeRoom(this.ctx.storage, next, this.room, path === '/create' ? next.expiresAt : undefined);
           this.room = next;
         }
         this.presence.set(playerId, now);

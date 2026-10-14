@@ -9,9 +9,10 @@ export const COLORS = Object.freeze([
 
 export const CATEGORIES = Object.freeze([
   ['espana', 'España y tradiciones', '◎'], ['series', 'Series conocidas', '▣'],
-  ['cine', 'Cine', '▷'], ['animacion', 'Animación y videojuegos', '✦'],
+  ['cine', 'Cine', '▷'], ['animacion', 'Animación y anime', '✦'],
   ['deportes', 'Deportes', '⚑'], ['naturaleza', 'Naturaleza', '❋'],
   ['comida', 'Comida y bebida', '◒'], ['cotidiano', 'Cultura general y vida cotidiana', '⌂'],
+  ['videojuegos', 'Videojuegos', '◈'], ['mitos', 'Mitos y leyendas', '☾'],
 ].map(([id, label, icon]) => Object.freeze({ id, label, icon })));
 export const DIFFICULTIES = { facil: 'Fácil', medio: 'Medio', dificil: 'Difícil' };
 const nonempty = value => typeof value === 'string' && value.trim().length > 0;

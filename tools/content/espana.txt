@@ -1,0 +1,131 @@
+San Fermín|la indumentaria tradicional de los Sanfermines de Pamplona|la camisa y el pantalón=w/f;la faja=r/m
+Chulapo|el atuendo clásico de chulapo madrileño de San Isidro|el pañuelo del cuello=w/f;la parpusa de cuadros más reconocible=ng/m
+Castell|la indumentaria tradicional de una colla castellera|la faja=n/f;el pantalón=w/m
+Castellers de Vilafranca|la camisa identificativa de los Castellers de Vilafranca|la camisa=v/f
+Colla Vella dels Xiquets de Valls|la camisa identificativa de la Colla Vella dels Xiquets de Valls|la camisa=s/m
+Colla Joves Xiquets de Valls|la camisa identificativa de la Colla Joves Xiquets de Valls|la camisa=r/m
+Colla Jove Xiquets de Tarragona|la camisa identificativa de la Colla Jove Xiquets de Tarragona|la camisa=p/d
+Xiquets de Tarragona|la camisa identificativa de los Xiquets de Tarragona|las rayas del tejido=rw/d
+Bordegassos de Vilanova|la camisa identificativa de los Bordegassos de Vilanova|la camisa=y/d
+Marrecs de Salt|la camisa identificativa de los Marrecs de Salt|la camisa=a/d
+Capgrossos de Mataró|la camisa identificativa de los Capgrossos de Mataró|la camisa=a/d
+Bullfighter|la montera clásica de un matador de toros en España|el tejido exterior=n/f
+Bullfighting|los útiles de tela tradicionales del toreo español|la cara principal de la muleta=r/f;el anverso del capote de brega=s/m;el reverso del capote de brega=y/m
+Tricorne|el tricornio charolado más reconocible de la Guardia Civil|el charol=n/f
+Civil Guard (Spain)|el uniforme de servicio habitual de la Guardia Civil de 2024|el color principal=v/f
+National Police Corps (Spain)|el uniforme de servicio habitual de la Policía Nacional de 2024|el color principal=a/f
+Red Cross of Spain|el emblema más reconocible de Cruz Roja Española sobre fondo blanco|la cruz=r/f
+Correos|el logotipo clásico de Correos sobre un panel de color|el panel de fondo=y/f;la cornamusa y la corona=a/m
+Correos|un buzón de Correos español tradicional de recogida ordinaria|la carcasa principal=y/f
+ONCE|el cupón clásico de la ONCE en su logotipo corporativo de cuatro letras|el fondo del recuadro=v/m;las letras del nombre=y/m
+Lotería de Navidad|los bombos tradicionales del sorteo de la Lotería de Navidad|las bolas de madera=b/f
+El Gordo de Navidad|la indumentaria de los niños de San Ildefonso en el sorteo de Navidad más reconocible|la camisa=w/m
+Roscón de reyes|un roscón de Reyes español tradicional decorado con azúcar perlado|el azúcar de la superficie=w/f
+Twelve Grapes|las uvas de Nochevieja de variedad Aledo utilizadas tradicionalmente en el Vinalopó|la pulpa sin piel=v/m
+Turrón|un turrón de Alicante tradicional de miel y almendra|la oblea exterior=w/f
+Turrón|un turrón de Jijona tradicional de almendra molida sin cobertura|el aspecto general=b/f
+Polvorón|un polvorón tradicional de cacao sin cobertura|el interior=b/f
+Pestiño|un pestiño tradicional recién bañado en azúcar común|el azúcar de la cobertura=w/f
+Churro|unos churros españoles tradicionales rebozados en azúcar común|el azúcar espolvoreado=w/f
+Chocolate a la taza|un chocolate a la taza tradicional español sin nata|el líquido=b/f
+Horchata|una horchata de chufa valenciana sin colorantes|la bebida=w/f
+Tigernut|una chufa valenciana seca sin pelar|la piel=b/m
+Paella|una paella valenciana tradicional coloreada con azafrán|los granos de arroz=y/f
+Arroz negro (Spanish dish)|el arroz de una paella elaborado con tinta de sepia|los granos cocinados=n/f
+Arroz a banda|un arroz a banda alicantino tradicional con azafrán|los granos cocinados=y/m
+Fideuà|una fideuá tradicional coloreada con azafrán|los fideos cocinados=y/m
+Gazpacho|un gazpacho andaluz tradicional de tomate maduro|el color predominante=r/f
+Salmorejo|un salmorejo cordobés tradicional con tomate maduro|el color predominante=o/m
+Ajoblanco|un ajoblanco malagueño tradicional de almendra sin guarnición|la sopa=w/m
+Mojos|un mojo picón canario elaborado con pimiento seco|la salsa=r/m
+Mojos|un mojo de cilantro canario recién preparado|la salsa=v/m
+Gofio|un gofio de millo tostado canario tradicional|el polvo=b/m
+Canary Islands cuisine|unas papas arrugadas tradicionales cuando se ha secado su costra|la sal visible de la superficie=w/m
+Pimientos de Padrón|unos pimientos de Padrón recogidos en su estado tradicional para freír|la piel=v/f
+Piquillo pepper|unos pimientos del piquillo maduros antes de asarlos|la piel=r/f
+Gernika pepper|un pimiento de Gernika recolectado para su consumo tradicional|la piel=v/m
+Pepper|las guindillas encurtidas de Ibarra recogidas jóvenes para una gilda tradicional|el color principal=v/m
+Rioja (wine)|un vino de Rioja tinto joven servido en capa fina|el líquido=r/f
+Cava|un cava rosado español de coloración habitual|el líquido=s/m
+Sherry|un fino de Jerez de coloración típica visto en capa fina|el líquido=y/m
+Manchego|el interior de un queso manchego joven de coloración clara|la pasta=w/m
+Cabrales cheese|las vetas de Penicillium del queso Cabrales tradicional|las vetas principales=av/m
+Tetilla cheese|el interior de un queso Tetilla tradicional sin corteza|la pasta=w/m
+Mahon cheese|un queso Mahón curado con tratamiento tradicional de pimentón|la superficie tratada=o/d
+Casadiella|una casadiella asturiana tradicional espolvoreada con azúcar|el azúcar superficial=w/m
+Tarta de Santiago|una tarta de Santiago tradicional decorada con plantilla|el azúcar que rodea la cruz=w/f;la silueta de la cruz sin azúcar=b/m
+Crema catalana|una crema catalana tradicional recién caramelizada|la base de crema=y/f;la capa de azúcar tostado=b/m
+Tocino de cielo|un tocino de cielo tradicional sin nata|el cuerpo del postre=y/m
+Yemas de Santa Teresa|unas yemas de Santa Teresa tradicionales|el interior=y/m;el azúcar exterior=w/d
+Membrillo|un dulce de membrillo español cocido sin colorantes|el aspecto general=o/m
+Sobrasada|una sobrasada mallorquina tradicional cortada|la pasta condimentada=r/m
+Chistorra|una chistorra tradicional navarra cruda|la tripa teñida por el pimentón=r/m
+Morcilla de Burgos|una morcilla de Burgos tradicional cocida y cortada|los granos de arroz=w/m
+Lacón|un lacón gallego cocido de coloración típica cortado|la carne=s/m
+Jamón ibérico|una loncha de jamón ibérico curado de coloración típica|las vetas de grasa=w/f;la parte magra predominante=r/m
+Fuet|un fuet catalán tradicional con flor de superficie|la capa exterior de moho=w/m
+Ensaimada|una ensaimada mallorquina tradicional con azúcar glas|el azúcar de la cobertura=w/f
+Fartons|un fartón valenciano tradicional glaseado|la capa de azúcar=w/m
+Miguelitos|un miguelito de La Roda tradicional relleno de crema|el azúcar de la superficie=w/m;la crema del relleno=y/m
+Pantxineta|una pantxineta tradicional rellena de crema pastelera|la crema del relleno=y/d
+Gâteau Basque|un pastel vasco tradicional con crema pastelera|el relleno de crema=y/d
+Coca de Sant Joan|una coca de Sant Joan decorada con cerezas confitadas tradicionales|las cerezas de la decoración=r/d
+Panellet|un panellet tradicional de coco sin cobertura|el coco rallado exterior=w/m
+Sugus|un sugus clásico de sabor limón|el papel del envoltorio=y/m
+Sugus|un sugus clásico de sabor naranja|el papel del envoltorio=o/m
+Sugus|un sugus clásico de sabor fresa|el papel del envoltorio=r/m
+Sugus|un sugus clásico de sabor piña|el papel del envoltorio=a/d
+Cola Cao|un envase clásico de Cola Cao en su lata más reconocible|el cuerpo del envase=y/f;la tapa=r/m
+Nesquik|un envase clásico de cacao Nesquik comercializado en España|el fondo del envase=y/f;las letras principales del nombre=a/m
+Nocilla|la crema de cacao y avellanas clásica de Nocilla de una sola capa|la crema=b/f
+Nocilla|la crema de dos capas clásica de Nocilla Duo|las dos cremas=bw/m
+Chupa Chups|el logotipo clásico de Chupa Chups con forma de flor|el fondo de la flor=y/f;las letras=r/m
+Lacasitos|el envase tubular clásico de Lacasitos con su fondo más reconocible|el fondo del tubo=y/f
+Conguitos|un Conguito clásico recubierto de chocolate con leche|la cobertura=b/m
+Donettes|unos Donettes clásicos con baño de chocolate|la cobertura=b/f
+La Vaca que Ríe|el personaje del logotipo de La Vaca que Ríe comercializado en España|la cabeza de la vaca=r/f
+Júzcar|las fachadas de Júzcar tras la promoción de Los Pitufos de 2011|la pintura de las casas=a/f
+White towns of Andalusia|las fachadas tradicionalmente encaladas de Casares en Málaga|la cal visible de las fachadas=w/f
+Río Tinto (river)|el río Tinto en sus tramos de coloración ácida más característica|el aspecto predominante del agua=r/m
+Lagunas de la Mata y Torrevieja|la laguna de Torrevieja durante sus episodios característicos de alta salinidad|el aspecto del agua=s/m
+Alhambra|el significado del nombre árabe al-Hamra que da nombre a la Alhambra|el color aludido por ese nombre=r/m
+Mezquita-Catedral de Córdoba|los arcos de dovelas alternas de la Mezquita de Córdoba|las dos clases de dovelas=rw/f
+Puerta de Alcalá|el material pétreo principal del cuerpo de la Puerta de Alcalá de Madrid|el granito=g/m
+Casa Batlló|la cruz de cuatro brazos que corona la Casa Batlló de Barcelona|el revestimiento de la cruz=w/d
+Park Güell|el banco ondulante del Park Güell en sus juntas sin teselas de color|la lechada de las juntas=w/d
+Casa de las Conchas|las conchas de piedra que adornan la fachada de la Casa de las Conchas de Salamanca|la piedra arenisca=y/d
+Faro de Chipiona|la linterna superior del faro de Chipiona sobre su torre de piedra|la estructura metálica de la linterna=n/d
+Faro de Cabo Mayor|el faro de Cabo Mayor de Santander en su torre tradicional pintada|el exterior de la torre=w/d
+Santiago Matamoros|la representación ecuestre tradicional de Santiago Matamoros|el caballo=w/m
+Saint James's Cross|el emblema tradicional de la Orden de Santiago sobre fondo blanco|la cruz en forma de espada=r/m
+El caballero de la mano en el pecho|El caballero de la mano en el pecho de El Greco|el traje del retratado=n/f;la gola que rodea el cuello=w/m
+The Burial of the Count of Orgaz|los caballeros contemporáneos del entierro en El entierro del conde de Orgaz de El Greco|los trajes de los caballeros=n/m
+The Third of May 1808|el hombre que alza los brazos en El tres de mayo de Goya|la camisa=w/f;los pantalones=y/d
+The Parasol|El quitasol de Goya conservado en el Museo del Prado|la sombrilla=v/m
+La maja vestida|La maja vestida de Goya conservada en el Prado|el vestido principal=w/m
+Saturn Devouring His Son|Saturno devorando a su hijo de Goya|los acentos que representan sangre=r/m
+Guernica (Picasso)|Guernica de Picasso, sin contar los tonos intermedios como colores nuevos|los tres grupos de tonos principales=nwg/f
+The Old Guitarist|El viejo guitarrista de Picasso|el traje del guitarrista=a/m;la guitarra=b/d
+The Weeping Woman|La mujer que llora de Picasso de 1937 en la Tate|el fondo de la parte superior=y/d;la flor del sombrero=a/d
+The Horse Bath|El baño del caballo de Joaquín Sorolla de 1909|el pelo del caballo=w/m
+Walk on the Beach|Paseo a orillas del mar de Sorolla|los vestidos de las dos mujeres=w/m
+Madrid Metro|el plano esquemático del Metro de Madrid de 2024|el trazo de la línea 1=a/d;el trazo de la línea 2=r/m;el trazo de la línea 3=y/m;el trazo de la línea 4=b/d;el trazo de la línea 5=v/d;el trazo de la línea 6=g/d;el trazo de la línea 7=o/d;el trazo de la línea 8=s/d;el trazo de la línea 9=p/d;el trazo de la línea 10=a/d;el trazo de la línea 11=v/d
+Barcelona Metro|el plano de metro de Barcelona de 2024|el trazo de la línea 1=r/m;el trazo de la línea 2=p/d;el trazo de la línea 3=v/m;el trazo de la línea 4=y/d;el trazo de la línea 5=a/m
+Metrovalencia|el plano de Metrovalencia de 2024|el trazo de la línea 1=y/d;el trazo de la línea 3=r/d;el trazo de la línea 4=a/d;el trazo de la línea 5=v/d;el trazo de la línea 6=p/d;el trazo de la línea 7=o/d;el trazo de la línea 9=b/d
+Bilbao metro|el plano del Metro de Bilbao de 2024|el trazo de la línea 1=o/d;el trazo de la línea 2=n/d;el trazo de la línea 3=s/d
+Málaga Metro|el plano del Metro de Málaga de 2024|el trazo de la línea 1=r/d;el trazo de la línea 2=a/d
+Seville Metro|el plano del Metro de Sevilla con su primera línea de servicio|el trazo de la línea 1=v/d
+Bicing|las bicicletas del servicio Bicing de Barcelona de primera generación|el cuadro principal=r/m
+Llaollao|el logotipo de llaollao sobre sus vasos tradicionales|las letras=v/d
+Telepizza|el logotipo de Telepizza más reconocible anterior a 2020|el panel de fondo=r/m;las letras=w/d
+El Corte Inglés|el logotipo triangular clásico de El Corte Inglés|el triángulo=v/f;las letras=w/m
+Mercadona|el logotipo clásico de Mercadona|las letras=v/f
+Porrón|un porrón tradicional de vidrio incoloro lleno de vino tinto joven|el vino que contiene=r/m
+Butifarra|una butifarra de perol catalana elaborada con sangre|la superficie exterior=n/d
+Mahón (cheese)|la corteza de un queso Mahón-Menorca curado tratado con aceite y pimentón|el recubrimiento=o/d
+Iberian pig|un cerdo ibérico de variedad lampiña de coloración habitual|la piel=n/d
+Retinto cattle|una vaca retinta típica de las dehesas españolas|el pelo predominante=r/d
+Merino|una oveja merina española de la variedad sin pigmentación del vellón|la lana=w/m
+Spanish fir|un pinsapo andaluz Abies pinsapo de variedad típica|las acículas=v/d
+Madroño|un madroño común con frutos completamente maduros de coloración típica|los frutos=r/m
+Royal Botanic Garden of Madrid|una violeta común Viola odorata silvestre de floración típica en España|los pétalos=p/m

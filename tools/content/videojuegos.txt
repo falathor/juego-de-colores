@@ -1,0 +1,67 @@
+# Fuente | contexto de versión | partes y colores / dificultad editorial
+Mario|Mario con su traje clásico de fontanero de Nintendo|la camiseta=r/f;el peto=a/f;los guantes=w/m;los zapatos=b/m
+Luigi|Luigi con su traje clásico de fontanero de Nintendo|la camiseta=v/f;el peto=a/f;los guantes=w/m;los zapatos=b/m
+Wario|Wario con su traje clásico de fontanero de Nintendo|la camiseta=y/f;el peto=p/m;los guantes=w/m;los zapatos=v/d
+Waluigi|Waluigi con su traje clásico de Nintendo|la camiseta=p/m;el peto=n/m;los guantes=w/m;los zapatos=o/d
+Princess Peach|Peach con su vestido de princesa clásico de Nintendo|los guantes=w/f;el pelo=y/f;la piedra central del broche=a/m
+Princess Daisy|Daisy con su vestido moderno de princesa de Nintendo|el pelo=b/m;los guantes=w/m;la piedra del broche=v/d
+Toad (Nintendo)|Toad con su diseño habitual de Nintendo|los lunares del sombrero=r/f;el chaleco=a/m;los pantalones=w/m;los zapatos=b/d
+Toadette|Toadette con su diseño habitual de Nintendo|el fondo del sombrero=s/f;los lunares del sombrero=w/m;el vestido=s/m;los zapatos=b/d
+Bowser|Bowser con su diseño habitual de Nintendo|la melena=r/f;las púas del caparazón=w/m;los brazaletes=n/m;el hocico=y/d
+Yoshi|Yoshi verde con su diseño habitual de Nintendo|el vientre=w/f;la montura del dorso=r/m;las botas=o/d
+Shy Guy|Shy Guy rojo de los juegos de Mario|la máscara=w/f;las botas=a/d;los agujeros de los ojos de la máscara=n/m
+Birdo|Birdo en su diseño habitual de Nintendo|el lazo=r/m;el vientre=w/d;el cuerpo=s/m
+Donkey Kong|Donkey Kong con su diseño clásico desde Donkey Kong Country|la corbata=r/f;las letras de la corbata=y/m
+Diddy Kong|Diddy Kong con su diseño habitual de Nintendo|la gorra=r/f;la camiseta=r/m;las estrellas de la camiseta=y/d;el pelaje=b/m
+Dixie Kong|Dixie Kong en Donkey Kong Country 2|la boina=s/m;el pelo=y/m;el pelaje=b/d
+Sonic the Hedgehog (character)|Sonic con su diseño moderno habitual|los guantes=w/f;el fondo de las zapatillas=r/f;la franja de las zapatillas=w/m
+Tails (Sonic the Hedgehog)|Tails con su diseño moderno habitual|el pelaje principal=o/f;las puntas de las colas=w/m;los guantes=w/m
+Knuckles the Echidna|Knuckles con su diseño habitual desde Sonic 3|los guantes=w/f;la marca del pecho=w/m;las partes delanteras de las zapatillas=r/d
+Amy Rose|Amy Rose con su diseño moderno habitual|el pelaje=s/f;el vestido=r/m;los guantes=w/m
+Shadow the Hedgehog|Shadow con su diseño habitual de Sonic|el pelaje principal=n/f;las franjas del pelo=r/m;el pelo del pecho=w/d
+Dr. Eggman|el Dr. Eggman con su diseño moderno de Sonic|la chaqueta=r/m;los pantalones=n/m;los guantes=w/d
+Kirby (character)|Kirby con su diseño moderno habitual|los pies=r/f;las mejillas=s/m
+Meta Knight|Meta Knight con su diseño moderno de Kirby|las alas desplegadas=p/d;el cuerpo=a/m
+King Dedede|Rey Dedede con su diseño moderno de Kirby|el abrigo=r/m;los bordes de pelo del abrigo=w/m;el pico=y/d
+Pac-Man|Pac-Man en el juego arcade original de 1980|el fondo del escenario=n/m;los fantasmas en su estado asustado=a/m
+Tetromino|Tetris con el esquema de colores de la Tetris Guideline de 2001|la pieza cuadrada O=y/f;la pieza T=p/m;la pieza J=a/d;la pieza L=o/d;la pieza S=v/d;la pieza Z=r/d
+https://www.minecraft.net/en-us/article/meet-creeper|un creeper normal de Minecraft|los ojos=n/f;la boca=n/m
+https://www.minecraft.net/en-us/article/meet-enderman|un enderman normal de Minecraft|el cuerpo=n/f;los ojos=p/m
+https://www.minecraft.net/en-us/article/meet-ghast|un ghast de Minecraft|el cuerpo=w/m;la boca al disparar=r/d
+https://www.minecraft.net/en-us/article/meet-slime|un slime normal de Minecraft|el cuerpo=v/f;las marcas de los ojos=v/d
+https://www.minecraft.net/en-us/article/meet-blaze|un blaze de Minecraft|las varillas flotantes=y/m
+Steve (Minecraft)|Steve con su aspecto predeterminado clásico de Minecraft|el pelo=b/m
+Alex (Minecraft)|Alex con su aspecto predeterminado clásico de Minecraft|el pelo=o/m;la camiseta=v/m;los pantalones=b/d
+Link (The Legend of Zelda)|Link con su túnica clásica de The Legend of Zelda Ocarina of Time|la túnica=v/f;el gorro=v/m;las botas=b/m;los pendientes=a/d
+The Legend of Zelda: Breath of the Wild|Link con la túnica del elegido de Breath of the Wild|la túnica=a/f;el pelo=y/m;las botas=b/d
+Samus Aran|Samus con el traje Zero Suit azul clásico|el traje=a/m;el pelo=y/m
+Mega Man X (character)|Mega Man X con su armadura normal de Mega Man X de 1993|el núcleo de la frente=r/d
+Crash Bandicoot (character)|Crash con su diseño de Crash Bandicoot de 1996|los pantalones=a/f;las zapatillas=r/m;la nariz=n/d
+Spyro (character)|Spyro en el primer Spyro the Dragon de 1998|el vientre=y/m;los cuernos=y/m;las membranas interiores de las alas=o/d
+Among Us|la animación de un cadáver de tripulante de Among Us|el hueso que sobresale=w/f
+Portal (video game)|la pareja de portales creada por la pistola en Portal de 2007|el portal primario=a/m;el portal secundario=o/m
+God of War (2005 video game)|Kratos en God of War de 2005|la piel=w/m;el tatuaje corporal=r/m
+Hollow Knight|el Caballero de Hollow Knight de 2017|la máscara=w/m;la capa=n/d
+Shovel Knight|Shovel Knight con su armadura predeterminada del juego original|la armadura=a/m;los cuernos del casco=w/d
+Undertale|Sans con su diseño habitual de Undertale|el cráneo=w/m;la chaqueta=a/m;los pantalones cortos=n/d
+Undertale|Papyrus con su traje de combate habitual de Undertale|la bufanda=r/m;los guantes=r/d;el cráneo=w/m
+Super Meat Boy|Meat Boy en Super Meat Boy de 2010|el cuerpo=r/m;los ojos=n/d
+https://www.leagueoflegends.com/en-us/champions/jinx/|Jinx con su aspecto base de League of Legends|el pelo=a/f;los ojos=s/d
+https://www.leagueoflegends.com/en-us/champions/vi/|Vi con su aspecto base de League of Legends|el pelo=s/f;la marca de la mejilla=n/d
+https://www.leagueoflegends.com/en-us/champions/ashe/|Ashe con su aspecto base de League of Legends|el pelo=w/m;la capucha=a/d
+https://www.leagueoflegends.com/en-us/champions/lux/|Lux con su aspecto base de League of Legends|el pelo=y/f
+https://www.leagueoflegends.com/en-us/champions/annie/|Annie con su aspecto base de League of Legends|el pelo=r/m;el iris=v/d
+https://www.leagueoflegends.com/en-us/champions/teemo/|Teemo con su aspecto base de League of Legends|el sombrero=v/m;la montura de las gafas=r/d
+https://www.leagueoflegends.com/en-us/champions/amumu/|Amumu con su aspecto base de League of Legends|las vendas=v/m
+https://www.leagueoflegends.com/en-us/champions/zac/|Zac con su aspecto base de League of Legends|el cuerpo gelatinoso=v/f
+https://www.leagueoflegends.com/en-us/champions/brand/|Brand con su aspecto base de League of Legends|los surcos incandescentes de la piel=o/m
+https://www.leagueoflegends.com/en-us/champions/kennen/|Kennen con su aspecto base de League of Legends|el traje ninja=p/d
+https://www.leagueoflegends.com/en-us/champions/veigar/|Veigar con su aspecto base de League of Legends|el sombrero=a/d;los ojos=y/d
+https://www.leagueoflegends.com/en-us/champions/lulu/|Lulu con su aspecto base de League of Legends|la piel=p/d;el iris=v/d
+https://www.leagueoflegends.com/en-us/champions/katarina/|Katarina con su aspecto base de League of Legends|el pelo=r/m
+https://www.leagueoflegends.com/en-us/champions/soraka/|Soraka con su aspecto base de League of Legends|la piel=p/d;el pelo=w/d
+https://www.leagueoflegends.com/en-us/champions/tristana/|Tristana con su aspecto base de League of Legends|el pelo=w/d;la piel=a/d
+https://www.leagueoflegends.com/en-us/champions/ryze/|Ryze con su aspecto base de League of Legends|la piel=a/m
+https://www.leagueoflegends.com/en-us/champions/heimerdinger/|Heimerdinger con su aspecto base de League of Legends|el pelo de la coronilla=y/m;el bigote=w/d
+https://www.leagueoflegends.com/en-us/champions/malzahar/|Malzahar con su aspecto base de League of Legends|la capucha=p/d
+https://www.leagueoflegends.com/en-us/champions/alistar/|Alistar con su aspecto base de League of Legends|la piel del torso=p/d

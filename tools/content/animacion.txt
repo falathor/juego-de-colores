@@ -1,0 +1,98 @@
+Mickey Mouse|Mickey Mouse con su traje clásico de pantalón corto|los pantalones=r/f;los botones de los pantalones=y/m;los zapatos=y/f;los guantes=w/f
+Minnie Mouse|Minnie con su vestido clásico de lunares de las ilustraciones Disney de los años 1990|los lunares del vestido=w/f;los guantes=w/m
+Donald Duck|el Pato Donald con su traje marinero clásico|la chaqueta=a/f;la pajarita=r/f;el pico=o/f;las patas=o/m
+Daisy Duck|Daisy con su diseño clásico de blusa lila y lazo|la blusa=p/m;el lazo=s/m;el pico=o/m
+Goofy|Goofy con su diseño clásico moderno de Disney|el gorro=v/f;el jersey=o/m;el chaleco=n/m;los pantalones=a/m
+Pluto (Disney)|Pluto con su diseño clásico de Disney|el pelaje=y/f;las orejas=n/m;el collar=v/m
+Scrooge McDuck|el Tío Gilito con su abrigo de Patoaventuras de 1987|el abrigo=a/m;el sombrero=n/m;el ribete del abrigo=r/d
+Huey, Dewey, and Louie|los sobrinos de Donald en sus diseños clásicos diferenciados|la gorra de Juanito=r/m;la gorra de Jorgito=a/m;la gorra de Jaimito=v/m
+Doraemon|Doraemon con su diseño moderno habitual|el cuerpo principal=a/f;la nariz=r/f;el collar=r/m;la esfera del cascabel=y/m;los pies=w/d
+Nobita Nobi|Nobita con su ropa habitual del anime Doraemon|el jersey=y/m;los pantalones cortos=a/m;el pelo=n/m
+Shizuka Minamoto|Shizuka con su vestido habitual del anime Doraemon|el vestido=s/m;el pelo=n/m
+Gian (Doraemon)|Gigante con su ropa habitual del anime Doraemon|la camiseta=o/m;el pelo=n/m
+Suneo Honekawa|Suneo con su ropa habitual del anime Doraemon|la camiseta=v/m;el pelo=n/m
+SpongeBob SquarePants (character)|Bob Esponja con su ropa habitual|el cuerpo=y/f;los pantalones=b/f;la corbata=r/f;el iris=a/f;la camisa=w/m
+Patrick Star|Patricio con su ropa habitual de Bob Esponja|el fondo del pantalón=v/f;las flores del pantalón=p/m
+Squidward Tentacles|Calamardo con su ropa habitual de Bob Esponja|la camiseta=b/m;el iris=r/d
+Mr. Krabs|Don Cangrejo con su ropa habitual de Bob Esponja|el caparazón=r/f;los pantalones=a/m;el cinturón=n/d
+Sandy Cheeks|Arenita con su traje submarino habitual de Bob Esponja|el traje=w/m;la flor del casco=s/d;el pelaje=b/m
+Plankton and Karen|Plankton con su diseño habitual de Bob Esponja|el cuerpo=v/m;el iris=r/d
+Gary the Snail|Gary con su diseño habitual de Bob Esponja|el fondo del caparazón=s/m;la espiral del caparazón=r/d
+Bugs Bunny|Bugs Bunny con su diseño clásico de Warner|el pelaje del lomo=g/f;los guantes=w/m;la nariz=s/m
+Daffy Duck|el Pato Lucas con su diseño clásico de Warner|el plumaje=n/f;el pico=o/f;el collar de plumas del cuello=w/d
+Tweety|Piolín con su diseño clásico de Warner|el plumaje=y/f;las patas=o/m
+Sylvester the Cat|Silvestre con su diseño clásico de Warner|el pelaje del lomo=n/f;el vientre=w/m;la nariz=r/m
+Yosemite Sam|Yosemite Sam con su diseño clásico de pistolero de Warner|el bigote=r/m;el sombrero de vaquero clásico=w/d
+Elmer Fudd|Elmer Gruñón con su traje clásico de cazador|la gorra=b/m;la chaqueta=b/d
+Marvin the Martian|Marvin el Marciano con su diseño clásico de Warner|el casco=v/m;la falda=v/d;los guantes=w/d;las zapatillas=r/d
+Foghorn Leghorn|el gallo Claudio con su diseño clásico de Warner|el plumaje=w/m;la cresta=r/m;el pico=y/d
+Speedy Gonzales|Speedy Gonzales con su diseño clásico de Warner|la ropa=w/m;el pañuelo=r/m;el sombrero=y/d
+Garfield|Garfield con su diseño habitual|el pelaje principal=o/f;las rayas=n/m;la nariz=s/m
+Odie|Odie con su diseño habitual en Garfield|el pelaje del cuerpo=y/f;las orejas=b/m;la nariz=n/d
+Snoopy|Snoopy con su diseño habitual de Peanuts|el cuerpo=w/f;las orejas=n/m;el collar=r/m
+Woodstock (Peanuts)|Woodstock con su diseño habitual de Peanuts|las plumas=y/f
+Charlie Brown|Charlie Brown con su camiseta más reconocible de Peanuts|la camiseta=y/f;la franja en zigzag=n/m;los pantalones cortos=n/d
+The Pink Panther (character)|la Pantera Rosa con su diseño clásico|el cuerpo=s/f;el iris=y/m
+Inspector Gadget|Inspector Gadget con su traje clásico de la serie de 1983|la gabardina=g/m;el sombrero=g/m;la corbata=n/d;la camisa=w/d
+Popeye|Popeye con su ropa marinera de los cortos de Fleischer de los años 1930|la camisa=n/m;el cuello marinero=r/d;el gorro=w/m
+The Smurfs|un pitufo adulto típico con su ropa clásica|la piel=a/f;el gorro=w/f;los pantalones=w/m
+Papa Smurf|Papá Pitufo con su ropa clásica|el gorro=r/f;los pantalones=r/m;la barba=w/m
+Smurfette|Pitufina con su diseño clásico|el pelo=y/f;el vestido=w/m;los zapatos=w/d
+Gargamel|Gargamel con su diseño clásico de Los Pitufos|la túnica=n/m;los zapatos=r/d
+Azrael (The Smurfs)|Azrael con su diseño clásico de Los Pitufos|el pelaje principal=o/m;la zona clara del hocico=w/d
+Wally (Where's Wally?)|Wally con su atuendo clásico de ¿Dónde está Wally?|las rayas de la camiseta=rw/f;los pantalones=a/f;el marco de las gafas=n/m
+Pocoyo|Pocoyó con su atuendo habitual|el traje=a/f
+Pocoyo|Elly con su diseño habitual de Pocoyó|el cuerpo=s/f;la mochila=a/m
+Pocoyo|Pato con su diseño habitual de Pocoyó|el cuerpo=y/f;el sombrero=v/m;el pico=o/m
+Peppa Pig|Peppa con su vestido habitual de la serie original|el vestido=r/f;el cuerpo=s/f;los zapatos=n/m
+Peppa Pig|George con su ropa habitual de la serie original|la camiseta=a/f;el dinosaurio de juguete=v/m
+Finn the Human|Finn con su ropa habitual de Hora de aventuras|el gorro=w/f;la camiseta=a/m;la mochila=v/m;los zapatos=n/d
+Jake the Dog|Jake con su diseño habitual de Hora de aventuras|el cuerpo=y/f;la nariz=n/m
+Princess Bubblegum|la Princesa Chicle con su vestido habitual de Hora de aventuras|el pelo=s/m;el vestido=s/m;el cuello del vestido=p/d
+Marceline the Vampire Queen|Marceline con su diseño habitual de Hora de aventuras|el pelo=n/m;la piel=g/d
+Gumball Watterson|Gumball con su diseño habitual de El asombroso mundo de Gumball|el pelaje=a/f;la nariz=s/d
+Darwin Watterson|Darwin con su diseño habitual de El asombroso mundo de Gumball|el cuerpo=o/m;el fondo de las zapatillas=v/d
+Steven Universe (character)|Steven con su ropa clásica de Steven Universe|la camiseta=r/m;la estrella de la camiseta=y/m;los pantalones=a/d
+Amethyst (Steven Universe)|Amatista con su diseño habitual de Steven Universe|la piel=p/m;la gema del pecho=p/d
+Garnet (Steven Universe)|Garnet con su diseño habitual de Steven Universe|el pelo=n/m
+Goku|Goku con su traje de combate habitual de Dragon Ball Z|el traje=o/f;la camiseta interior=a/m;el pelo en estado normal=n/m;el pelo en Super Saiyan clásico=y/m
+Vegeta|Vegeta con la armadura de la saga de Cell de Dragon Ball Z|el mono interior=a/m;los guantes=w/m;el pelo en estado normal=n/m
+Piccolo (Dragon Ball)|Piccolo con su traje habitual de Dragon Ball Z|la piel=v/f;el traje=p/m;la capa=w/m;el turbante=w/d
+Krillin|Krilín con su traje de combate habitual de Dragon Ball Z|el traje=o/m;las marcas de la frente=n/d
+Bulma|Bulma con su primer vestido de Dragon Ball de 1986|el vestido=s/d;el lazo del pelo=r/d
+Frieza|Freezer en su forma final clásica de Dragon Ball Z|el cuerpo principal=w/m;las placas de la cabeza y pecho=p/d
+Cell (Dragon Ball)|Cell en su forma perfecta clásica de Dragon Ball Z|el fondo del caparazón=v/m;las manchas del caparazón=n/d
+Majin Buu|Buu gordo en su primera forma clásica de Dragon Ball Z|la piel=s/m;los pantalones=w/d;el chaleco=n/d
+Naruto Uzumaki|Naruto con su traje habitual de Naruto Shippuden|el pelo=y/f;el iris=a/m;las partes inferiores del traje=o/m
+Sasuke Uchiha|Sasuke con su diseño de Naruto Shippuden|el pelo=n/m;el iris con Sharingan activado=r/d;el fuego de Amaterasu=n/d
+Sakura Haruno|Sakura con su diseño habitual de Naruto Shippuden|el pelo=s/m;el iris=v/d;el chaleco=r/d
+Kakashi Hatake|Kakashi con su uniforme de instructor de Naruto|el pelo=g/m;la máscara=n/m;el chaleco=v/d
+Rock Lee|Rock Lee con su diseño habitual de Naruto|el mono de entrenamiento=v/m;el pelo=n/d;las vendas de los brazos=w/d
+Gaara|Gaara con su diseño habitual de Naruto|el pelo=r/m;las marcas alrededor de los ojos=n/d
+Hinata Hyuga|Hinata con su diseño de Naruto Shippuden|el iris sin pupila marcada=w/d;el pelo=a/d
+Monkey D. Luffy|Luffy con su atuendo clásico inicial de One Piece|el chaleco=r/m;los pantalones cortos=a/m;el pelo=n/m;la cinta del sombrero=r/d
+Roronoa Zoro|Zoro con su diseño habitual inicial de One Piece|el pelo=v/m;la faja=v/d;la bandana=n/d
+Nami (One Piece)|Nami con su diseño habitual de One Piece|el pelo=o/m
+Sanji (One Piece)|Sanji con su traje clásico de One Piece|el pelo=y/m;la chaqueta=n/d
+Tony Tony Chopper|Chopper con su primer sombrero de One Piece|el fondo del sombrero=s/m;la cruz del sombrero=w/d
+Usopp|Usopp con su diseño inicial de One Piece|el pelo=n/m;el peto=b/d
+Sailor Moon (character)|Sailor Moon con su uniforme inicial del anime de 1992|el pelo=y/f;el lazo del pecho=r/m;la falda=a/m;las botas=r/d
+Sailor Mercury|Sailor Mercury con su uniforme inicial del anime de 1992|el pelo=a/m;el lazo del pecho=a/d
+Sailor Mars|Sailor Mars con su uniforme inicial del anime de 1992|la falda=r/m;el lazo del pecho=p/d
+Sailor Jupiter|Sailor Jupiter con su uniforme inicial del anime de 1992|el pelo=b/m;el lazo del pecho=s/d;la falda=v/m
+Sailor Venus|Sailor Venus con su uniforme inicial del anime de 1992|el pelo=y/m;el lazo del pecho=a/d;la falda=o/d;el lazo del pelo=r/d
+Tuxedo Mask|el Señor del Antifaz con su traje clásico del anime de 1992|el sombrero=n/m;el antifaz=w/d;la rosa que lanza=r/m
+Luna (Sailor Moon)|Luna con su diseño clásico del anime Sailor Moon de 1992|el pelo del cuerpo=n/m;el creciente de la frente=y/d
+Artemis (Sailor Moon)|Artemis con su diseño clásico del anime Sailor Moon de 1992|el pelo del cuerpo=w/m;el creciente de la frente=y/d
+Inuyasha (character)|Inuyasha con su diseño habitual del anime|el pelo=w/m;el traje=r/m
+Sesshomaru|Sesshomaru con su diseño habitual del anime Inuyasha|el pelo=w/m;el creciente de la frente=a/d
+Edward Elric|Edward Elric con su diseño habitual de Fullmetal Alchemist|el pelo=y/m;el abrigo=r/m;los guantes=w/d
+Alphonse Elric|Alphonse con su armadura habitual de Fullmetal Alchemist|el exterior de la armadura=g/m;los ojos luminosos=r/d
+Ichigo Kurosaki|Ichigo con su diseño habitual de shinigami de Bleach|el pelo=o/m;la túnica=n/m
+Rukia Kuchiki|Rukia con su diseño habitual de shinigami de Bleach|el pelo=n/m;la túnica=n/d
+Aang|Aang con su diseño habitual de Avatar la leyenda de Aang|el tatuaje en forma de flecha=a/m;la capa monástica exterior=o/d
+Katara|Katara con su diseño habitual de Avatar la leyenda de Aang|el pelo=b/m;el iris=a/d;la ropa de la Tribu Agua=a/m
+Zuko|Zuko con su diseño habitual inicial de Avatar la leyenda de Aang|el pelo=n/m;la marca de la quemadura=r/d
+Sokka|Sokka con su ropa de la Tribu Agua de Avatar|el pelo=b/m;la ropa de abrigo principal=a/d
+Toph Beifong|Toph con su diseño habitual de Avatar la leyenda de Aang|el pelo=n/m;la ropa exterior=v/m
+Ash Ketchum|Ash con su primera gorra del anime Pokémon|el frente de la gorra=w/m;la visera=r/m;el símbolo frontal=v/d

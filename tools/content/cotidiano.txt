@@ -1,0 +1,113 @@
+YouTube|el icono clásico a todo color de YouTube|el fondo del botón=r/f
+WhatsApp|el icono clásico de WhatsApp|el fondo del globo de conversación=v/f;el auricular dibujado=w/m
+Spotify|el icono clásico de Spotify con círculo y ondas|el disco de fondo=v/f;las ondas=n/m
+Instagram|el icono de Instagram con fondo de degradado y cámara lineal|el trazo de la cámara=w/f
+Facebook|el icono clásico de Facebook con una f sobre un recuadro|el recuadro=a/f;la letra f=w/m
+LinkedIn|el icono clásico de LinkedIn con las letras in|el fondo=a/m;las letras=w/m
+Twitter|la silueta del pájaro de Twitter usada antes del cambio a X|el pájaro=a/f
+Twitter|el icono de X de 2023 con un cuadrado y la letra central|el fondo=n/f;la letra=w/m
+Snapchat|el icono clásico de Snapchat con un fantasma|el fondo=y/f;el interior del fantasma=w/m;el borde del fantasma=n/d
+TikTok|el icono clásico de TikTok dentro de un cuadrado|el fondo=n/f
+Netflix|el icono clásico de Netflix con una N sobre un cuadrado|la letra N=r/f;el fondo=n/m
+Disney+|el icono clásico de Disney+ anterior al rediseño de 2024|el fondo=a/m;las letras=w/m
+HBO Max|el icono original de HBO Max de 2020|el fondo=p/d;las letras=w/d
+Telegram|el icono clásico de Telegram con avión de papel|el círculo de fondo=a/f;el avión=w/m
+Signal (software)|el icono clásico de Signal con bocadillo de conversación|el fondo=a/m;el trazo del bocadillo=w/d
+Discord|el icono de Discord con fondo de color y su figura central|la figura central=w/m
+Slack (software)|el logotipo multicolor de Slack estrenado en 2019|las cuatro piezas principales=ravy/d
+Zoom (software)|el icono clásico de Zoom anterior al rediseño de 2022|el fondo=a/m;la cámara=w/d
+IKEA|el logotipo rectangular clásico de IKEA sin margen externo|el rectángulo=a/f;el óvalo=y/f;las letras=a/m
+McDonald's|el rótulo cuadrado clásico de McDonald's|los arcos=y/f;el fondo=r/m
+Burger King|el logotipo de Burger King utilizado entre 1999 y 2021|el arco que rodea la hamburguesa=a/d;las letras=r/m
+Coca-Cola|el logotipo clásico de Coca-Cola sobre la lata tradicional|el fondo=r/f;las letras=w/m
+Pepsi|el emblema circular de Pepsi de 2008 sin contar el fondo exterior|las dos zonas separadas por la banda=ra/m;la banda ondulada central=w/d
+Fanta|el logotipo de Fanta estrenado en 2008|las letras=a/m;la hoja=v/d
+7 Up|el logotipo clásico de 7 Up con un círculo entre el número y las letras|el círculo=r/d
+FedEx|el logotipo de FedEx Express utilizado desde 1994|las letras Fed=p/m;las letras Ex=o/d
+FedEx Ground|el antiguo logotipo de FedEx Ground anterior a su unificación en 2016|las letras Ex=v/d
+Google logo|el logotipo principal de Google en su versión multicolor desde 2015|los cuatro colores de las letras=aryv/f
+Google Chrome|el icono clásico de Google Chrome|el disco central=a/f
+Microsoft|el logotipo de Microsoft de cuatro cuadrados estrenado en 2012|los cuatro cuadrados=rvay/f
+Windows 11|el logotipo principal de Windows 11 en su versión de un solo color|los cuatro paneles=a/f
+Xbox|el icono clásico de Xbox con fondo de color y símbolo central|el fondo=v/f;la equis recortada=w/m
+PlayStation|el logotipo de PlayStation de 1994 en su versión de cuatro colores|las cuatro piezas de color=ryva/m
+Nintendo Switch|el logotipo de Nintendo Switch sobre su recuadro tradicional|el fondo=r/f;los mandos y las letras=w/m
+Steam (service)|el icono clásico de Steam dentro de su disco de fondo|el brazo mecánico dibujado=w/m
+Firefox|el icono de Mozilla Firefox de 2004|el zorro=o/f;el globo=a/m
+Ubuntu|el logotipo de Ubuntu con círculo de amigos sobre un disco de color|el disco de fondo=o/m;los amigos dibujados=w/d
+Debian|el logotipo de la espiral de Debian|la espiral=r/d
+Tux (mascot)|Tux el pingüino de Linux con su diseño clásico|el dorso=n/m;el vientre=w/m;el pico=y/d
+Python (programming language)|el logotipo clásico de Python formado por dos serpientes|las dos serpientes=ay/m
+Git|el logotipo de Git con un rombo y una bifurcación en el interior|la bifurcación dibujada=w/d
+GitHub|la silueta clásica de Octocat de GitHub sobre fondo blanco|la silueta=n/m
+Docker (software)|el logotipo clásico de Docker con una ballena|la ballena=a/d
+Kubernetes|el logotipo clásico de Kubernetes con timón y hexágono|el hexágono=a/d;el timón=w/d
+Stack Overflow|el logotipo clásico de Stack Overflow|las barras que salen de la bandeja=o/d
+Android (operating system)|el robot clásico de Android de cuerpo completo|el cuerpo=v/f
+Duolingo|Duo con su diseño habitual de Duolingo|las plumas=v/f;el pico=o/m
+Wikipedia logo|el logotipo tradicional de Wikipedia que acompaña al globo|las letras del nombre=n/m
+Wikimedia Foundation|el logotipo multicolor de la Fundación Wikimedia|las tres piezas principales=rva/d
+Uno (card game)|la baraja UNO clásica de Mattel sin contar cartas comodín|los cuatro colores de las familias=ryva/f
+Uno (card game)|una carta de comodín clásica de UNO|el fondo exterior del óvalo=n/m
+Parchís|el parchís español tradicional de cuatro jugadores|los cuatro colores de las fichas=ryva/f
+Trivial Pursuit|la edición Genus original de Trivial Pursuit|el quesito de Geografía=a/m;el quesito de Entretenimiento=s/m;el quesito de Historia=y/m;el quesito de Arte y Literatura=b/d;el quesito de Ciencias y Naturaleza=v/d;el quesito de Deportes y Pasatiempos=o/d
+Monopoly (game)|la edición clásica contemporánea de Londres de Monopoly|la franja de Old Kent Road=b/d;la franja de The Angel Islington=a/d;la franja de Pall Mall=s/d;la franja de Bow Street=o/d;la franja de Strand=r/d;la franja de Leicester Square=y/d;la franja de Regent Street=v/d;la franja de Park Lane=a/d
+Monopoly (game)|el tablero clásico de Monopoly en su casilla GO|la flecha=r/m
+Scrabble|el tablero clásico anglosajón de Scrabble|las casillas de triple palabra=r/m;las casillas de doble palabra=s/d
+Rubik's Cube|un cubo de Rubik de esquema estándar occidental|la cara opuesta a la cara blanca=y/f;la cara opuesta a la cara roja=o/m;la cara opuesta a la cara azul=v/m
+Catan|el juego base clásico de Catan con las cuatro familias de piezas de madera|las cuatro familias de piezas=rawo/d
+Catan|las losetas de terreno de la edición clásica de Catan|los campos de cereales=y/m;los pastos de ovejas=v/m;los bosques=v/d
+Carcassonne (board game)|las losetas del juego base clásico de Carcassonne|los campos de hierba=v/m;los tejados de las ciudades=r/d
+French-suited playing cards|una baraja francesa tradicional de dos colores|los símbolos de diamantes=r/f;los símbolos de tréboles=n/f;los símbolos de picas=n/m
+Dominoes|un juego de dominó clásico con fichas de fondo blanco|los puntos de las fichas=n/f
+Reversi|un juego clásico de Othello o Reversi|las dos caras de las fichas=nw/m;el fondo del tablero=v/d
+Connect Four|un Conecta 4 clásico de Hasbro|los dos grupos de discos=ry/f;la parrilla vertical=a/m
+Battleship (game)|el juego Hundir la flota clásico de Hasbro con clavijas para impactos y agua|las clavijas que marcan impactos=r/m;las clavijas que marcan agua=w/d
+Traffic light|un semáforo clásico para peatones en España|el muñeco que autoriza el paso=v/f;el muñeco que prohíbe el paso=r/f
+Stop sign|una señal de STOP normalizada en España|el borde exterior=w/m
+Yield sign|una señal triangular de ceda el paso estándar en España|el borde=r/f;el interior=w/m
+No symbol|una señal circular de prohibición de paso con barra horizontal en España|el disco exterior=r/m;la barra horizontal=w/m
+Pedestrian crossing|la señal vertical española de paso para peatones S-13|el cuadrado exterior=a/m;el triángulo interior=w/d
+Parking sign|la señal española de aparcamiento S-17|el fondo=a/m;la letra P=w/m
+European highway shield|la identificación europea de una carretera de la red E|el fondo del panel=v/d;las letras y números=w/d
+European Union energy label|la etiqueta energética europea de siete clases de 2021|la flecha de la clase A=v/m;la flecha de la clase G=r/m;la flecha central de la clase D=y/d
+Recycling bin|los contenedores habituales españoles de recogida selectiva|el contenedor de envases de vidrio=v/f;el contenedor de envases ligeros=y/f;el contenedor de materia orgánica=b/m
+ISO 7010|el pictograma internacional de primeros auxilios de la norma ISO 7010|el fondo=v/m;la cruz=w/m
+ISO 7010|una señal de obligación de la norma ISO 7010|el disco de fondo=a/m;el pictograma=w/d
+ISO 7010|una señal de advertencia triangular de la norma ISO 7010|el fondo=y/m;el borde=n/m
+ISO 7010|una señal de equipo contra incendios de la norma ISO 7010|el fondo=r/m;el pictograma=w/d
+USB|el código de colores habitual de los cuatro hilos de un cable USB 2.0 clásico|el aislamiento del hilo VBUS=r/d;el aislamiento del hilo de masa=n/d;el aislamiento del hilo D+=v/d;el aislamiento del hilo D−=w/d
+TIA/EIA-568|el orden de conductores de un conector RJ45 según T568B|el hilo de color liso del pin 2=o/d;el hilo de color liso del pin 6=v/d;el hilo de color liso del pin 4=a/d;el hilo de color liso del pin 8=b/d
+TIA/EIA-568|el orden de conductores de un conector RJ45 según T568A|el hilo de color liso del pin 2=v/d;el hilo de color liso del pin 6=o/d
+Electronic color code|el código de bandas de resistencias de diez cifras|la banda que representa el cero=n/d;la banda que representa el uno=b/d;la banda que representa el dos=r/d;la banda que representa el tres=o/d;la banda que representa el cuatro=y/d;la banda que representa el cinco=v/d;la banda que representa el seis=a/d;la banda que representa el siete=p/d;la banda que representa el ocho=g/d;la banda que representa el nueve=w/d
+RCA connector|los conectores RCA de audio estéreo del código tradicional|el conector del canal derecho=r/m;el conector del canal izquierdo=w/m
+Composite video|el conector RCA de vídeo compuesto tradicional|el aro del conector=y/m
+Component video|los tres conectores RCA de vídeo por componentes YPbPr|el conector Y=v/d;el conector Pb=a/d;el conector Pr=r/d
+PS/2 port|los conectores PS/2 con el código PC 99|el conector de teclado=p/d;el conector de ratón=v/d
+Audio jack|los minijacks de un PC con el código PC 99|el puerto de micrófono=s/d;el puerto de salida de altavoces frontales=v/d;el puerto de entrada de línea=a/d
+Flame test|un ensayo de llama clásico de sales de sodio|la llama característica=y/m
+Flame test|un ensayo de llama clásico de sales de potasio|la llama característica=p/d
+Flame test|un ensayo de llama clásico de sales de litio|la llama característica=r/d
+Flame test|un ensayo de llama clásico de sales de estroncio|la llama característica=r/d
+Flame test|un ensayo de llama clásico de sales de bario|la llama característica=v/d
+Copper(II) sulfate|cristales de sulfato de cobre pentahidratado puros|los cristales=a/m
+Copper(II) sulfate|sulfato de cobre anhidro puro|el polvo=w/d
+Cobalt(II) chloride|cloruro de cobalto hexahidratado puro|los cristales=s/d
+Cobalt(II) chloride|cloruro de cobalto anhidro puro|los cristales=a/d
+Potassium permanganate|una disolución acuosa concentrada de permanganato de potasio|el líquido=p/d
+Potassium dichromate|cristales puros de dicromato de potasio|los cristales=o/d
+Potassium chromate|cristales puros de cromato de potasio|los cristales=y/d
+Chromium(III) oxide|óxido de cromo III puro usado como pigmento|el polvo=v/d
+Sulfur|azufre elemental sólido puro|el sólido=y/f
+Graphite|un bloque de grafito de mina de lápiz|el trazo sobre papel blanco=n/f
+Ruby|un corindón de variedad rubí transparente|el color del cuerpo=r/f
+Emerald|un berilo de variedad esmeralda de coloración típica|el color del cuerpo=v/f
+Amethyst|un cuarzo de variedad amatista de coloración típica|el color del cuerpo=p/m
+Malachite|una malaquita de coloración habitual|el color predominante=v/d
+Azurite|una azurita de coloración habitual|el color predominante=a/d
+Lapis lazuli|un lapislázuli de buena calidad sin contar inclusiones|el color predominante=a/m
+Cinnabar|el polvo de un cinabrio de coloración típica|el polvo=r/d
+Orpiment|un oropimente de coloración típica|el cuerpo del mineral=y/d
+Bloodstone|un heliotropo o jaspe sanguíneo clásico|el fondo de la piedra=v/d;las manchas de la piedra=r/d
+Obsidian|una obsidiana volcánica homogénea sin inclusiones ni reflejos|el aspecto general=n/m
+Lego|el logotipo cuadrado clásico de LEGO|el fondo=r/f;el interior de las letras=w/f;el contorno exterior de las letras=y/m

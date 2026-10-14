@@ -1,0 +1,87 @@
+Homer Simpson|Homer Simpson con su ropa habitual de Los Simpson|la camisa=w/f;los pantalones=a/f;los zapatos=g/m
+Marge Simpson|Marge Simpson con su ropa habitual de Los Simpson|el vestido=v/f;el collar=r/m;los zapatos=r/m
+Bart Simpson|Bart Simpson con su ropa habitual de Los Simpson|la camiseta=o/f;los pantalones cortos=a/f;las zapatillas=a/m
+Lisa Simpson|Lisa Simpson con su ropa habitual de Los Simpson|el vestido=r/f;el collar de perlas=w/f;los zapatos=r/m
+Maggie Simpson|Maggie Simpson con su ropa habitual de Los Simpson|el pelele=a/f;el lazo=a/m;el chupete=r/m
+Ned Flanders|Ned Flanders con su ropa habitual de Los Simpson|el jersey=v/f;el cuello de la camisa=s/m;el bigote=b/m;los pantalones=g/d
+Milhouse Van Houten|Milhouse con su ropa habitual de Los Simpson|el pelo=a/f;las gafas=r/m;la camiseta=p/m;los pantalones cortos=r/d
+Nelson Muntz|Nelson Muntz con su ropa habitual de Los Simpson|el chaleco=a/m;la camiseta=o/m;los pantalones cortos=a/d
+Ralph Wiggum|Ralph Wiggum con su ropa habitual de Los Simpson|la camisa=a/m;los pantalones=b/d
+Chief Wiggum|el jefe Wiggum con su uniforme habitual de Los Simpson|el pelo=a/m;la camisa del uniforme=a/m
+Sideshow Bob|el actor secundario Bob con su diseño habitual de Los Simpson|el pelo=r/m;la nariz=y/d
+Krusty the Clown|Krusty con su ropa habitual de payaso de Los Simpson|el pelo=v/f;la camiseta=p/m;la pajarita=a/d;la nariz=r/m
+Mr. Burns|el señor Burns con su diseño habitual de Los Simpson|los mechones laterales del pelo=g/m;la corbata=n/d
+Waylon Smithers|Smithers con su ropa habitual de Los Simpson|la chaqueta=v/m;la pajarita=p/d;el pelo=g/d
+Moe Szyslak|Moe con su ropa habitual de tabernero de Los Simpson|el delantal=a/m;el pelo=g/m;la pajarita=n/d
+Barney Gumble|Barney con su ropa habitual de Los Simpson|la camiseta=s/m;los pantalones=a/d
+Otto Mann|Otto con su ropa habitual de Los Simpson|la gorra=s/m;el pelo=n/m;la camiseta=s/d;los pantalones cortos=a/d
+Groundskeeper Willie|Willie con su ropa habitual de jardinero de Los Simpson|el pelo=r/m;el peto=v/d
+Edna Krabappel|Edna Krabappel con su ropa habitual de Los Simpson|la chaqueta=v/m;la falda=v/d;el pelo=b/m
+Martin Prince|Martin Prince con su ropa habitual de Los Simpson|la camisa=w/m;los pantalones cortos=r/d
+Comic Book Guy|el dependiente de la tienda de cómics de Los Simpson|la camiseta=a/m;los pantalones cortos=n/d;el pelo=b/d
+Professor Frink|el profesor Frink con su diseño habitual de Los Simpson|la bata=w/m;la pajarita=s/d
+Julius Hibbert|el doctor Hibbert con su diseño habitual de Los Simpson|la bata=w/m;el pelo=n/d
+Dr. Nick|el doctor Nick Riviera con su diseño habitual de Los Simpson|la bata=w/m;el pelo=n/d;la camiseta bajo la bata=v/d
+Snake Jailbird|Snake con su ropa habitual de Los Simpson|la camiseta=g/d;el chaleco=a/d;el pelo=b/d
+Sideshow Mel|Mel con su diseño habitual de Los Simpson|el pelo=v/d;el hueso del pelo=w/d
+Itchy and Scratchy|el ratón Itchy o Pica de Rasca y Pica en Los Simpson|el pelaje=a/m;la nariz=n/d
+Itchy and Scratchy|el gato Scratchy o Rasca de Rasca y Pica en Los Simpson|el pelaje=n/m;la nariz=n/d
+Santa's Little Helper|el perro Ayudante de Santa Claus de Los Simpson|el pelaje=b/f;la nariz=n/m
+Snowball (The Simpsons)|Bola de Nieve II con su diseño clásico de Los Simpson|el pelaje=n/m;la nariz=s/d
+Philip J. Fry|Fry con su ropa habitual de Futurama|el pelo=o/f;la chaqueta=r/m;la camiseta=w/m;los pantalones=a/d
+Leela (Futurama)|Leela con su ropa habitual de Futurama|el pelo=p/f;la camiseta=w/m;los pantalones=n/m;las botas=g/d
+Bender (Futurama)|Bender con su diseño habitual de Futurama|la carcasa=g/f;los dientes=w/m
+Doctor Zoidberg|Zoidberg con su diseño habitual de Futurama|el caparazón=r/f;la bata=w/m;los pantalones=v/d
+Amy Wong|Amy Wong con su ropa habitual de Futurama|la sudadera=s/m;los pantalones=s/d;el pelo=n/m
+Hermes Conrad|Hermes con su ropa habitual de Futurama|la chaqueta=v/m;la camisa=w/d;el pelo=n/m
+Professor Farnsworth|el profesor Farnsworth con su ropa habitual de Futurama|la bata=w/m;las zapatillas de casa=a/d
+Nibbler (Futurama)|Mordisquitos con su diseño habitual de Futurama|el pelaje principal=n/m;la capa=r/d
+Rick Sanchez|Rick Sánchez con su diseño habitual de Rick y Morty|el pelo=a/f;la bata=w/f;los pantalones=b/d
+Morty Smith|Morty con su ropa habitual de Rick y Morty|la camiseta=y/f;los pantalones=a/m;el pelo=b/m
+Summer Smith|Summer con su ropa habitual de Rick y Morty|la camiseta=s/m;los pantalones=w/d;el pelo=o/m
+Peter Griffin|Peter Griffin con su ropa habitual de Padre de familia|la camisa=w/f;los pantalones=v/m;el pelo=b/m
+Lois Griffin|Lois Griffin con su ropa habitual de Padre de familia|la blusa=v/m;los pantalones=b/d;el pelo=o/m
+Stewie Griffin|Stewie con su ropa habitual de Padre de familia|la camiseta=y/m;el peto=r/m;los zapatos=a/d
+Brian Griffin|Brian con su diseño habitual de Padre de familia|el pelo=w/f;el collar=r/m;la nariz=n/m
+Chris Griffin|Chris Griffin con su ropa habitual de Padre de familia|la camiseta=a/m;el pelo=y/m;los pantalones=n/d
+Meg Griffin|Meg Griffin con su ropa habitual de Padre de familia|el gorro=s/m;la camiseta=s/m;los pantalones=a/d
+Stan Marsh|Stan con su ropa habitual de South Park|el pompón del gorro=r/m;el fondo del gorro=a/m;el abrigo=b/d
+Kyle Broflovski|Kyle con su ropa habitual de South Park|el gorro=v/f;el abrigo=o/m;los pantalones=v/d
+Eric Cartman|Cartman con su ropa habitual de South Park|el abrigo=r/f;las manoplas=y/m;los pantalones=b/d
+Kenny McCormick|Kenny con su ropa habitual de South Park|el anorak=o/f;las manoplas=b/d
+Butters Stotch|Butters con su ropa habitual de South Park|el pelo=y/m;los pantalones=v/d
+Kermit the Frog|la rana Gustavo con su diseño habitual de Los Teleñecos|la piel=v/f;el collar de picos=v/m
+Miss Piggy|Miss Piggy con su diseño clásico de Los Teleñecos|la piel=s/f;el pelo=y/m;los guantes largos clásicos=p/m;las perlas del collar=w/d
+Fozzie Bear|Fozzie con su diseño clásico de Los Teleñecos|el pelaje=b/f;los lunares de la pajarita=w/d;la pajarita=s/m
+Animal (Muppet)|Animal con su diseño clásico de Los Teleñecos|el pelo de la cabeza=r/m;las cejas=n/d
+Sam Eagle|Sam el Águila con su diseño clásico de Los Teleñecos|las plumas=a/m;las cejas=n/d
+Scooter (Muppet)|Scooter con su diseño clásico de Los Teleñecos|la chaqueta=v/m;la cabeza=o/d
+Rowlf the Dog|Rowlf con su diseño clásico de Los Teleñecos|el pelaje=b/m;la nariz=n/d
+Beaker (Muppet)|Beaker con su diseño clásico de Los Teleñecos|el pelo=o/m;la bata=v/d
+Bunsen Honeydew|Bunsen con su diseño clásico de Los Teleñecos|la cabeza=v/m;la bata=w/d
+Swedish Chef|el Cocinero Sueco con su diseño clásico de Los Teleñecos|el gorro de cocinero=w/m;el bigote=b/d
+Big Bird|Big Bird o Caponata con su diseño clásico de Sesame Street|las plumas=y/f;el pico=y/m
+Bert (Sesame Street)|Bert o Blas con su diseño clásico de Sesame Street|el pelo=n/m;la nariz=o/d
+Ernie (Sesame Street)|Ernie o Epi con su diseño clásico de Sesame Street|el pelo=n/m;la nariz=r/d
+The Count (Sesame Street)|el Conde Draco con su diseño clásico de Sesame Street|el pelo=n/m;la capa exterior=n/d
+Cookie Monster|el Monstruo de las Galletas con su diseño clásico de Sesame Street|las galletas de su merienda habitual=b/f
+Elmo|Elmo con su diseño clásico de Sesame Street|la nariz=o/m
+Oscar the Grouch|Óscar el Gruñón desde la segunda temporada de Sesame Street|las cejas=b/d
+Teletubbies|Tinky Winky con su accesorio habitual de Teletubbies|el bolso=r/m
+Teletubbies|Laa-Laa con su accesorio habitual de Teletubbies|la pelota=o/m
+Teletubbies|Po con su accesorio habitual de Teletubbies|el patinete en su parte principal=r/d
+Squid Game|los guardias enmascarados de la primera temporada de El juego del calamar|el mono=s/f;la máscara=n/f;las figuras geométricas de las máscaras=w/m
+Squid Game|los participantes de la primera temporada de El juego del calamar|el chándal=v/f;la camiseta interior=w/m
+Squid Game|la muñeca Young-hee del primer juego de El juego del calamar|el vestido=o/m;la blusa=y/m;el pelo=n/m;los calcetines=w/d;los zapatos=n/d
+Wednesday (TV series)|Miércoles con su vestido escolar habitual en Wednesday|las trenzas=n/f;el cuello de la camisa=w/m
+Mr. Bean|Mr. Bean con su ropa habitual de la serie británica|la corbata=r/f;la chaqueta=b/m;los pantalones=n/d
+Mr. Bean|Teddy el osito de Mr. Bean en la serie británica|el pelo=b/f
+Mr. Bean|el Mini más característico de Mr. Bean en la serie británica|la carrocería=v/m;el capó=n/d
+How I Met Your Mother|los objetos recurrentes de Cómo conocí a vuestra madre|el paraguas de la futura madre=y/f;la trompa francesa de Ted=a/m;las botas de vaquero de Ted=r/d
+Friends|el decorado principal de Friends|el sofá del Central Perk=o/f;la puerta del apartamento de Mónica=p/m
+Breaking Bad|la ropa de Heisenberg más característica de Breaking Bad|el sombrero=n/f;el traje de protección de laboratorio más icónico=y/m
+Doctor Who|la TARDIS clásica con apariencia de cabina de policía de Doctor Who|los marcos de sus ventanas exteriores=w/m;las letras grandes de POLICE BOX=w/d
+Star Trek: The Original Series|el uniforme de ciencias de Spock en Star Trek la serie original|la camiseta=a/m;los pantalones=n/d
+Star Trek: The Next Generation|el uniforme de mando de Picard en Star Trek la nueva generación|el torso=r/m;los hombros=n/d
+Star Trek: The Next Generation|el uniforme de ingeniería de Geordi La Forge en Star Trek la nueva generación|el torso=y/m;los hombros=n/d
+Star Trek: The Next Generation|el uniforme médico de Beverly Crusher en Star Trek la nueva generación|el torso=a/m

@@ -82,13 +82,39 @@ sin borrar el historial ni los datos de otras aplicaciones.
 
 ## Catálogo y revisión editorial
 
-`data/questions.es.json` contiene **198 aprobadas**: veinticuatro en cine y
-animación y veinticinco en cada una de las otras seis categorías, más un
-borrador del pistacho excluido por la variación de su color. Todas las aprobadas
-tienen fuente consultada y fecha de revisión del 3 de octubre de 2026. Algunas
-preguntas se han acotado respecto del apéndice para precisar versiones, edad,
-partes del objeto o presentación del símbolo. La sustituta `comida-007` trata
-del candy corn tradicional; no se ha reutilizado el ID de la pregunta descartada.
+`data/questions.es.json` contiene **2.000 preguntas aprobadas**, exactamente
+**200 por categoría**, más el borrador previo del pistacho, excluido de las
+partidas. La versión **2.0.0** incorpora 1.802 preguntas y dos categorías.
+Las 199 entradas anteriores conservan sus IDs, textos y respuestas; veinte
+preguntas de juegos pasan de Animación a Videojuegos. Las partidas ya guardadas
+mantienen sus propias preguntas y se pueden continuar.
+
+| Categoría | Fácil | Medio | Difícil | Total |
+| --- | ---: | ---: | ---: | ---: |
+| España y tradiciones | 52 | 96 | 52 | 200 |
+| Series conocidas | 50 | 92 | 58 | 200 |
+| Cine | 67 | 83 | 50 | 200 |
+| Animación y anime | 50 | 100 | 50 | 200 |
+| Deportes | 50 | 84 | 66 | 200 |
+| Naturaleza | 50 | 93 | 57 | 200 |
+| Comida y bebida | 50 | 95 | 55 | 200 |
+| Cultura general y vida cotidiana | 50 | 84 | 66 | 200 |
+| Videojuegos | 66 | 84 | 50 | 200 |
+| Mitos y leyendas | 50 | 88 | 62 | 200 |
+
+Cada categoría ofrece al menos cincuenta preguntas de cada dificultad. Los
+niveles son estimaciones editoriales de familiaridad y detalle, no resultados
+de una medición con jugadores. Videojuegos mezcla clásicos, Nintendo, Sonic,
+Minecraft, Pokémon y **29 preguntas de League of Legends**, entre otros.
+España incluye fiestas, dulces, patrimonio, arte y tradiciones; Naturaleza,
+animales y plantas; Mitos y leyendas, iconografía, dragones, criaturas y cuentos
+con versiones indicadas. Hay **41 preguntas sobre banderas** en todo el catálogo
+(2,05 %), conservadas de la versión anterior; no se añaden banderas territoriales.
+
+Las incorporaciones tienen referencias y fecha editorial del 15 de octubre de
+2026. Se acotan partes, especies, etapas, ediciones y adaptaciones para evitar
+atribuir a todas las versiones un mismo color. El borrador `comida-004` no se
+reutiliza ni se convierte en una pregunta aprobada.
 
 La versión 1.1.0 añade 50 preguntas y conserva las 49 entradas anteriores.
 La versión 1.2.0 añade otras **100 preguntas**, entre doce y trece por categoría,
@@ -103,8 +129,29 @@ revelar. Se ha contrastado la respuesta y redactado una explicación original.
 Se usan fuentes institucionales, de los titulares de los personajes, editoriales
 y enciclopedias; estas últimas pueden cambiar y requieren mantenimiento. La
 revisión estructural automatizada **no sustituye la comprobación factual**.
-El catálogo inicial tiene predominio de nivel fácil; admite fácil, medio y
-difícil, pero no promete una distribución uniforme.
+Las convenciones visuales y ciertas variedades naturales pueden ser discutibles;
+para eso sigue disponible **Anular pregunta**. Las fuentes se mantienen por ficha.
+
+Los inventarios editoriales de `tools/content/*.txt` recogen hechos y referencias
+de esta ampliación; `source-overrides.json` precisa las direcciones que no
+coinciden con un título de Wikipedia. El generador reproduce esta entrega desde
+la instantánea inmutable `catalog-1.2.0.json` y los inventarios revisados:
+
+```sh
+node tools/content/build-catalog.mjs
+```
+
+`question-ids.json` reserva los identificadores de las incorporaciones, incluso
+si una pregunta se retira del inventario. Reordenar hechos o corregir una referencia
+no cambia sus IDs; los identificadores retirados no se reciclan.
+
+No uses ese comando para aprobar hechos pendientes de revisión. Los inventarios
+contienen candidatos ya revisados y pueden incluir alternativas no seleccionadas;
+el catálogo jugable es exclusivamente el JSON de `data/`. La recogida de fichas
+de PokéAPI utiliza su campo estructurado de color, no deduce colores de nombres.
+Las ilustraciones base de LoL se contrastan con Data Dragon oficial de Riot,
+versión 16.20.1. Las cachés de consulta y las imágenes de revisión quedan en
+`artifacts/`, fuera del repositorio y del juego.
 
 ### Añadir una pregunta
 
@@ -138,7 +185,7 @@ Ejemplo deliberadamente en borrador:
 ```
 
 Categorías: `espana`, `series`, `cine`, `animacion`, `deportes`, `naturaleza`,
-`comida`, `cotidiano`. Dificultades: `facil`, `medio`, `dificil`.
+`comida`, `cotidiano`, `videojuegos`, `mitos`. Dificultades: `facil`, `medio`, `dificil`.
 Colores: `rojo`, `naranja`, `amarillo`, `verde`, `azul`, `morado`, `rosa`,
 `marron`, `negro`, `blanco`, `gris`. Etiquetas y muestras están en `js/catalog.js`.
 El número requerido siempre se deriva de `answerColors.length`.
@@ -149,7 +196,7 @@ Con Node.js 22 o posterior, sin instalar paquetes:
 
 ```sh
 node tests/run.mjs
-node --test tests/online.test.mjs
+node --test tests/online.test.mjs tests/catalog-build.test.mjs
 ```
 
 O abre **http://localhost:8000/tests/** con el servidor en marcha. El ejecutor
@@ -206,13 +253,19 @@ de bloqueo son dependencias de desarrollo; `node_modules/`, `.wrangler/`,
 a `online-config.js` ni a los enlaces de invitación.
 
 La prueba multijugador usa tres contextos de Chrome independientes y un API
-local o publicado. El API local tiene almacenamiento de desarrollo separado;
+local o un Worker dedicado con sufijo `-test`. El API local tiene almacenamiento de desarrollo separado;
 las pruebas unitarias de persistencia usan exclusivamente un almacén ficticio.
 Con el backend y el servidor estático en marcha:
 
 ```sh
 node tests/online-browser.mjs /ruta/a/playwright/index.mjs http://localhost:8000/ http://127.0.0.1:8787
 ```
+
+Para comprobar la web publicada, despliega primero una instancia aislada desde
+`backend/` con `npx wrangler deploy --name colors-online-falathor-test` y usa su
+URL como cuarto argumento del ejecutor. Cada Worker tiene sus propios Durable
+Objects; no se conectan las pruebas a las salas de producción. El ejecutor
+sustituye solo la URL del servicio en ese contexto de navegador de pruebas.
 
 Los nombres, respuestas y progreso se guardan temporalmente en Cloudflare.
 Cada sala tiene un plazo fijo de seis horas y una alarma borra sus datos al

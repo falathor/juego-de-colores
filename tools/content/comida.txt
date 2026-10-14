@@ -1,0 +1,132 @@
+Banana|un plátano Cavendish maduro de coloración normal|la piel sin manchas=y/f;la pulpa pelada=w/m
+Orange (fruit)|una naranja Valencia madura|la corteza=o/f;la pulpa=o/m
+Lemon|un limón Eureka maduro|la corteza=y/f;la capa esponjosa bajo la corteza=w/m
+Lime (fruit)|una lima persa recolectada para su venta habitual antes de amarillear|la corteza=v/f
+Grapefruit|un pomelo de variedad Ruby Red maduro|la pulpa=r/m
+Blood orange|una naranja sanguina de variedad Moro madura|las zonas pigmentadas de la pulpa=r/m
+Tangerine|una mandarina clementina madura|la corteza=o/f;la pulpa=o/m
+Apple|una manzana de variedad Granny Smith madura|la piel=v/f;la pulpa=w/m
+Golden Delicious|una manzana Golden Delicious madura de coloración típica|la piel=y/m;la pulpa=w/m
+Red Delicious|una manzana Red Delicious madura de coloración típica|la piel=r/f
+Pear|una pera Williams al finalizar su maduración habitual|la piel=y/m;la pulpa=w/m
+Asian pear|una pera asiática de variedad Hosui madura|la piel=b/d;la pulpa=w/m
+Peach|un melocotón de variedad Redhaven maduro|la carne=y/f;el hueso=b/m
+Nectarine|una nectarina de variedad Silver King madura|la carne=w/m;el hueso=b/d
+Apricot|un albaricoque maduro típico|la carne=o/f;el hueso=b/m
+Plum|una ciruela de variedad Black Amber madura|la piel=p/m;la pulpa=y/d
+Cherry|una cereza dulce madura de variedad Bing|la piel=r/f;la carne=r/m;el hueso=b/m
+Strawberry|un fresón de jardín maduro de variedad Camarosa cortado|la parte principal de la pulpa=r/f;el cáliz de hojas=v/f
+Raspberry|una frambuesa de variedad Heritage madura|los pequeños frutos que la componen=r/f
+Blackberry|una mora de zarzamora completamente madura|los pequeños frutos que la componen=n/m
+Blueberry|un arándano americano maduro con pruina natural|el aspecto de la piel=a/f
+Blackcurrant|una baya de Ribes nigrum madura|la piel=n/m
+Redcurrant|una baya de Ribes rubrum madura|la piel=r/m
+Whitecurrant|una grosella de variedad White Versailles madura|la piel translúcida=w/d
+Gooseberry|una grosella espinosa de variedad Invicta madura|la piel=v/d
+Cranberry|un fruto de Vaccinium macrocarpon maduro|la piel=r/m
+Kiwifruit|un kiwi Hayward maduro cortado por la mitad|la piel exterior=b/f
+Actinidia chinensis|un kiwi de variedad Zesy002 maduro|la pulpa=y/m;las semillas=n/d
+Watermelon|una sandía Sugar Baby madura cortada|la piel externa predominante=v/f
+Cantaloupe|un melón cantalupo Charentais maduro|la carne=o/m
+Honeydew (melon)|un melón honeydew clásico maduro|la pulpa=v/m
+Pineapple|una piña madura cortada|la pulpa=y/f;el penacho de hojas=v/m
+Mango|un mango de variedad Kent maduro cortado|la carne=o/m;el hueso seco=b/d
+Papaya|una papaya madura cortada|las semillas maduras=n/d
+Passion fruit|un maracuyá de variedad Passiflora edulis f. edulis maduro|la cáscara exterior=p/m;las semillas=n/d
+Dragon fruit|una pitahaya Hylocereus undatus de variedad típica cortada|la piel=r/m;la pulpa=w/m;las pequeñas semillas=n/d
+Persimmon|un caqui de variedad Fuyu maduro|la piel=o/m;el cáliz seco=b/d
+Pomegranate|una granada de variedad Wonderful madura|los arilos=r/f;la piel externa predominante=r/m
+Lychee|un lichi maduro sin pelar|la cáscara=r/m;la pulpa pelada=w/m;la semilla=b/d
+Rambutan|un rambután de variedad Rong Rian maduro|la cubierta externa=r/d;la pulpa pelada=w/d
+Mangosteen|un mangostán maduro abierto|la cáscara exterior=p/d;los gajos interiores=w/d
+Durian|un durián de variedad Monthong maduro|la pulpa=y/d
+Jackfruit|una yaca de variedad habitual completamente madura|los bulbos comestibles=y/d
+Star fruit|una carambola madura de coloración típica|la piel=y/m;la pulpa=y/d
+Guava|una guayaba de variedad Ruby Supreme madura|la pulpa=s/m
+Fig|un higo de variedad Black Mission maduro|la piel=p/d;la pulpa=r/d
+Date palm|un dátil Medjool maduro seco|la piel=b/m;la semilla=b/d
+Prune|una ciruela pasa sin recubrimientos|la superficie=n/m
+Raisin|una pasa de uva oscura sin recubrimientos|la superficie=b/m
+Coconut|un coco maduro con fibra exterior seca|la fibra de la cáscara=b/f
+Avocado|un aguacate Hass maduro cortado|la pulpa predominante=v/f;el hueso=b/m
+Tomato|un tomate de variedad Roma maduro|la piel=r/f;la pulpa=r/m;el pedúnculo fresco=v/m
+Cherry tomato|un tomate cherry de variedad Yellow Pear maduro|la piel=y/m;la pulpa=y/d
+Bell pepper|un pimiento California Wonder completamente maduro cortado|la carne=r/f;las semillas=w/m;el tallo=v/m
+Bell pepper|un pimiento California Wonder antes de madurar|la piel=v/f
+Bell pepper|un pimiento Golden California Wonder maduro|la piel=y/f
+Carrot|una zanahoria de variedad Purple Haze cortada|la zona exterior de la raíz=p/d;el centro de la raíz=o/d
+Carrot|una zanahoria de variedad White Satin limpia|la raíz=w/d
+Carrot|una zanahoria de variedad Yellowstone limpia|la raíz=y/d
+Beetroot|una remolacha de variedad Golden cortada|la pulpa=y/d
+Beetroot|una remolacha de variedad Chioggia cortada transversalmente|los anillos claros=w/d;los anillos pigmentados=r/d
+Radish|un rábano daikon limpio recién cortado|la piel=w/m;la pulpa=w/m
+Radish|un rábano de variedad Black Spanish Round limpio|la piel=n/d;la pulpa=w/d
+Turnip|un nabo de variedad Purple Top White Globe limpio|la zona superior de la raíz=p/d;la pulpa=w/m
+Parsnip|una chirivía limpia de variedad habitual|la carne=w/m
+Sweet potato|un boniato de variedad Beauregard|la pulpa=o/m
+Sweet potato|un boniato de variedad Okinawa cortado|la pulpa=p/d
+Potato|una patata de variedad Vitelotte cortada|la carne=p/d
+Potato|una patata de variedad Yukon Gold cortada|la carne=y/d
+Pumpkin|una calabaza de variedad Halloween madura cortada|la corteza=o/f;la pulpa=o/f
+Butternut squash|una calabaza cacahuete madura cortada|la pulpa=o/m
+Zucchini|un calabacín de variedad Black Beauty joven|la piel=v/f;la pulpa=w/m
+Cucumber|un pepino de variedad Marketmore recolectado para ensalada|la piel=v/f;la pulpa predominante=v/m
+Eggplant|una berenjena de variedad Black Beauty madura para cocinar|la piel=p/f;la pulpa=w/m
+Broccoli|un brócoli de variedad Calabrese fresco|las inflorescencias=v/f;el tallo=v/m
+Romanesco broccoli|un romanesco fresco de coloración habitual|las inflorescencias=v/m
+Red cabbage|una col lombarda fresca cortada|las hojas=p/f;las nervaduras gruesas=w/m
+White cabbage|un repollo Brunswick cortado por el centro|las hojas interiores=w/m
+Brussels sprout|una col de Bruselas Long Island fresca|las hojas=v/f
+Spinach|unas hojas de espinaca fresca sin cocinar|las láminas de las hojas=v/f
+Chard|una acelga Fordhook Giant fresca|las hojas=v/m;las pencas=w/m
+Rhubarb|un ruibarbo de variedad Crimson Cherry|la parte externa de los tallos=r/d;las hojas=v/d
+Celery|un apio Pascal fresco|los tallos=v/f
+Asparagus|un espárrago cultivado bajo tierra sin luz|el turión=w/m
+Asparagus|un espárrago cultivado con luz solar recolectado fresco|el turión=v/f
+Leek|un puerro fresco limpio|la parte inferior blanqueada=w/m;las hojas=v/m
+Onion|una cebolla de variedad Red Baron sin su piel seca|las capas externas de la pulpa=p/m
+Garlic|un diente de ajo común pelado|la carne=w/f
+Shiitake|una seta shiitake fresca|el sombrero=b/m;el pie=w/d
+Agaricus bisporus|un champiñón Agaricus bisporus joven recién abierto|las láminas bajo el sombrero=s/f
+Chanterelle|un rebozuelo Cantharellus cibarius fresco|el sombrero=y/d
+Saffron milk cap|un níscalo Lactarius deliciosus fresco sin oxidación verde|la carne=o/d;el látex=o/d
+Boletus edulis|un boletus edulis adulto fresco|el sombrero=b/d;la carne sin oxidar=w/d
+Porphyra|una lámina seca de nori tostada para sushi|el aspecto predominante=v/m
+Spirulina (dietary supplement)|un polvo de espirulina comercial sin aditivos|el aspecto predominante=v/m
+Turmeric|la cúrcuma molida pura utilizada en cocina|el polvo=y/f
+Paprika|un pimentón dulce puro en polvo|el polvo=r/f
+Cinnamon|la canela molida pura utilizada en repostería|el polvo=b/f
+Clove|un clavo de olor seco entero|el capullo seco=b/m
+Star anise|un fruto seco de anís estrellado utilizado como especia|las paredes de los folículos=b/d
+Vanilla|una vaina de vainilla curada abierta|las pequeñas semillas=n/m;la superficie de la vaina=b/d
+Sesame|unas semillas de sésamo Black Beauty sin tostar|la cubierta externa=n/m
+Poppy seed|unas semillas de amapola culinaria maduras sin moler|el aspecto general=g/d
+Tofu|un bloque de tofu natural fresco sin aderezar|el aspecto general=w/f
+Tempeh|un bloque de tempeh de soja fresco|el micelio que une las habas=w/d
+Edamame|unas habas de soja edamame peladas|los cotiledones=v/m
+Lentil|unas lentejas rojas peladas y partidas antes de cocinar|el aspecto de las mitades=o/m
+Black turtle bean|unas alubias secas de variedad Black Turtle|la piel=n/f
+Kidney bean|unas alubias secas de variedad Red Kidney|la piel=r/m
+Black rice|un arroz integral de variedad Venere sin cocinar|el salvado externo=n/d
+Brown rice|un arroz integral común sin cocinar|la capa de salvado=b/m
+Red rice|un arroz integral de Camarga de variedad tradicional pigmentada sin cocinar|el salvado externo=r/d
+Chocolate|una tableta de chocolate elaborada con manteca pero sin sólidos oscuros de cacao|el aspecto general=w/f
+Chocolate|una tableta de chocolate de un 70 % de cacao sin coberturas|el aspecto general=b/f
+Butter|una mantequilla de leche de vaca de coloración habitual|el aspecto general=y/m
+Mozzarella|una mozzarella fresca de leche de búfala sin aditivos|el aspecto general=w/m
+Cheddar cheese|un cheddar teñido con achiote|el aspecto general=o/m
+Red Leicester|un queso Red Leicester tradicional con achiote|la pasta=o/d
+Edam cheese|una bola de Edam comercial de cubierta de cera|la cera exterior=r/d
+Wasabi|un rizoma de wasabi rallado fresco|la pasta=v/m
+Sriracha|una salsa sriracha clásica de chiles maduros|la salsa=r/m
+Tabasco sauce|la salsa Tabasco Original de pimiento maduro|la salsa=r/d
+Pesto|un pesto genovés de albahaca tradicional|la salsa=v/f
+Guacamole|un guacamole de aguacate tradicional recién hecho|la base de aguacate=v/f
+Tzatziki|un tzatziki tradicional sin guarniciones|la base de yogur=w/m
+Ketchup|un kétchup clásico de tomate|la salsa=r/f
+Mayonnaise|una mayonesa Hellmann’s Real de receta clásica|la salsa=w/f
+Black tea|una infusión de té negro preparada en taza blanca|el líquido=b/m
+Hibiscus tea|una infusión de cálices de hibisco concentrada|el líquido=r/m
+Butterfly pea flower tea|una infusión de Clitoria ternatea sin limón ni ácidos añadidos|el líquido=a/d
+Thai tea|un té tailandés cha-yen clásico servido con leche condensada|el líquido=o/d
+Milk|un vaso de leche de vaca normal sin saborizantes|el líquido=w/f
