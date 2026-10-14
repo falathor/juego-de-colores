@@ -43,6 +43,16 @@ Fecha: 3 de octubre de 2026.
 - Tamaños sin comprimir: frontend **85.743 bytes**; catálogo **1.273.254 bytes**.
   La ampliación requiere más descarga inicial. Los inventarios, cachés e imágenes
   de revisión no se descargan para jugar.
+- Publicación del commit **84bd0ce** completada en GitHub Pages. El JSON público
+  coincide exactamente con el validado localmente: versión 2.0.0, 2.000 aprobadas,
+  2.001 entradas y 200 por categoría. `/health` de producción responde 200 con
+  versión 2.0.0.
+- Comprobación final: **14/14 pruebas de navegador sobre la web pública**, con
+  **30/30 pruebas** desde su ejecutor embebido, y **6/6 pruebas multijugador**
+  desde esa misma web usando `colors-online-falathor-test` con almacenamiento
+  independiente. En ese contexto se sustituye la URL del servicio para probar
+  sin usar las salas de producción. La instancia normal conserva su URL habitual.
+  Informes y capturas en `artifacts/`, excluidos de Git.
 
 Las secciones siguientes conservan el historial de validación de las entregas
 anteriores; sus conteos corresponden a las versiones indicadas.

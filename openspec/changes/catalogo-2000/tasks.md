@@ -2,4 +2,4 @@
 - [x] Preparar y revisar los hechos y fuentes del catálogo.
 - [x] Integrar 2.000 preguntas y diez categorías.
 - [x] Actualizar pruebas, documentación y especificación principal.
-- [ ] Verificar y publicar Worker y GitHub Pages.
+- [x] Verificar y publicar Worker y GitHub Pages.
